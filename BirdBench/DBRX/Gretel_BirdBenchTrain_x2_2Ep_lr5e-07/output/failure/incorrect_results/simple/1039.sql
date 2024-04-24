@@ -274,12 +274,12 @@ SELECT AVG(long_shots) FROM Player_Attributes WHERE player_fifa_api_id = (SELECT
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(61.57142857142857,)]
 ----------------------------

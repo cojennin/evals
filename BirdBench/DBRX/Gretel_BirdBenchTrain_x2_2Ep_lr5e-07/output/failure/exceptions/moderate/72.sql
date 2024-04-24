@@ -129,8 +129,4 @@ no such column: satscores.PctGE1500
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

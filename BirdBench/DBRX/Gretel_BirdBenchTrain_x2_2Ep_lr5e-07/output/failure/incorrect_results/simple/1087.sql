@@ -274,12 +274,12 @@ SELECT COUNT(*) FROM Player_Attributes WHERE Player_Attributes.player_api_id IN 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(12293,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(790,)]
 ----------------------------

@@ -71,6 +71,6 @@ SELECT AVG(Price) FROM transactions_1k WHERE Date LIKE '2012-01-%'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(None,)]
 ----------------------------

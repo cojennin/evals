@@ -155,12 +155,12 @@ SELECT 24.0 * COUNT(posts.Id) / COUNT(votes.Id) FROM posts LEFT JOIN votes ON po
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(24.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3.0,)]
 ----------------------------

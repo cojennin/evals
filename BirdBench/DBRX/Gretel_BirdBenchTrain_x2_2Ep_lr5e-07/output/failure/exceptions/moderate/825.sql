@@ -112,8 +112,4 @@ no such column: gender
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

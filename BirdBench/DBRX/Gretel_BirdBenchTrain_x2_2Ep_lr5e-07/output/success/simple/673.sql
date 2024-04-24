@@ -157,6 +157,6 @@ SELECT AVG(votes.PostId) FROM votes JOIN users ON votes.UserId = users.Id WHERE 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(170.0,)]
 ----------------------------

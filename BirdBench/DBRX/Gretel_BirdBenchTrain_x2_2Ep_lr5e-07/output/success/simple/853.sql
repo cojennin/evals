@@ -205,6 +205,6 @@ SELECT races.name FROM races WHERE races.circuitId IN (SELECT circuits.circuitId
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Spanish Grand Prix',), ('European Grand Prix',)]
 ----------------------------

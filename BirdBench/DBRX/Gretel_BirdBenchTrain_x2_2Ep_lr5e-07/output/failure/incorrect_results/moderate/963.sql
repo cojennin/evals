@@ -203,12 +203,12 @@ SELECT COUNT(*) FROM drivers WHERE nationality = 'French' AND driverId IN (SELEC
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(24465,)]
 ----------------------------

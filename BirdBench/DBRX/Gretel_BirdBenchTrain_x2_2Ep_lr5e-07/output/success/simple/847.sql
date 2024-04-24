@@ -205,6 +205,6 @@ SELECT surname FROM drivers WHERE driverId = (SELECT driverId FROM qualifying WH
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Räikkönen',)]
 ----------------------------

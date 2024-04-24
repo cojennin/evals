@@ -205,6 +205,6 @@ SELECT races.name, circuits.country FROM races INNER JOIN circuits ON races.circ
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Chinese Grand Prix', 'China'), ('Bahrain Grand Prix', 'Bahrain'), ('Russian Grand Prix', 'Russia'), ('Spanish Grand Prix', 'Spain'), ('Monaco Grand Prix', 'Monaco'), ('Canadian Grand Prix', 'Canada'), ('Azerbaijan Grand Prix', 'Azerbaijan'), ('Austrian Grand Prix', 'Austria'), ('British Grand Prix', 'UK'), ('Hungarian Grand Prix', 'Hungary'), ('Belgian Grand Prix', 'Belgium'), ('Italian Grand Prix', 'Italy'), ('Singapore Grand Prix', 'Singapore'), ('Malaysian Grand Prix', 'Malaysia'), ('Japanese Grand Prix', 'Japan'), ('United States Grand Prix', 'USA'), ('Mexican Grand Prix', 'Mexico'), ('Brazilian Grand Prix', 'Brazil'), ('Abu Dhabi Grand Prix', 'UAE')]
 ----------------------------

@@ -157,6 +157,6 @@ SELECT b.Name FROM badges b WHERE b.Date = (SELECT MAX(b2.Date) FROM badges b2 W
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Quorum',)]
 ----------------------------

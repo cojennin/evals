@@ -119,12 +119,12 @@ SELECT expense_description, MAX(cost) FROM expense;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Club shirts', 295.12)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Club shirts',)]
 ----------------------------

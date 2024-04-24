@@ -125,8 +125,4 @@ no such column: trans.client_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

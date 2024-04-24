@@ -104,8 +104,4 @@ no such column: e.TG
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

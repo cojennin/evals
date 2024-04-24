@@ -203,12 +203,12 @@ SELECT COUNT(DISTINCT driverId) FROM results WHERE raceId = 799 AND time IS NOT 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(5,)]
 ----------------------------

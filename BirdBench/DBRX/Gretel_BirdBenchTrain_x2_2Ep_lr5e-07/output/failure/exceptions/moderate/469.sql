@@ -178,8 +178,4 @@ no such column: mtgoCode
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

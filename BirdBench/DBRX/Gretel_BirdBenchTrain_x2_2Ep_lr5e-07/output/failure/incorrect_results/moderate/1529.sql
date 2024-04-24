@@ -69,12 +69,12 @@ SELECT 38508 as CustomerID, SUM(Amount) as TotalAmount FROM transactions_1k WHER
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(38508, 148)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(68740.19999999992, 3437.0099999999998)]
 ----------------------------

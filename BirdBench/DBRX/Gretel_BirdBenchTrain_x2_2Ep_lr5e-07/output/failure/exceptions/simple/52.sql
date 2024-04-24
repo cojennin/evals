@@ -129,8 +129,4 @@ no such column: MailCity
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

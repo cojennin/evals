@@ -52,6 +52,6 @@ SELECT atom.element FROM atom WHERE atom.atom_id = 'TR004_7' AND atom.molecule_i
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('c',)]
 ----------------------------

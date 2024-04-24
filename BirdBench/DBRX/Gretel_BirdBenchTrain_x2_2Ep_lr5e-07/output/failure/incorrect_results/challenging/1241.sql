@@ -100,12 +100,12 @@ SELECT COUNT(*) FROM (SELECT ID, PLT FROM Laboratory WHERE PLT < 100) AS low_pla
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(320,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(-555,)]
 ----------------------------

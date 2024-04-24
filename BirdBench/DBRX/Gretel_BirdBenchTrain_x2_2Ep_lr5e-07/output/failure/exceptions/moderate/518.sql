@@ -178,8 +178,4 @@ no such column: setCode
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

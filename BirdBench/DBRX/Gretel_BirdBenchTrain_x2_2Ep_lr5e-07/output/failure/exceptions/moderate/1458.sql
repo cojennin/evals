@@ -123,8 +123,4 @@ no such column: state
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

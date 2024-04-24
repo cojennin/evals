@@ -123,6 +123,6 @@ SELECT COUNT(*) FROM card WHERE type = 'gold' AND disp_id IN (SELECT disp_id FRO
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

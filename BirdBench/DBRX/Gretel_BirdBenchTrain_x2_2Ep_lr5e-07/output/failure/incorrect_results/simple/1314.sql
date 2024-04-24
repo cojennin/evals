@@ -119,12 +119,12 @@ SELECT m.first_name, m.last_name FROM member m WHERE m.link_to_major IN (SELECT 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Amy', 'Firth')]
 ----------------------------

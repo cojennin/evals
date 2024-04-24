@@ -100,12 +100,12 @@ SELECT `Examination Date` FROM Examination WHERE ID = (SELECT ID FROM Laboratory
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1982-04-12',)]
 ----------------------------

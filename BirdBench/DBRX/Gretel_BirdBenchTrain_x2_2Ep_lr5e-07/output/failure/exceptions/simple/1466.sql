@@ -123,8 +123,4 @@ no such column: m.college
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

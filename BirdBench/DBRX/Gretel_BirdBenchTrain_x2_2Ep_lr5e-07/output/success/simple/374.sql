@@ -178,6 +178,6 @@ SELECT COUNT(*) FROM cards WHERE borderColor = 'black' AND availability = 'mtgo'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3697,)]
 ----------------------------

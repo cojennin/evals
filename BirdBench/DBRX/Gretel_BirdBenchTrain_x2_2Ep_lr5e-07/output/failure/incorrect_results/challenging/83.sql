@@ -125,12 +125,12 @@ SELECT COUNT(DISTINCT s.CDSCode) as num_schools, s.City FROM schools s INNER JOI
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1, 'Adelanto'), (1, 'Bakersfield'), (1, 'Camarillo'), (1, 'El Centro'), (1, 'Fairfield'), (2, 'Fresno'), (1, 'Los Angeles'), (1, 'Marina Del Rey'), (1, 'Moorpark'), (3, 'Ontario'), (1, 'Orange'), (1, 'Pomona'), (2, 'San Diego'), (2, 'San Jose'), (2, 'San Mateo'), (9, 'Stockton'), (1, 'Tracy'), (3, 'Vallejo')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Adelanto', 1)]
 ----------------------------

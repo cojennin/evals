@@ -69,12 +69,12 @@ SELECT COUNT(DISTINCT c.CustomerID) FROM customers c JOIN transactions_1k t ON c
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2730,)]
 ----------------------------

@@ -100,12 +100,12 @@ SELECT COUNT(DISTINCT ID) FROM Patient WHERE ID NOT IN (SELECT ID FROM Laborator
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(212,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4,)]
 ----------------------------

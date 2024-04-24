@@ -52,6 +52,6 @@ SELECT 100.0 * COUNT(DISTINCT m.molecule_id) / (SELECT COUNT(DISTINCT m.molecule
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(100.0,)]
 ----------------------------

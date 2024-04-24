@@ -176,12 +176,12 @@ SELECT COUNT(*) FROM cards WHERE borderColor = 'white' AND cardKingdomFoilId = c
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1050,)]
 ----------------------------

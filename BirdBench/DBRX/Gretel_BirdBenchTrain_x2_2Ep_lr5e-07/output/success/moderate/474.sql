@@ -176,6 +176,6 @@ SELECT COUNT(DISTINCT s.code) FROM sets s JOIN set_translations st ON s.code = s
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

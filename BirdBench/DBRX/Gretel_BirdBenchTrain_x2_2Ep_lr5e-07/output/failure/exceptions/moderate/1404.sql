@@ -123,8 +123,4 @@ no such column: expense_type
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

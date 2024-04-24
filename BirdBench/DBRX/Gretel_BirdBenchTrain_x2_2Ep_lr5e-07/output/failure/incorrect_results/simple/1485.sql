@@ -69,12 +69,12 @@ SELECT 7, 5, (SELECT Consumption FROM yearmonth WHERE CustomerID = 7 AND Date = 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(7, 5, 540.51)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(540.51,)]
 ----------------------------

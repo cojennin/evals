@@ -203,12 +203,12 @@ SELECT 1 FROM circuits WHERE name = 'Silverstone Circuit' AND lat > (SELECT lat 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Silverstone Circuit',)]
 ----------------------------

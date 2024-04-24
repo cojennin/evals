@@ -278,8 +278,4 @@ near "with": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

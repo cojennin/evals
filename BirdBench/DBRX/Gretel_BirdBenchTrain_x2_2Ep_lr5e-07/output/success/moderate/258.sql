@@ -52,6 +52,6 @@ SELECT b.bond_type FROM atom a JOIN connected c ON a.atom_id = c.atom_id JOIN bo
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',)]
 ----------------------------

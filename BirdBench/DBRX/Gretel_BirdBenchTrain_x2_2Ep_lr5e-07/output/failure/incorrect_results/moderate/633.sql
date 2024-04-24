@@ -155,12 +155,12 @@ SELECT p.Id, p.AnswerCount FROM posts p WHERE p.OwnerUserId = (SELECT u.Id FROM 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(351,)]
 ----------------------------

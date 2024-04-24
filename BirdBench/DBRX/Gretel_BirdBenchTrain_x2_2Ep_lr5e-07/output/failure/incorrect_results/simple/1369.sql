@@ -119,12 +119,12 @@ SELECT event_name, MAX(amount) FROM event, budget WHERE event.event_id = budget.
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('April Meeting', 150), ('April Speaker', 150), ('February Meeting', 150), ('February Speaker', 150), ('January Meeting', 150), ('January Speaker', 150), ('March Meeting', 150), ('March Speaker', 150), ('November Meeting', 150), ('November Speaker', 150), ('October Meeting', 150), ('October Speaker', 155), ('Officers meeting - April', 20), ('Officers meeting - February', 20), ('Officers meeting - January', 20), ('Officers meeting - March', 20), ('Officers meeting - November', 20), ('Officers meeting - October', 20), ('Officers meeting - September', 20), ('Registration', 300), ('September Meeting', 150), ('September Speaker', 150), ('Yearly Kickoff', 350)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Yearly Kickoff',)]
 ----------------------------

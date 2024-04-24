@@ -276,6 +276,6 @@ SELECT Player_Attributes.defensive_work_rate FROM Player_Attributes WHERE Player
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('medium',)]
 ----------------------------

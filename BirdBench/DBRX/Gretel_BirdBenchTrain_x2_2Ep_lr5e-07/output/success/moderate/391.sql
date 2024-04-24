@@ -176,6 +176,6 @@ SELECT cards.name FROM cards INNER JOIN foreign_data ON cards.uuid = foreign_dat
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [("Executioner's Capsule",), ('Immortal Coil',), ('Onyx Goblet',), ('Netherborn Altar',), ('Scepter of Fugue',), ('Wishclaw Talisman',), ('Bloodsoaked Altar',), ("Witch's Cauldron",)]
 ----------------------------

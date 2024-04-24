@@ -174,12 +174,12 @@ SELECT c.id, c.cardKingdomFoilId, c.cardKingdomId FROM cards c WHERE c.cardKingd
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(17204, '110502', '110332'), (17205, '110503', '110333'), (17206, '110504', '110334')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('110502', '110332'), ('110503', '110333'), ('110504', '110334')]
 ----------------------------

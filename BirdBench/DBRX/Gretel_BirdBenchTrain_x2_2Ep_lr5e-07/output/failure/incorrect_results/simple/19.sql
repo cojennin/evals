@@ -125,12 +125,12 @@ SELECT s.Phone FROM schools s JOIN satscores sat ON s.CDSCode = sat.cds WHERE sa
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('(408) 366-7700',)]
 ----------------------------

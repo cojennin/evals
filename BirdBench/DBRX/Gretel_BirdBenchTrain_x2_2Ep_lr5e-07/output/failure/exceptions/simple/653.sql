@@ -159,8 +159,4 @@ no such column: PostId
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

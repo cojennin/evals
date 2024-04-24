@@ -157,6 +157,6 @@ SELECT Text FROM comments WHERE CreationDate = '2010-07-19 19:37:33.0'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [("That's just an example - it might have a median that is much smaller, on the order of 200 (it depends on how I partition the data). That would preclude using a normal distribution, right?",)]
 ----------------------------

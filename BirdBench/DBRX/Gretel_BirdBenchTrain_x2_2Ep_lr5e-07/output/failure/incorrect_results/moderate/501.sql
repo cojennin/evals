@@ -174,12 +174,12 @@ SELECT name, MAX(convertedManaCost) FROM cards WHERE setCode = 'JTH' GROUP BY na
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Hall of Triumph',)]
 ----------------------------

@@ -121,6 +121,6 @@ SELECT e.event_id FROM event e JOIN attendance a ON e.event_id = a.link_to_event
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('rec2N69DMcrqN9PJC',), ('rec5XDvJLyxDsGZWc',), ('recEVTik3MlqbvLFi',), ('recGxVCwaLW3mDIa3',), ('recI43CzsZ0Q625ma',), ('recIuIXdbLe5j5vCA',), ('recLKj8BbTNqxFbTb',), ('recLrY8kyOR1PcZeF',), ('recggMW2eyCYceNcy',), ('reciRZdAqNIKuMC96',), ('reckYL4xtQWpkTJ8k',), ('recmbOVHSyzXQZpQr',), ('recoVo6dFSzG1ypX7',), ('recsgSUqFCJqekzL5',), ('recvCUOytx5jPw7kh',), ('recykdvf4LgsyA3wZ',), ('reczhS8wix6Kzbp9P',)]
 ----------------------------

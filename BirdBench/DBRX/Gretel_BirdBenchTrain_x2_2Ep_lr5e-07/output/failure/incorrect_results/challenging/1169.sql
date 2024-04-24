@@ -100,12 +100,12 @@ SELECT 1.0 * SUM(SEX = 'M') / SUM(SEX = 'F') FROM Patient WHERE ID IN (SELECT ID
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.184,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.20566810835419985,)]
 ----------------------------

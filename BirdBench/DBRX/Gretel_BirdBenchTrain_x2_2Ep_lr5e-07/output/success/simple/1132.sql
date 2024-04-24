@@ -276,6 +276,6 @@ SELECT player_name FROM Player WHERE height > 180 ORDER BY player_name LIMIT 3;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Aaron Appindangoye',), ('Aaron Galindo',), ('Aaron Hughes',)]
 ----------------------------

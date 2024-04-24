@@ -104,8 +104,4 @@ no such column: T
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

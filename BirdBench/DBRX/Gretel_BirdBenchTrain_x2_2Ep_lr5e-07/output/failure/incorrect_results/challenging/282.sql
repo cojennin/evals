@@ -50,12 +50,12 @@ SELECT 1.0 * SUM(element = 'h') / COUNT(element) as ratio FROM atom WHERE molecu
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.3617021276595745,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.3617021276595745,), ('+',)]
 ----------------------------

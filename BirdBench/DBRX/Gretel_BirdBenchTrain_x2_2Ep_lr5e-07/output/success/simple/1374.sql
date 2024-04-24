@@ -121,6 +121,6 @@ SELECT COUNT(*) FROM attendance WHERE link_to_member = (SELECT member_id FROM me
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(11,)]
 ----------------------------

@@ -123,6 +123,6 @@ SELECT A15 FROM district WHERE district_id = (SELECT district_id FROM account WH
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(6041,)]
 ----------------------------

@@ -203,12 +203,12 @@ SELECT drivers.forename, drivers.surname FROM drivers WHERE drivers.driverRef = 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Robert', 'Kubica')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('kubica',)]
 ----------------------------

@@ -119,12 +119,12 @@ SELECT event.status FROM event WHERE event.event_id IN (SELECT budget.link_to_ev
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Closed',)]
 ----------------------------

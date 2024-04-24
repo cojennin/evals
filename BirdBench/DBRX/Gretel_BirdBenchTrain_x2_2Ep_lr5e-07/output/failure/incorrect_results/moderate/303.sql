@@ -50,12 +50,12 @@ SELECT COUNT(bond.bond_id) as num_double_bonds, molecule.label as is_carcinogeni
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(6, '+')]
 ----------------------------

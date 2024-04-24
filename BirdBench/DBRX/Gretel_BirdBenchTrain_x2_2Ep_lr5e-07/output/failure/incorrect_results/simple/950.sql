@@ -203,12 +203,12 @@ SELECT constructors.name FROM constructors LEFT JOIN constructorResults ON const
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Minardi',), ('Dallara',), ('Larrousse',), ('Team Lotus',), ('Fondmetal',), ('March',), ('Tyrrell',), ('Ligier',), ('Jordan',), ('McLaren',), ('Brabham',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Ligier',), ('Jordan',), ('Larrousse',), ('Brabham',), ('Dallara',), ('Minardi',)]
 ----------------------------

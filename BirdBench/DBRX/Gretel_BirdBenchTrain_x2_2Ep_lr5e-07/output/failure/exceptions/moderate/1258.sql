@@ -104,8 +104,4 @@ no such column: Laboratory.KCT
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

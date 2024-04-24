@@ -176,6 +176,6 @@ SELECT keyruneCode FROM sets WHERE code = 'PKHC';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('KHC',)]
 ----------------------------

@@ -123,6 +123,6 @@ SELECT district_id FROM account WHERE account_id = (SELECT account_id FROM loan 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(31,)]
 ----------------------------

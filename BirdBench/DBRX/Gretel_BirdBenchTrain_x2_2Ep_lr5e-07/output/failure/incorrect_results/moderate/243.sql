@@ -50,12 +50,12 @@ SELECT DISTINCT b.bond_id FROM connected c1 JOIN connected c2 ON c1.atom_id = c2
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR032_2_3',), ('TR032_3_5',), ('TR058_1_3',), ('TR058_1_4',), ('TR058_1_5',), ('TR298_1_5',)]
 ----------------------------

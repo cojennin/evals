@@ -122,6 +122,6 @@ SELECT member.last_name FROM member WHERE member.link_to_major = (SELECT major_i
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Snay',), ('Mccray',)]
 ----------------------------

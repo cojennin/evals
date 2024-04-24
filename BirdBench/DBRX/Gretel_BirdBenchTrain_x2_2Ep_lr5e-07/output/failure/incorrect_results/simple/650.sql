@@ -155,12 +155,12 @@ SELECT u.LastAccessDate, u.Location FROM users u INNER JOIN badges b ON u.Id = b
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2014-09-12 17:06:49.0', 'Leuven, Belgium')]
 ----------------------------

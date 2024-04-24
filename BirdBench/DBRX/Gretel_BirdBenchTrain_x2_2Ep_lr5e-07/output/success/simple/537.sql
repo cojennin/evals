@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM posts WHERE OwnerUserId = (SELECT Id FROM users WHERE Displ
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(121,)]
 ----------------------------

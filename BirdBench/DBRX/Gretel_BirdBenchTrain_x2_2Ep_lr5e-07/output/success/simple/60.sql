@@ -127,6 +127,6 @@ SELECT Website FROM schools WHERE Virtual = 'P' AND Charter = 1 AND County = 'Sa
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('www.riovalley.org',), ('www.mantecausd.net',)]
 ----------------------------

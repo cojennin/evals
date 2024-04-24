@@ -121,12 +121,12 @@ SELECT 1995 as year, AVG(A12) as avg_unemployment FROM district UNION ALL SELECT
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1995, 3.0723684210526314), (1996, 3.787012987012987)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1996',)]
 ----------------------------

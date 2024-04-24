@@ -174,12 +174,12 @@ SELECT code FROM sets WHERE releaseDate = '2007-07-13';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('10E',), ('P10E',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('10E',), ('10E',), ('10E',), ('10E',), ('10E',), ('10E',), ('10E',), ('10E',), ('10E',), ('10E',)]
 ----------------------------

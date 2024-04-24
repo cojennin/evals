@@ -205,6 +205,6 @@ SELECT drivers.forename, drivers.surname FROM drivers JOIN results ON drivers.dr
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Felipe', 'Massa')]
 ----------------------------

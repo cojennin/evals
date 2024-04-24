@@ -121,6 +121,6 @@ SELECT major.department FROM major WHERE major.college = 'College of Humanities 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Religious Studies Program',), ('Journalism and Communication Department',), ('Political Science Department',), ('Languages, Philosophy and Communication Studies Department',), ('Languages, Philosophy and Communication Studies Department',), ('Liberal Arts Program',), ('Languages, Philosophy and Communication Studies Department',), ('Languages, Philosophy and Communication Studies Department',), ('English Department',), ('Aerospace Studies Program',), ('Political Science Department',), ('Sociology, Social Work and Anthropology Department',), ('History Department',), ('Asian Studies Program',), ('Languages, Philosophy and Communication Studies Department',), ('Languages, Philosophy and Communication Studies Department',), ('Sociology, Social Work and Anthropology Department',), ('Sociology, Social Work and Anthropology Department',), ('Sociology, Social Work and Anthropology Department',), ('Languages, Philosophy and Communication Studies Department',), ('English Department',), ('Military Science Program',), ('Languages, Philosophy and Communication Studies Department',), ('Political Science Department',)]
 ----------------------------

@@ -121,6 +121,6 @@ SELECT SUM(cost) FROM expense WHERE expense_description = 'Parking';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(18.0,)]
 ----------------------------

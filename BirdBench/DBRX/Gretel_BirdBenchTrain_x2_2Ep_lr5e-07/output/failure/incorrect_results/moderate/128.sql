@@ -121,12 +121,12 @@ SELECT district_id, COUNT(*) as num_female_account_holders FROM client WHERE gen
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1, 324), (70, 88), (74, 84), (54, 75), (64, 57), (72, 50), (68, 42), (5, 39), (46, 37), (52, 34)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Hl.m. Praha', 324), ('Karvina', 88), ('Ostrava - mesto', 84), ('Brno - mesto', 75), ('Zlin', 57), ('Olomouc', 50), ('Frydek - Mistek', 42), ('Kolin', 39), ('Nachod', 37), ('Jindrichuv Hradec', 34)]
 ----------------------------

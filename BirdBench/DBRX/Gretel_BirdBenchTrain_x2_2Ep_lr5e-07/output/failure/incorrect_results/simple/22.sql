@@ -125,12 +125,12 @@ SELECT sname, NumTstTakr FROM satscores WHERE cname = 'Contra Costa' ORDER BY Nu
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None, 1724)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Dougherty Valley High',)]
 ----------------------------

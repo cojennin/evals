@@ -203,12 +203,12 @@ SELECT c.url FROM constructors c JOIN (SELECT constructorId, SUM(wins) as total_
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('http://en.wikipedia.org/wiki/Scuderia_Ferrari',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('http://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One',)]
 ----------------------------

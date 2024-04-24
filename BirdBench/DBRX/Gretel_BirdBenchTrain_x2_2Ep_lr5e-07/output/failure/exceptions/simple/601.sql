@@ -159,8 +159,4 @@ no such column: Score
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -69,12 +69,12 @@ SELECT MAX(Consumption) FROM yearmonth WHERE Date LIKE '2012-%';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(51787161.73999976,)]
 ----------------------------

@@ -108,12 +108,12 @@ SELECT a.attribute_name, MIN(ha.attribute_value) as min_value FROM superhero s J
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Combat', 30), ('Durability', 30), ('Intelligence', 95), ('Power', 30), ('Speed', 30), ('Strength', 20)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Strength',)]
 ----------------------------

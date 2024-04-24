@@ -276,6 +276,6 @@ SELECT COUNT(*) FROM Player_Attributes WHERE crossing = (SELECT MAX(crossing) FR
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3,)]
 ----------------------------

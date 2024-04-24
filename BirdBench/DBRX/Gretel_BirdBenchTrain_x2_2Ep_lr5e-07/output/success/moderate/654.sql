@@ -157,6 +157,6 @@ SELECT u.DisplayName, u.Location FROM users u INNER JOIN posts p ON u.Id = p.Own
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('mbq', 'Warsaw, Poland')]
 ----------------------------

@@ -121,12 +121,12 @@ SELECT (SELECT SUM(A16) FROM district WHERE A3 = 'North Bohemia') - (SELECT SUM(
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

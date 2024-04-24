@@ -203,12 +203,12 @@ SELECT d.forename, d.surname, l.time FROM drivers d JOIN lapTimes l ON d.driverI
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4,), (37,), (4,), (37,), (4,), (4,), (4,), (4,), (4,), (37,)]
 ----------------------------

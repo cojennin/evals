@@ -125,12 +125,12 @@ SELECT COUNT(*) FROM schools WHERE County IN ('San Diego', 'Santa Barbara') AND 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(8,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('San Diego', 8)]
 ----------------------------

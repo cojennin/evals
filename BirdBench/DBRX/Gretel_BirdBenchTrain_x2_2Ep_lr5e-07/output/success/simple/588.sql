@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM comments WHERE UserId = 13;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(25,)]
 ----------------------------

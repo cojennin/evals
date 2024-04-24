@@ -176,6 +176,6 @@ SELECT type FROM sets WHERE name = 'From the Vault: Lore';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('from_the_vault',)]
 ----------------------------

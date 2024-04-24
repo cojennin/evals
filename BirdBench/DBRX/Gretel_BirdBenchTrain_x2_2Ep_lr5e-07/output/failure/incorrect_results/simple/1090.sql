@@ -274,12 +274,12 @@ SELECT Player_Attributes.long_passing FROM Player_Attributes JOIN Player ON Play
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(75,), (75,), (72,), (72,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(75,)]
 ----------------------------

@@ -52,6 +52,6 @@ SELECT COUNT(*) FROM molecule m WHERE m.label = '+' AND m.molecule_id IN (SELECT
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(81,)]
 ----------------------------

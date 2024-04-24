@@ -104,8 +104,4 @@ no such function: DIVIDE
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

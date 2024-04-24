@@ -155,12 +155,12 @@ SELECT COUNT(*) FROM posts WHERE Title LIKE '%data visualization%';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(16,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(83,)]
 ----------------------------

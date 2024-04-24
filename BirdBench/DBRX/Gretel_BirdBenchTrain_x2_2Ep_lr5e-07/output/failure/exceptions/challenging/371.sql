@@ -178,8 +178,4 @@ no such column: isStorySpotlight
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

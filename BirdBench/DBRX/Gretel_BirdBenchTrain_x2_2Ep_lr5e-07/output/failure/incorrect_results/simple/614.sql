@@ -155,12 +155,12 @@ SELECT 100.0 * COUNT(DISTINCT CASE WHEN badges.Name = 'Teacher' THEN badges.User
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(100.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(11.603223806571606,)]
 ----------------------------

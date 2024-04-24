@@ -205,6 +205,6 @@ SELECT races.time FROM races WHERE races.circuitId = (SELECT circuits.circuitId 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('09:00:00',), ('07:00:00',), ('15:00:00',), (None,), ('08:00:00',)]
 ----------------------------

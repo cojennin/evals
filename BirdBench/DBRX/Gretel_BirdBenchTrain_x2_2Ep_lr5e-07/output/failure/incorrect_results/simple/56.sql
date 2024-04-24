@@ -125,12 +125,12 @@ SELECT COUNT(*) FROM schools WHERE State = 'CA' AND MailState = 'CA' AND StatusT
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(261,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2,)]
 ----------------------------

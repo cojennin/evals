@@ -176,6 +176,6 @@ SELECT releaseDate FROM sets WHERE code = (SELECT setCode FROM set_translations 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2006-07-21',)]
 ----------------------------

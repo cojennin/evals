@@ -104,8 +104,4 @@ no such column: APTT
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

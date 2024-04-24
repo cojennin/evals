@@ -176,6 +176,6 @@ SELECT mcmId FROM sets WHERE code = 'SS2';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2460,)]
 ----------------------------

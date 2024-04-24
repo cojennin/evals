@@ -203,12 +203,12 @@ SELECT circuits.location, circuits.lat, circuits.lng FROM circuits WHERE circuit
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Montmeló', 41.57, 2.26111), ('Istanbul', 40.9517, 29.405), ('Monte-Carlo', 43.7347, 7.42056), ('Budapest', 47.5789, 19.2486), ('Monza', 45.6156, 9.28111), ('Imola', 44.3439, 11.7167), ('Uttar Pradesh', 28.3487, 77.5331)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(40.9517, 29.405), (40.9517, 29.405), (44.3439, 11.7167), (45.6156, 9.28111), (41.57, 2.26111), (43.7347, 7.42056), (47.5789, 19.2486), (45.6156, 9.28111), (28.3487, 77.5331), (28.3487, 77.5331), (45.6156, 9.28111), (45.6156, 9.28111)]
 ----------------------------

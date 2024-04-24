@@ -121,12 +121,12 @@ SELECT COUNT(*) FROM client WHERE birth_date BETWEEN '1920-01-01' AND '1920-12-3
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(6,)]
 ----------------------------

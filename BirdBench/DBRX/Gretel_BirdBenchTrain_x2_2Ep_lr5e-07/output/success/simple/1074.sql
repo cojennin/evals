@@ -276,6 +276,6 @@ SELECT Team.team_short_name FROM Team WHERE Team.team_api_id IN (SELECT Match.ho
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('PSV',), ('REA',)]
 ----------------------------

@@ -155,12 +155,12 @@ SELECT PostId FROM votes WHERE UserId = 1465 GROUP BY PostId ORDER BY SUM(Bounty
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2328,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(6,)]
 ----------------------------

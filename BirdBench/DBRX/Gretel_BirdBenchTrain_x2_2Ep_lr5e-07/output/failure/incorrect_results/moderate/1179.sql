@@ -100,12 +100,12 @@ SELECT Examination.`aCL IgM` FROM Patient INNER JOIN Examination ON Patient.ID =
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3, 5.1, 4.1)]
 ----------------------------

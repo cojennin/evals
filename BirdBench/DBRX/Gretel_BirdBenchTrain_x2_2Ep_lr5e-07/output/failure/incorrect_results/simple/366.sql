@@ -174,12 +174,12 @@ SELECT r.text FROM cards c JOIN rulings r ON c.uuid = r.uuid WHERE c.name = 'Ben
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('commander',), ('duel',), ('legacy',), ('modern',), ('pauper',), ('penny',), ('premodern',), ('vintage',), ('commander',), ('duel',), ('legacy',), ('modern',), ('pauper',), ('penny',), ('premodern',), ('vintage',), ('commander',), ('duel',), ('legacy',), ('modern',), ('pauper',), ('penny',), ('premodern',), ('vintage',), ('commander',), ('duel',), ('legacy',), ('modern',), ('pauper',), ('penny',), ('premodern',), ('vintage',)]
 ----------------------------

@@ -69,12 +69,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM gasstations WHERE Country = 'Slo
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(35.68181818181818,)]
 ----------------------------

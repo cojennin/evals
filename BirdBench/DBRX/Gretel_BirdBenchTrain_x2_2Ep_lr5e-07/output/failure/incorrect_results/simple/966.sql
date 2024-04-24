@@ -203,12 +203,12 @@ SELECT COUNT(DISTINCT driverId) FROM results WHERE raceId = 18;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(22,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(8,)]
 ----------------------------

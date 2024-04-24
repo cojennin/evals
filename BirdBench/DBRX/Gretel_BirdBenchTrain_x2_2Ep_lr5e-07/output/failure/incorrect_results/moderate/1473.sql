@@ -69,12 +69,12 @@ SELECT AVG(Consumption) / 12 FROM yearmonth WHERE CustomerID IN (SELECT Customer
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(459.95626428710585,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(459.9562642871061,)]
 ----------------------------

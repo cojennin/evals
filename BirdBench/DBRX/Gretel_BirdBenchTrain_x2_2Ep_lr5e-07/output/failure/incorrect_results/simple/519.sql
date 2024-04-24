@@ -174,12 +174,12 @@ SELECT s.name, st.language FROM sets s INNER JOIN set_translations st ON s.code 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Chinese Simplified',)]
 ----------------------------

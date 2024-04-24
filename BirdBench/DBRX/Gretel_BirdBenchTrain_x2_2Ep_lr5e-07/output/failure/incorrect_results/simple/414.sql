@@ -174,12 +174,12 @@ SELECT s.name, st.language FROM sets s INNER JOIN set_translations st ON s.code 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Dissension', 'Chinese Simplified'), ('Dissension', 'Chinese Traditional'), ('Dissension', 'French'), ('Dissension', 'German'), ('Dissension', 'Italian'), ('Dissension', 'Japanese'), ('Dissension', 'Korean'), ('Dissension', 'Portuguese (Brazil)'), ('Dissension', 'Russian'), ('Dissension', 'Spanish')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Chinese Simplified',), ('Chinese Traditional',), ('French',), ('German',), ('Italian',), ('Japanese',), ('Korean',), ('Portuguese (Brazil)',), ('Russian',), ('Spanish',)]
 ----------------------------

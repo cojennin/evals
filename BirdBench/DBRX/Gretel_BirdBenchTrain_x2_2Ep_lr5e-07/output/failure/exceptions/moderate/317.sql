@@ -54,8 +54,4 @@ parser stack overflow
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

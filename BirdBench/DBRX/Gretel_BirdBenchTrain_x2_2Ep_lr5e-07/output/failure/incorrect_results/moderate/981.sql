@@ -203,12 +203,12 @@ SELECT r.name, r.date, r.time FROM races r JOIN qualifying q ON r.raceId = q.rac
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2017, 'Australian Grand Prix', '2017-03-26', '05:00:00')]
 ----------------------------

@@ -110,6 +110,6 @@ SELECT id FROM publisher WHERE publisher_name = 'Star Trek';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(20,)]
 ----------------------------

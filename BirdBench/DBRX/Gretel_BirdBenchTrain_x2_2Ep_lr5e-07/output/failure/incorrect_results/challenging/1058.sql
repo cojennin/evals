@@ -274,12 +274,12 @@ SELECT Player.player_name, AVG(Player_Attributes.finishing) as avg_finishing FRO
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Juan Quero', 60.9)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Min',)]
 ----------------------------

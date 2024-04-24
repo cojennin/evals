@@ -50,12 +50,12 @@ SELECT a.atom_id FROM atom a JOIN connected c ON a.atom_id = c.atom_id JOIN bond
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR012_1',), ('TR012_12',), ('TR012_13',), ('TR012_14',), ('TR012_15',), ('TR012_16',), ('TR012_17',), ('TR012_18',), ('TR012_2',), ('TR012_3',), ('TR012_4',), ('TR012_5',)]
 ----------------------------

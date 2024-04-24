@@ -110,6 +110,6 @@ SELECT s.superhero_name FROM superhero s WHERE s.full_name = 'Charles Chandler'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('3-D Man',)]
 ----------------------------

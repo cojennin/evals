@@ -110,6 +110,6 @@ SELECT COUNT(*) FROM superhero WHERE hair_colour_id = (SELECT id FROM colour WHE
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(105,)]
 ----------------------------

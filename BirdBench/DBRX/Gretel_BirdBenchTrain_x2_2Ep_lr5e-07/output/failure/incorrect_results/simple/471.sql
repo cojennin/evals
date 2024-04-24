@@ -174,12 +174,12 @@ SELECT type FROM sets WHERE name = 'Hauptset Zehnte Edition';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('core',)]
 ----------------------------

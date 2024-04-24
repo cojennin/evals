@@ -276,6 +276,6 @@ SELECT Player.player_name FROM Player WHERE substr(Player.birthday,1,4) = '1970'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Chris Swailes',), ('Dean Kiely',), ('Edwin van der Sar',), ('Sander Boschker',)]
 ----------------------------

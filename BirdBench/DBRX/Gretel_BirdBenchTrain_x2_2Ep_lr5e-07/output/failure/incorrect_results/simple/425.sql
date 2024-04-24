@@ -174,12 +174,12 @@ SELECT number FROM cards WHERE subtypes LIKE '%Angel%' AND subtypes LIKE '%Wizar
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('97',), ('226p',), ('226s',), ('226',), ('368',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(25149,), (45892,), (45893,), (56643,), (56809,)]
 ----------------------------

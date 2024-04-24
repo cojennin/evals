@@ -110,6 +110,6 @@ SELECT s.superhero_name FROM superhero s WHERE s.alignment_id = (SELECT a.id FRO
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Ares',), ('Bizarro',), ('Black Flash',), ('Brundlefly',), ('Captain Cold',), ('Copycat',), ('Deadpool',), ('Deathstroke',), ('Etrigan',), ('Galactus',), ('Gladiator',), ('Indigo',), ('Juggernaut',), ('Living Tribunal',), ('Lobo',), ('Lucifer Morningstar',), ('Man-Bat',), ('One-Above-All',), ('Phantom Stranger',), ('Raven',), ('Red Hood',), ('Red Hulk',), ('Robin VI',), ('Sandman',), ('Sinestro',), ('The Comedian',), ('The Presence',), ('Toad',)]
 ----------------------------

@@ -155,12 +155,12 @@ SELECT COUNT(*) FROM votes WHERE UserId = (SELECT Id FROM users WHERE DisplayNam
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(65,)]
 ----------------------------

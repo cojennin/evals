@@ -69,12 +69,12 @@ SELECT c.Segment, SUM(t.Amount) as TotalConsumption FROM customers c JOIN transa
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('KAM',)]
 ----------------------------

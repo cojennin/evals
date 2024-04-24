@@ -123,6 +123,6 @@ SELECT COUNT(*) FROM client WHERE gender = 'M' AND district_id = (SELECT distric
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(96,)]
 ----------------------------

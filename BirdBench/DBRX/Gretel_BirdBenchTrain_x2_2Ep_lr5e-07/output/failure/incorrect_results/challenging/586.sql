@@ -155,12 +155,12 @@ SELECT u.DisplayName FROM users u JOIN posts p ON u.Id = p.OwnerUserId JOIN vote
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Rok',), ('whuber',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('chl', 'How to combine confidence intervals for a variance component of a mixed-effects model when using multiple imputation'), ('shabbychef', 'Unbiased estimation of covariance matrix for multiply censored data')]
 ----------------------------

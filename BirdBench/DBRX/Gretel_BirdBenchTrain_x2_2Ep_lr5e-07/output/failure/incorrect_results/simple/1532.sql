@@ -69,12 +69,12 @@ SELECT GasStationID, MAX(Price) FROM transactions_1k WHERE ProductID = 2 GROUP B
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3250, 5762.49)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('CZE',)]
 ----------------------------

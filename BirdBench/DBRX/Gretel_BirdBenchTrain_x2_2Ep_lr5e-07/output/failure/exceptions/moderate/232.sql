@@ -54,8 +54,4 @@ no such column: bond_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

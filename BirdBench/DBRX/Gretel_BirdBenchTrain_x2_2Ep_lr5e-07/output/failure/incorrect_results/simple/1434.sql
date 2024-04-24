@@ -119,12 +119,12 @@ SELECT zip_code FROM zip_code WHERE type = 'PO Box' AND city = 'San Juan' AND st
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(902,), (906,), (908,), (910,), (914,), (916,), (919,), (922,), (928,), (929,), (930,), (931,), (933,), (936,), (937,), (940,), (955,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(906,), (936,)]
 ----------------------------

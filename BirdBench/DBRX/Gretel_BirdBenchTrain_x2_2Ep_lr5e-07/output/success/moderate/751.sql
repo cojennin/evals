@@ -110,6 +110,6 @@ SELECT sp.power_name FROM superhero s INNER JOIN hero_power hp ON s.id = hp.hero
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Agility',), ('Super Strength',), ('Stamina',), ('Super Speed',), ('Accelerated Healing',)]
 ----------------------------

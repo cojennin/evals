@@ -69,12 +69,12 @@ SELECT 100.0 * (SUM(CASE WHEN Date = '2012-08-25' THEN Amount ELSE 0 END) - SUM(
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(100.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(-5.815242674672345,)]
 ----------------------------

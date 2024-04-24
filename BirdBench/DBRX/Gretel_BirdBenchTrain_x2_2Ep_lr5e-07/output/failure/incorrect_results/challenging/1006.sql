@@ -203,12 +203,12 @@ SELECT MIN(milliseconds) FROM lapTimes;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(67411,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2:00.000',)]
 ----------------------------

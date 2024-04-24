@@ -121,12 +121,12 @@ SELECT COUNT(*) FROM account a JOIN trans t ON a.account_id = t.account_id WHERE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2260,)]
 ----------------------------

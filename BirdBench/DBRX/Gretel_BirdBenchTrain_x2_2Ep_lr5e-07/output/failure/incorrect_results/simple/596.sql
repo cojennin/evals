@@ -155,12 +155,12 @@ SELECT u.Id, u.DisplayName, COUNT(c.Id) as CommentCount, b.Name as BadgeName FRO
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(919, 'whuber', 6028320, 'Altruist')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Autobiographer',)]
 ----------------------------

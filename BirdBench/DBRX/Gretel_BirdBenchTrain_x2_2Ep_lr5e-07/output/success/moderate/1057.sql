@@ -276,6 +276,6 @@ SELECT AVG(home_team_goal) FROM Match WHERE country_id = (SELECT id FROM Country
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1.5041666666666667,)]
 ----------------------------

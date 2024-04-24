@@ -121,6 +121,6 @@ SELECT event_name, location FROM event WHERE event_id IN (SELECT link_to_event F
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('September Speaker', 'MU 215'), ('October Meeting', 'MU 215'), ('February Speaker', 'MU 215'), ('January Speaker', 'MU 215'), ('April Meeting', 'MU 215'), ('April Speaker', 'MU 215'), ('October Speaker', 'MU 215'), ('November Meeting', 'MU 215'), ('Officers meeting - March', None), ('September Meeting', 'MU 215'), ('November Speaker', 'MU 215'), ('March Meeting', 'MU 215'), ('Registration', 'Campus Common'), ('March Speaker', 'MU 215'), ('February Meeting', 'MU 215'), ('Yearly Kickoff', 'MU 215'), ('Officers meeting - January', None), ('Officers meeting - February', None), ('January Meeting', 'MU 215'), ('Officers meeting - April', None)]
 ----------------------------

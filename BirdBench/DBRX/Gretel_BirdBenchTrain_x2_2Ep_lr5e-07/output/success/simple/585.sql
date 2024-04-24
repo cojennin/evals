@@ -157,6 +157,6 @@ SELECT SUM(BountyAmount) FROM votes JOIN posts ON votes.PostId = posts.Id WHERE 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(250,)]
 ----------------------------

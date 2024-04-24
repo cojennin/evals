@@ -52,6 +52,6 @@ SELECT MAX(label) FROM (SELECT label FROM molecule WHERE molecule_id IN (SELECT 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',)]
 ----------------------------

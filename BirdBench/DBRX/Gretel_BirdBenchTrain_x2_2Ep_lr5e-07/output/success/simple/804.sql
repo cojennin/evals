@@ -110,6 +110,6 @@ SELECT superhero_name FROM superhero WHERE id = 294;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Gog',)]
 ----------------------------

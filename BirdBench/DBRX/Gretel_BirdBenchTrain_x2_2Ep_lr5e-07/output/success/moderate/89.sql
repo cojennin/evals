@@ -123,6 +123,6 @@ SELECT COUNT(*) FROM account a JOIN district d ON a.district_id = d.district_id 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

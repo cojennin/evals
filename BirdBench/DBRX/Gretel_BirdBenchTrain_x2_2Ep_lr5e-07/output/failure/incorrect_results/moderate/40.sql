@@ -125,12 +125,12 @@ SELECT Phone FROM schools WHERE CDSCode = (SELECT cds FROM satscores WHERE rtype
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('(559) 248-5100',)]
 ----------------------------

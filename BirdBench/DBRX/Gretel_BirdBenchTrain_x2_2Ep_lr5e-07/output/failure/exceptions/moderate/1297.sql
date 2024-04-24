@@ -104,8 +104,4 @@ no such column: e.T-CHO
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

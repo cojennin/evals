@@ -110,6 +110,6 @@ SELECT AVG(height_cm) FROM superhero WHERE race_id <> (SELECT id FROM race WHERE
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(109.0,)]
 ----------------------------

@@ -203,12 +203,12 @@ SELECT MAX(milliseconds) FROM pitStops;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2011266,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('59.555',)]
 ----------------------------

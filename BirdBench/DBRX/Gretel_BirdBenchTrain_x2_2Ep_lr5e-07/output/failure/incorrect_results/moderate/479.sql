@@ -174,12 +174,12 @@ SELECT COUNT(*) FROM cards WHERE setCode = 'CSP' AND convertedManaCost > 5 AND (
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(6,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(7,)]
 ----------------------------

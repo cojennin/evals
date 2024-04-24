@@ -155,12 +155,12 @@ SELECT LastEditorDisplayName FROM posts WHERE Title = 'Examples for teaching: Co
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Abhilash',)]
 ----------------------------

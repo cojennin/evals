@@ -157,6 +157,6 @@ SELECT users.DisplayName FROM users WHERE users.Id = (SELECT votes.UserId FROM v
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('George Dontas',)]
 ----------------------------

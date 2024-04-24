@@ -155,12 +155,12 @@ SELECT p.Title, p.OwnerDisplayName FROM posts p WHERE p.Title = 'Computer Game D
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1708, 'mbq')]
 ----------------------------

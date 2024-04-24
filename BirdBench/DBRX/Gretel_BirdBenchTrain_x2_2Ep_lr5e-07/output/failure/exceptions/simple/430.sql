@@ -178,8 +178,4 @@ no such column: c.block
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

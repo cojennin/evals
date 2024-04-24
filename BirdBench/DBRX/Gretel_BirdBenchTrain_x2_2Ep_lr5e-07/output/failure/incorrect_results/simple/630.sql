@@ -155,12 +155,12 @@ SELECT Tags FROM posts WHERE OwnerUserId = (SELECT Id FROM users WHERE DisplayNa
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('<bayesian><pca><factor-analysis>',), ('<bayesian><pca><factor-analysis>',), ('<bayesian><pca><factor-analysis>',), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (None,), ('<distributions><bayesian><modeling><prior>',), ('<distributions><bayesian><modeling><prior>',), ('<distributions><bayesian><modeling><prior>',), ('<distributions><bayesian><modeling><prior><maximum-entropy>',), ('<distributions><bayesian><modeling><prior><maximum-entropy>',), ('<distributions><bayesian><modeling><prior><maximum-entropy>',), ('<distributions><bayesian><modeling><prior>',), (None,), (None,), ('<bayesian><monte-carlo>',), ('<bayesian><monte-carlo>',), ('<bayesian><monte-carlo>',), ('<bayesian><mcmc>',), ('<bayesian><mcmc>',), ('<bayesian><mcmc>',), ('<bayesian><mcmc>',), (None,), ('<bayesian><algorithms><big-list>',), ('<bayesian><algorithms><big-list>',), ('<bayesian><algorithms><big-list>',), ('<bayesian><algorithms><big-list>',), (None,), ('<bayesian><references><teaching>',), ('<bayesian><references><teaching>',), ('<bayesian><references><teaching>',), (None,), (None,), (None,), (None,), ('<job>',), ('<job>',), ('<job>',), ('<regression><bayesian><multiple-regression><multilevel-analysis>',), ('<regression><bayesian><multiple-regression><multilevel-analysis>',), ('<regression><bayesian><multiple-regression><multilevel-analysis>',), ('<regression><bayesian><multiple-regression><multilevel-analysis>',), ('<regression><bayesian><multiple-regression><multilevel-analysis>',), ('<regression>',), ('<regression>',), ('<regression>',), ('<regression>',), ('<maximum-likelihood><optimization>',), ('<maximum-likelihood><optimization>',), ('<maximum-likelihood><optimization>',), ('<maximum-likelihood><optimization>',), ('<bayesian><monte-carlo><posterior>',), ('<bayesian><monte-carlo><posterior>',), ('<bayesian><monte-carlo><posterior>',), ('<mcmc>',), ('<mcmc>',), ('<mcmc>',), ('<mcmc>',), ('<covariance>',), ('<covariance>',), ('<covariance>',), ('<bayesian><books><mcmc><references>',), ('<bayesian><books><mcmc><references>',), ('<bayesian><books><mcmc><references>',), ('<bayesian><linear-model><references>',), ('<bayesian><linear-model><references>',), ('<bayesian><linear-model><references>',), (None,), (None,), ('<bayesian><multiple-regression><text-mining><naive-bayes>',), ('<bayesian><multiple-regression><text-mining><naive-bayes>',), ('<bayesian><multiple-regression><text-mining><naive-bayes>',), (None,), ('<distributions><bayesian><modeling><prior><maximum-entropy>',), ('<bayesian><multiple-regression><text-mining><naive-bayes>',), (None,), (None,), (None,), (None,)]
 ----------------------------

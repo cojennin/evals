@@ -174,12 +174,12 @@ SELECT promoTypes FROM cards WHERE name = 'Duress';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,), (None,), (None,), (None,), (None,), ('tourney,fnm',), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (None,), ('arenaleague',), (None,), (None,), ('mediainsert',), ('mediainsert',), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('tourney,fnm',), ('arenaleague',), ('mediainsert',), ('mediainsert',)]
 ----------------------------

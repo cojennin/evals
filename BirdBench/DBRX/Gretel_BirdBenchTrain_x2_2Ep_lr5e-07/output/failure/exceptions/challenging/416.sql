@@ -180,8 +180,4 @@ no such column: language
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

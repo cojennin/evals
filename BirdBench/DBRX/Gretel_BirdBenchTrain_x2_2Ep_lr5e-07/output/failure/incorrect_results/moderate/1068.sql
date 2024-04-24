@@ -274,12 +274,12 @@ SELECT AVG(Player_Attributes.overall_rating) FROM Player_Attributes JOIN Player 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(68.94520387296329,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(68.89975315514602,)]
 ----------------------------

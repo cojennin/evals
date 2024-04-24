@@ -121,12 +121,12 @@ SELECT COUNT(*) FROM disp WHERE account_id BETWEEN 1 AND 10 AND type IN ('owner'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0, 0)]
 ----------------------------

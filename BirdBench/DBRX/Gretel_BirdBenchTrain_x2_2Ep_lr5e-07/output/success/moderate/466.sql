@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM cards WHERE setCode = '10E' AND artist = 'Adam Rex';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(12,)]
 ----------------------------

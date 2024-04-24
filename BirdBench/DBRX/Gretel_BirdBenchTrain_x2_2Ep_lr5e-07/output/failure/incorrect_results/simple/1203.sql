@@ -100,12 +100,12 @@ SELECT COUNT(*) FROM Patient WHERE SEX = 'F' AND ID IN (SELECT ID FROM Laborator
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(88,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(641,)]
 ----------------------------

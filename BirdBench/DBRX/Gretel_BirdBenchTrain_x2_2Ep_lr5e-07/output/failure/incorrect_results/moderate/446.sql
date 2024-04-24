@@ -174,12 +174,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM cards WHERE setCode = 'ATH') as 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.0, 'Abyssal Horror')]
 ----------------------------

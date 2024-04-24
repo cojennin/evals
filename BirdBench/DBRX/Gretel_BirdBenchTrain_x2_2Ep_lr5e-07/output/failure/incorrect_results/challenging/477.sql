@@ -174,12 +174,12 @@ SELECT 1 FROM cards WHERE setCode = 'CSP' AND artist IN ('Jeremy Jarvis', 'Aaron
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1,), (1,), (1,), (1,), (1,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Chippy',), ('Jeremy Jarvis',)]
 ----------------------------

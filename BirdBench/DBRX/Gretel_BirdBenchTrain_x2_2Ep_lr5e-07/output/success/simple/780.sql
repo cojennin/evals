@@ -110,6 +110,6 @@ SELECT power_name FROM superpower WHERE id IN (SELECT power_id FROM hero_power W
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Super Speed',), ('Intangibility',), ('Time Travel',), ('Time Manipulation',)]
 ----------------------------

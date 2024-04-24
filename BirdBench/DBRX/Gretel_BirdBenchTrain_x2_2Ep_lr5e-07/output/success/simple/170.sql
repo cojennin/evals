@@ -123,6 +123,6 @@ SELECT COUNT(*) FROM trans WHERE date > '1995-12-31' AND operation = 'VYBER KART
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(7652,)]
 ----------------------------

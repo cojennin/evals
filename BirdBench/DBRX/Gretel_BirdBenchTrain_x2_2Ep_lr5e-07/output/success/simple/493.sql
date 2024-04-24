@@ -176,6 +176,6 @@ SELECT parentCode FROM sets WHERE name = 'Commander 2014 Oversized';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('C14',)]
 ----------------------------

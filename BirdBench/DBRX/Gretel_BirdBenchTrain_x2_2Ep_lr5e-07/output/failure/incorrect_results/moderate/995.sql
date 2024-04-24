@@ -203,12 +203,12 @@ SELECT AVG(points) FROM results WHERE driverId = (SELECT driverId FROM drivers W
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(9.8,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(52.8,)]
 ----------------------------

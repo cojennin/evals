@@ -110,6 +110,6 @@ SELECT 1.0 * COUNT(superhero.id) / SUM(skin_colour_id = 1) FROM superhero;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1.1013215859030836,)]
 ----------------------------

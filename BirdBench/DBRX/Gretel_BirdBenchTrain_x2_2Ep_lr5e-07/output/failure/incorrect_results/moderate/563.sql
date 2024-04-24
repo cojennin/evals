@@ -155,12 +155,12 @@ SELECT FavoriteCount FROM posts WHERE Id = (SELECT PostId FROM comments WHERE Cr
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3,)]
 ----------------------------

@@ -128,8 +128,4 @@ near "JOIN": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

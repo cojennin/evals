@@ -100,12 +100,12 @@ SELECT Patient.ID FROM Patient WHERE Patient.ID NOT IN (SELECT Examination.ID FR
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(48473,), (102490,), (108788,), (122405,), (283032,), (933793,), (1043570,), (1180510,), (1787610,), (2352510,), (4861720,), (5400270,), (5404650,), (5408290,), (5440870,), (5452460,)]
 ----------------------------

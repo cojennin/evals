@@ -69,12 +69,12 @@ SELECT Segment, SUM(Consumption) as Total_Consumption FROM yearmonth JOIN custom
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('LAM', 1048825700.8699977)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('LAM',)]
 ----------------------------

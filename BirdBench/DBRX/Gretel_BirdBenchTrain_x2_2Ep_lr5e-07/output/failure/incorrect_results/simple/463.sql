@@ -174,12 +174,12 @@ SELECT COUNT(*) FROM cards c JOIN set_translations st ON c.setCode = st.setCode 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(50,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(28,)]
 ----------------------------

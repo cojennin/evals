@@ -110,6 +110,6 @@ SELECT hero_id FROM hero_attribute WHERE attribute_value = (SELECT MIN(attribute
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(283,), (397,), (416,), (508,), (558,), (586,), (276,), (276,), (276,), (276,)]
 ----------------------------

@@ -50,12 +50,12 @@ SELECT COUNT(DISTINCT m.molecule_id) as num_molecules FROM molecule m JOIN atom 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(291, 634)]
 ----------------------------

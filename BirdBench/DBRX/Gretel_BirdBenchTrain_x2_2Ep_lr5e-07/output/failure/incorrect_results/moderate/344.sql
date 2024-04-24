@@ -174,12 +174,12 @@ SELECT cards.name FROM cards INNER JOIN legalities ON cards.uuid = legalities.uu
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Oko, Thief of Crowns',), ('Oko, Thief of Crowns',), ('Nexus of Fate',), ('Oko, Thief of Crowns',), ('Oko, Thief of Crowns',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(17983,), (18058,), (29523,), (38736,), (38737,)]
 ----------------------------

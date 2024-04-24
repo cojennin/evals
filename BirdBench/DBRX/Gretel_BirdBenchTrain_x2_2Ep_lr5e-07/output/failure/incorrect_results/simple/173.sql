@@ -121,12 +121,12 @@ SELECT COUNT(*) FROM trans WHERE account_id = 3 AND type = 'account_statement'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('POPLATEK MESICNE', 'POJISTNE')]
 ----------------------------

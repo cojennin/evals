@@ -108,12 +108,12 @@ SELECT superhero_name FROM superhero WHERE height_cm = (SELECT MAX(height_cm) FR
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Surtur',), ('Ymir',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Surtur',)]
 ----------------------------

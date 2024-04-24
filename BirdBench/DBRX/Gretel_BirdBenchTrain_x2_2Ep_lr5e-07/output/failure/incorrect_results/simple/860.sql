@@ -203,12 +203,12 @@ SELECT drivers.nationality FROM drivers, qualifying WHERE drivers.driverId = qua
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('British',), ('Spanish',), ('Australian',), ('Brazilian',), ('German',), ('Russian',), ('Polish',), ('Japanese',)]
 ----------------------------

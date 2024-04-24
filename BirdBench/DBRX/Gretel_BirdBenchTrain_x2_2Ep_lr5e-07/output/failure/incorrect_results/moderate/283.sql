@@ -50,12 +50,12 @@ SELECT 1 FROM atom WHERE element = 'ca' AND atom_id IN (SELECT atom_id FROM conn
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',)]
 ----------------------------

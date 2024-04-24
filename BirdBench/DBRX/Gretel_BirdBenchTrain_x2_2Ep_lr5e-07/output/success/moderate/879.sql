@@ -207,6 +207,6 @@ SELECT d.nationality FROM drivers d JOIN results r ON d.driverId = r.driverId WH
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Italian',)]
 ----------------------------

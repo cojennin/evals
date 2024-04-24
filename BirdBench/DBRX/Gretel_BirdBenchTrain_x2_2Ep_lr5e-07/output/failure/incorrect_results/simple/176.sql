@@ -121,12 +121,12 @@ SELECT 992 as client_id, SUM(amount) as total_debt, AVG(payments) as avg_payment
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(992, 103261740, 4190.6642228739)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(110736, 'C'), (53076, 'A'), (45336, 'A'), (125472, 'C'), (396120, 'C'), (182040, 'C'), (111384, 'A'), (41256, 'C'), (177504, 'C'), (407952, 'D'), (110736, 'C'), (140064, 'C'), (189696, 'A'), (265320, 'A')]
 ----------------------------

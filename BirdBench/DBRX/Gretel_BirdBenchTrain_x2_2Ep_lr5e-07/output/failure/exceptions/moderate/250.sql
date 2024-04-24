@@ -54,8 +54,4 @@ ambiguous column name: molecule_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

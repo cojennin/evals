@@ -125,12 +125,12 @@ SELECT 100.0 * AVG(`Free Meal Count (K-12)`) / AVG(`Enrollment (K-12)`) as eligi
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(21.25129265770424,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.1344364012409514,), (0.2905894519131334,)]
 ----------------------------

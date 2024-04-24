@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM comments WHERE PostId = (SELECT Id FROM posts WHERE ViewCou
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

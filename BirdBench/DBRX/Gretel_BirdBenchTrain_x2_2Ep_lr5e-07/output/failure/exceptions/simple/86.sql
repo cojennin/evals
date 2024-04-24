@@ -129,8 +129,4 @@ no such column: s.dname
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

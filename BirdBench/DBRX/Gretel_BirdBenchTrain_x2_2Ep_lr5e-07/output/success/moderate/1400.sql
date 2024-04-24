@@ -121,6 +121,6 @@ SELECT 100.0 * SUM(CASE WHEN type = 'Community Service' THEN 1 ELSE 0 END) / COU
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(10.0,)]
 ----------------------------

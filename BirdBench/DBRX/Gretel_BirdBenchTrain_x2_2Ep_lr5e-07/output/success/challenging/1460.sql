@@ -121,6 +121,6 @@ SELECT m.first_name, m.last_name, e.cost FROM member m JOIN expense e ON m.membe
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Elijah', 'Allen', 28.15)]
 ----------------------------

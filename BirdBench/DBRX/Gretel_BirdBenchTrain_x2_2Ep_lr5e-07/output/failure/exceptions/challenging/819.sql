@@ -112,8 +112,4 @@ no such column: colour.id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

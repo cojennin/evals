@@ -110,6 +110,6 @@ SELECT superhero_name FROM superhero WHERE weight_kg = (SELECT MAX(weight_kg) FR
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Darkseid',)]
 ----------------------------

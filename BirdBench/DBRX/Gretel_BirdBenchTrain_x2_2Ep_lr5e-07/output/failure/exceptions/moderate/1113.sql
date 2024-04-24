@@ -278,8 +278,4 @@ no such column: Team_Attributes.team_long_name
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

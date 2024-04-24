@@ -176,6 +176,6 @@ SELECT s.name FROM sets s WHERE s.code = 'ALL';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Alliances',)]
 ----------------------------

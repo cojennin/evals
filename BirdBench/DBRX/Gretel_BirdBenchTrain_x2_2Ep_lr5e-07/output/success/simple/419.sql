@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM cards WHERE borderColor = 'borderless' AND edhrecRank > 120
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(7,)]
 ----------------------------

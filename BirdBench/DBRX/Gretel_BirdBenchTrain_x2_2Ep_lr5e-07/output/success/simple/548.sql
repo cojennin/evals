@@ -157,6 +157,6 @@ SELECT Location FROM users WHERE Id = (SELECT OwnerUserId FROM posts WHERE Title
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Newcastle, United Kingdom',)]
 ----------------------------

@@ -112,8 +112,4 @@ no such column: ha.attribute_name
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

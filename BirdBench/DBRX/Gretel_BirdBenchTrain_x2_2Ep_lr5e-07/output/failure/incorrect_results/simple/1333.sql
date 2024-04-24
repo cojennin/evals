@@ -119,12 +119,12 @@ SELECT member.first_name, member.last_name, zip_code.city, zip_code.state FROM m
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Sacha', 'Harrison', 'South Plainfield', 'New Jersey')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('South Plainfield', 'New Jersey')]
 ----------------------------

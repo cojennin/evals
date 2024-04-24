@@ -123,6 +123,6 @@ SELECT COUNT(*) FROM account WHERE district_id IN (SELECT district_id FROM distr
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(46,)]
 ----------------------------

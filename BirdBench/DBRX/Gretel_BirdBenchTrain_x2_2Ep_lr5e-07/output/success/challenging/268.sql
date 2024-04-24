@@ -52,6 +52,6 @@ SELECT a.element FROM atom a JOIN connected c ON a.atom_id = c.atom_id WHERE c.b
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('c',), ('o',)]
 ----------------------------

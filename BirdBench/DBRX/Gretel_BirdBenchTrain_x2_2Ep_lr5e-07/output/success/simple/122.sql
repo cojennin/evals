@@ -123,6 +123,6 @@ SELECT A2, A3 FROM district WHERE district_id IN (SELECT district_id FROM accoun
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Liberec', 'north Bohemia')]
 ----------------------------

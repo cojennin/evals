@@ -110,6 +110,6 @@ SELECT COUNT(DISTINCT superhero.id) FROM superhero WHERE eye_colour_id = (SELECT
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(234,)]
 ----------------------------

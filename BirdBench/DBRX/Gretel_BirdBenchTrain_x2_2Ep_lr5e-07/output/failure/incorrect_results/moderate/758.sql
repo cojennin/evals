@@ -108,12 +108,12 @@ SELECT colour.colour FROM superhero INNER JOIN colour ON superhero.hair_colour_i
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Blond',), ('Brown',), ('Black',), ('Brown/White',), ('No Colour',)]
 ----------------------------

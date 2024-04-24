@@ -278,8 +278,4 @@ unrecognized token: "6.jumping"
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

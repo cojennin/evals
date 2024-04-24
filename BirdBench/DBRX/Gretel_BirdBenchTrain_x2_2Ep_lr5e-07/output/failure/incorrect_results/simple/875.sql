@@ -203,12 +203,12 @@ SELECT year FROM races WHERE raceId = 901;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2014,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('http://en.wikipedia.org/wiki/2014_Formula_One_season',)]
 ----------------------------

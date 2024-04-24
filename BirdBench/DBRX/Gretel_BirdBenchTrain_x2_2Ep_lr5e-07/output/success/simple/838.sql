@@ -110,6 +110,6 @@ SELECT full_name FROM superhero WHERE superhero_name = 'Alien';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Xenomorph',)]
 ----------------------------

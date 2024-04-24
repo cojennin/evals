@@ -205,6 +205,6 @@ SELECT q1 FROM qualifying WHERE driverId = (SELECT driverId FROM drivers WHERE s
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1:42.086',)]
 ----------------------------

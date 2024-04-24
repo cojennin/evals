@@ -174,12 +174,12 @@ SELECT c.artist, MAX(c.convertedManaCost) as max_cost FROM cards c WHERE c.side 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Richard Thomas', 1000000.0)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Richard Thomas',)]
 ----------------------------

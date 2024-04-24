@@ -276,6 +276,6 @@ SELECT t.team_short_name FROM Team_Attributes ta JOIN Team t ON ta.team_api_id =
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('AVL',), ('BIR',), ('BLA',), ('BOL',), ('BUR',), ('DAR',), ('ELC',), ('FCK',), ('LOD',), ('MID',), ('NEW',), ('REA',), ('MIR',), ('STK',), ('WHU',), ('WID',)]
 ----------------------------

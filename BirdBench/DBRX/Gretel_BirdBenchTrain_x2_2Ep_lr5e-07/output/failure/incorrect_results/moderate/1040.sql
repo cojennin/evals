@@ -274,12 +274,12 @@ SELECT Player.player_name, AVG(Player_Attributes.heading_accuracy) as avg_headin
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Michael Ballack', 91.8), ('Fernando Llorente', 91.52380952380952), ('John Terry', 91.33333333333333), ('Per Mertesacker', 90.26470588235294), ('Luca Toni', 90.26470588235294), ('Didier Drogba', 90.23529411764706), ('Miroslav Klose', 90.17647058823529), ('Daniel van Buyten', 90.17647058823529), ('Fernando Morientes', 89.8), ('Sami Hyypiae', 89.75)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Michael Ballack',), ('Fernando Llorente',), ('John Terry',), ('Naldo',), ('Per Mertesacker',), ('Luca Toni',), ('Didier Drogba',), ('Miroslav Klose',), ('Daniel van Buyten',), ('Fernando Morientes',)]
 ----------------------------

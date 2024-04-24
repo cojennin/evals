@@ -274,12 +274,12 @@ SELECT t.team_long_name, ta.buildUpPlaySpeed FROM Team t JOIN Team_Attributes ta
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('AC Arles-Avignon', 23), ('Arsenal', 25), ('FC Barcelona', 24), ('Getafe CF', 25), ('Real Sociedad', 24), ('FC Twente', 25), ('Valencia CF', 20), ('Valencia CF', 20), ('Villarreal CF', 20), ('Villarreal CF', 24), ('Wisła Kraków', 25)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(60,), (70,), (47,), (58,)]
 ----------------------------

@@ -129,8 +129,4 @@ no such column: s.HighGrade
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

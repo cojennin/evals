@@ -209,8 +209,4 @@ no such column: r.name
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

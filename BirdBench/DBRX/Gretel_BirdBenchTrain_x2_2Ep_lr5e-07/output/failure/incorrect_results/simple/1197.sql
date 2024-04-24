@@ -100,12 +100,12 @@ SELECT Description, Diagnosis FROM Patient WHERE ID = 48473;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('1997-08-13', 'SLE')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(None, 'SLE')]
 ----------------------------

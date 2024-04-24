@@ -121,12 +121,12 @@ SELECT MIN(trans.amount) FROM trans INNER JOIN account ON trans.account_id = acc
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(15,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(300,)]
 ----------------------------

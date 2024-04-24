@@ -205,6 +205,6 @@ SELECT COUNT(DISTINCT d.driverId) FROM drivers d JOIN results r ON d.driverId = 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(5,)]
 ----------------------------

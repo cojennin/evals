@@ -203,12 +203,12 @@ SELECT year, COUNT(*) as num_races FROM races GROUP BY year ORDER BY num_races D
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2016, 21)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2016,)]
 ----------------------------

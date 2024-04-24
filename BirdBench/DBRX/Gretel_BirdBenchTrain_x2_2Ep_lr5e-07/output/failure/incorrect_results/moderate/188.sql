@@ -121,12 +121,12 @@ SELECT a.account_id, a.date, l.amount FROM account a JOIN loan l ON a.account_id
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(6453, '1996-07-27', 10944)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(6453,)]
 ----------------------------

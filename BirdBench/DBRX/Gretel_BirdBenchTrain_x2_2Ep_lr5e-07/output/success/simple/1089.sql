@@ -276,6 +276,6 @@ SELECT COUNT(*) FROM Match WHERE season = '2008/2009' AND country_id = (SELECT i
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(306,)]
 ----------------------------

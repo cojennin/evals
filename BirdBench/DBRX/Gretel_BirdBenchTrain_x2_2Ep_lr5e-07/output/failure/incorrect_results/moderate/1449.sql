@@ -119,12 +119,12 @@ SELECT m.first_name, m.last_name, m.link_to_major FROM member m JOIN expense e O
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Sacha', 'Harrison', 'recCk8lCDOTRp6rKN'), ('Elijah', 'Allen', 'recObV24Ass2ouQHK'), ('Elijah', 'Allen', 'recObV24Ass2ouQHK'), ('Sacha', 'Harrison', 'recCk8lCDOTRp6rKN'), ('Elijah', 'Allen', 'recObV24Ass2ouQHK'), ('Sacha', 'Harrison', 'recCk8lCDOTRp6rKN')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Sacha', 'Harrison', 'Liberal Arts'), ('Elijah', 'Allen', 'Elementary Education')]
 ----------------------------

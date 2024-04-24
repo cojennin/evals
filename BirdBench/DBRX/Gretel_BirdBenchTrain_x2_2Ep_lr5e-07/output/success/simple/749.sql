@@ -110,6 +110,6 @@ SELECT superpower.power_name FROM superpower INNER JOIN hero_power ON superpower
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Agility',), ('Durability',), ('Intelligence',), ('Super Strength',), ('Stamina',), ('Super Speed',), ('Enhanced Memory',), ('Reflexes',), ('Vision - Telescopic',), ('Vision - Microscopic',), ('Vision - Infrared',)]
 ----------------------------

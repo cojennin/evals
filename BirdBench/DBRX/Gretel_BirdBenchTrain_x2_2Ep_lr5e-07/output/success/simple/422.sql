@@ -176,6 +176,6 @@ SELECT foreign_data.language FROM foreign_data WHERE foreign_data.multiverseid =
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('French',)]
 ----------------------------

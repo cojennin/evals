@@ -129,8 +129,4 @@ no such column: DistrictCode
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

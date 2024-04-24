@@ -52,6 +52,6 @@ SELECT atom.element FROM atom WHERE atom.atom_id = 'TR000_1';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('cl',)]
 ----------------------------

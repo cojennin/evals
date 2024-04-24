@@ -50,12 +50,12 @@ SELECT AVG(element = 'o') FROM atom WHERE atom_id IN (SELECT atom_id FROM connec
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.05533996963050447,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(116.65273311897106,)]
 ----------------------------

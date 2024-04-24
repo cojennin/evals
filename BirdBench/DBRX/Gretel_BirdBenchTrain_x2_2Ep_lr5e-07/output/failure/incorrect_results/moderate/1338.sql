@@ -119,12 +119,12 @@ SELECT expense.expense_id, expense.approved FROM expense WHERE expense.link_to_b
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('true',), ('true',), ('true',)]
 ----------------------------

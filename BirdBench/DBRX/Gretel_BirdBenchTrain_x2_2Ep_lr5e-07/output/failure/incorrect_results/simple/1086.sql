@@ -274,12 +274,12 @@ SELECT Player_Attributes.crossing FROM Player_Attributes WHERE Player_Attributes
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(52,), (52,), (52,), (52,), (52,), (51,), (51,), (51,), (51,), (51,), (51,), (51,), (51,), (51,), (51,), (51,), (41,), (41,), (47,), (47,), (47,), (47,), (47,), (47,)]
 ----------------------------

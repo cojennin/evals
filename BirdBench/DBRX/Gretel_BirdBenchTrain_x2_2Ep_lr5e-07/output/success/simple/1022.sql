@@ -276,6 +276,6 @@ SELECT preferred_foot FROM Player_Attributes WHERE potential = (SELECT MIN(poten
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('right',)]
 ----------------------------

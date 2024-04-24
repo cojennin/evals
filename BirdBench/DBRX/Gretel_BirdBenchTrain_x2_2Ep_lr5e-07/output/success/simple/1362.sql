@@ -121,6 +121,6 @@ SELECT COUNT(DISTINCT city) FROM zip_code WHERE county = 'Orange County' AND sta
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(7,)]
 ----------------------------

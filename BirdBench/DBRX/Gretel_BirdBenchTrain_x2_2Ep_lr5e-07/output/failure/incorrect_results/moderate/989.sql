@@ -203,12 +203,12 @@ SELECT drivers.forename, drivers.surname, results.time FROM drivers JOIN results
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Robert', 'Kubica', '1:36:24.227')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1:36:24.227',)]
 ----------------------------

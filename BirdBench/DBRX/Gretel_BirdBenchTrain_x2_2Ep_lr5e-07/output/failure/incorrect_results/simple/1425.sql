@@ -119,12 +119,12 @@ SELECT COUNT(*) FROM major WHERE department = 'School of Applied Sciences, Techn
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(21,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

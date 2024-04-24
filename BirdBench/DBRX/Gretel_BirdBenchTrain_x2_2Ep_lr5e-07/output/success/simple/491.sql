@@ -176,6 +176,6 @@ SELECT mcmName FROM sets WHERE releaseDate = '2017-06-09'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Commander Anthology',)]
 ----------------------------

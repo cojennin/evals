@@ -110,6 +110,6 @@ SELECT (SELECT weight_kg FROM superhero WHERE full_name = 'Emil Blonsky') - (SEL
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(351,)]
 ----------------------------

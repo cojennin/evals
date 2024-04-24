@@ -52,6 +52,6 @@ SELECT bond_type FROM bond WHERE bond_id = (SELECT bond_id FROM connected WHERE 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',), ('-',)]
 ----------------------------

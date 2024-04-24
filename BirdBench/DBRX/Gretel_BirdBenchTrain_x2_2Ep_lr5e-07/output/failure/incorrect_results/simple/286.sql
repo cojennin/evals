@@ -50,12 +50,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM molecule) as percentage FROM bon
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1.749271137026239,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.048469181678649324,)]
 ----------------------------

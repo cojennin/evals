@@ -121,6 +121,6 @@ SELECT budget.category FROM budget WHERE budget.budget_id IN (SELECT expense.lin
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Advertisement',)]
 ----------------------------

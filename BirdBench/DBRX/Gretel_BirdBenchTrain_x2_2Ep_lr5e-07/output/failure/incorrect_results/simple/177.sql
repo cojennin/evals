@@ -121,12 +121,12 @@ SELECT SUM(trans.amount) FROM trans WHERE trans.account_id = 4 AND trans.trans_i
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(15096, 'M')]
 ----------------------------

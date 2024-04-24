@@ -157,6 +157,6 @@ SELECT b.Name FROM badges b WHERE b.UserId = (SELECT u.Id FROM users u WHERE u.D
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Student',), ('Editor',), ('Autobiographer',), ('Critic',), ('Supporter',), ('Commentator',), ('Organizer',), ('Teacher',), ('Nice Question',), ('Beta',), ('Nice Answer',), ('Nice Answer',), ('Nice Question',), ('Taxonomist',), ('Quorum',), ('Popular Question',), ('Popular Question',), ('Nice Answer',), ('Good Answer',), ('Yearling',), ('Excavator',), ('Notable Question',), ('Notable Question',), ('Good Question',), ('Famous Question',), ('Yearling',), ('Good Question',), ('Favorite Question',), ('Famous Question',), ('Good Answer',), ('Yearling',), ('Yearling',)]
 ----------------------------

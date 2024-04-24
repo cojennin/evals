@@ -129,8 +129,4 @@ no such column: FRPMCount
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

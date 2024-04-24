@@ -157,6 +157,6 @@ SELECT u.DisplayName, u.Reputation FROM users u INNER JOIN posts p ON u.Id = p.O
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Hendy', 146)]
 ----------------------------

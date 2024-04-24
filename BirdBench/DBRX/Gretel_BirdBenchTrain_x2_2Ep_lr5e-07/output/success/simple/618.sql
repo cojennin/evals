@@ -157,6 +157,6 @@ SELECT users.Age FROM users INNER JOIN badges ON users.Id = badges.UserId WHERE 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(None,), (None,), (36,), (None,), (36,), (36,), (None,), (None,), (None,), (None,), (36,), (36,), (35,), (36,), (None,), (None,), (None,), (33,), (33,), (33,), (None,), (29,), (29,), (33,), (29,), (29,), (None,), (29,), (29,), (29,), (29,), (None,), (None,), (None,), (None,), (None,), (33,), (None,), (23,), (None,), (None,), (None,), (29,), (None,), (None,), (29,), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (None,), (33,), (33,), (33,), (33,), (33,), (33,), (36,), (33,), (None,), (None,), (None,), (None,), (None,), (40,), (36,), (33,), (33,), (None,), (29,), (None,), (33,), (None,), (29,), (None,), (33,), (None,), (None,), (None,), (34,), (None,), (None,), (33,), (28,), (None,), (22,), (None,), (29,), (None,), (None,), (None,), (28,), (28,), (None,), (None,)]
 ----------------------------

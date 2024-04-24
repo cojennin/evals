@@ -203,12 +203,12 @@ SELECT circuits.lat, circuits.lng FROM circuits WHERE circuits.name = 'Malaysian
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2.76083, 101.738)]
 ----------------------------

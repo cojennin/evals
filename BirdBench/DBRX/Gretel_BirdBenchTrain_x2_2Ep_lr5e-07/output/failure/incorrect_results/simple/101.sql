@@ -121,12 +121,12 @@ SELECT account_id, date FROM account WHERE date = (SELECT MIN(date) FROM account
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3006, '1995-01-01')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(9,)]
 ----------------------------

@@ -129,8 +129,4 @@ no such column: s.GSserved
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -174,12 +174,12 @@ SELECT artist FROM cards WHERE text = 'Das perfekte Gegenmittel zu einer dichten
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Matthew D. Wilson',)]
 ----------------------------

@@ -174,12 +174,12 @@ SELECT 1 FROM foreign_data WHERE name = 'Ancestor''s Chosen' AND language = 'Kor
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('YES',)]
 ----------------------------

@@ -174,12 +174,12 @@ SELECT c.name, f.language, f.flavorText, c.type FROM cards c INNER JOIN foreign_
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Japanese', 'ゼンディカーでは、今日の草原は明日の密林であり、狩場も天気と同じぐらいにすぐ変わってしまう。'), ('Japanese', '')]
 ----------------------------

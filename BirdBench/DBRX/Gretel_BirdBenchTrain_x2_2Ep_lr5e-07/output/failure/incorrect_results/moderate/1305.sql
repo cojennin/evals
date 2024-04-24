@@ -100,12 +100,12 @@ SELECT COUNT(*) FROM Patient WHERE Admission = '+' AND ID IN (SELECT ID FROM Lab
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(115,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3688,)]
 ----------------------------

@@ -52,6 +52,6 @@ SELECT COUNT(*) FROM connected c JOIN atom a ON c.atom_id = a.atom_id WHERE a.el
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(424,)]
 ----------------------------

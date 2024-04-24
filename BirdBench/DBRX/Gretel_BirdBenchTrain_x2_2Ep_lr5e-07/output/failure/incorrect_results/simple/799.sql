@@ -108,12 +108,12 @@ SELECT COUNT(DISTINCT s.id) as no_publisher_heroes FROM superhero s WHERE s.publ
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(17,)]
 ----------------------------

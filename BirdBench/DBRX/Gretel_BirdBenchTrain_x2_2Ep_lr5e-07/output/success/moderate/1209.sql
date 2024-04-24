@@ -102,6 +102,6 @@ SELECT Patient.Diagnosis FROM Patient INNER JOIN Laboratory ON Patient.ID = Labo
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Adult STILL',), ('PSS, RA susp',), ('PNc',), ('MRA, SJS',), ('RA, UC',), ('PSS',), ('AORTITIS',), ('PSS, PM',), ('PN',), ('',), ('Vasculitis',), ('BEHCET',), ('SLE, SJS',), ('SLE',), ('PM/DM',), ('RA',), ('ITP',), ('MRA',), ('Sweet',), ('RA, SJS, PM',), ('PM\x1dPSS\x1dRA',), ('SLE, APS',), ('PSS, SJS, PBC',), ('SLE, ITP',), ('SLE susp',), ('MCTD',), ('PN, AGA',), ('DM',), ('Psoriatic Arthritis',), ('SLE, PM',), ('PM',), ('collagen susp',), ('relapsing polychondritis',), ('DM, SJS, RA',), ('SJS',), ('RA,SJS',), ('MCTD, SJS',), ('DM (amyopathic)',)]
 ----------------------------

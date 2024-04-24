@@ -50,12 +50,12 @@ SELECT 19 as atom_id, COUNT(*) as connections FROM connected WHERE atom_id = 19 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(19, 0)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(498,)]
 ----------------------------

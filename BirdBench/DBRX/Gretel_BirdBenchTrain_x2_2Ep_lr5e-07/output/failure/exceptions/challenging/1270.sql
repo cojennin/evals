@@ -104,8 +104,4 @@ no such column: Examination.SC170
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

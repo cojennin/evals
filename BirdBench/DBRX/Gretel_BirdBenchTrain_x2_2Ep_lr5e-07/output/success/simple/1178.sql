@@ -102,6 +102,6 @@ SELECT SEX FROM Patient WHERE ID = (SELECT ID FROM Patient WHERE Diagnosis = 'AO
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('F',)]
 ----------------------------

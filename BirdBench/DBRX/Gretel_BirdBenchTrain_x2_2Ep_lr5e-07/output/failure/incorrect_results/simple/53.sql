@@ -125,12 +125,12 @@ SELECT COUNT(*) FROM satscores WHERE sname IN (SELECT sname FROM schools WHERE M
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(6,), (5,), (328,), (335,), (2216,), (74,), (8,), (113,), (10,), (334,), (0,), (104,), (0,), (421,), (0,), (368,), (144,), (211,), (212,), (217,), (0,), (0,), (0,), (0,), (0,), (368,), (0,), (368,), (114,), (0,), (1,), (113,)]
 ----------------------------

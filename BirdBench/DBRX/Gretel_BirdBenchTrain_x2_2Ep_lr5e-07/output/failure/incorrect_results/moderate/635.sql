@@ -155,12 +155,12 @@ SELECT COUNT(*) FROM posts WHERE Id IN (SELECT PostId FROM votes WHERE PostId > 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(5,), (5,), (5,), (5,), (5,), (5,), (5,), (5,), (5,), (5,), (5,), (5,)]
 ----------------------------

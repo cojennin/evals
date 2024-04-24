@@ -123,8 +123,4 @@ no such column: member.t_shirt_size
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

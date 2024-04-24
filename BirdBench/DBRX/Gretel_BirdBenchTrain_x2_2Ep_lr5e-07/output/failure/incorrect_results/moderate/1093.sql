@@ -274,12 +274,12 @@ SELECT AVG(overall_rating) FROM Player_Attributes WHERE player_api_id IN (SELECT
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(70.43160877779393,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(69,)]
 ----------------------------

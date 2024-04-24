@@ -71,6 +71,6 @@ SELECT gasstations.Country FROM gasstations WHERE gasstations.GasStationID = (SE
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('CZE',), ('CZE',)]
 ----------------------------

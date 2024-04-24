@@ -125,8 +125,4 @@ ambiguous column name: district_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

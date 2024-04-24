@@ -178,8 +178,4 @@ no such column: c.foreignData.language
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

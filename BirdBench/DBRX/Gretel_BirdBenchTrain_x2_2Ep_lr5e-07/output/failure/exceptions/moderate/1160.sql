@@ -104,8 +104,4 @@ no such column: TP
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

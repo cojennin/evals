@@ -276,6 +276,6 @@ SELECT COUNT(*) FROM Player_Attributes WHERE preferred_foot = 'left' AND attacki
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1569,)]
 ----------------------------

@@ -121,12 +121,12 @@ SELECT a.account_id, MAX(d.A11) - MIN(d.A11) as gap FROM account a JOIN client c
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(6, 0)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(6, 4431)]
 ----------------------------

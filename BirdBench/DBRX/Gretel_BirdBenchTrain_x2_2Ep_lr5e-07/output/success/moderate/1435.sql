@@ -121,6 +121,6 @@ SELECT event_name FROM event WHERE type = 'Game' AND status = 'Closed' AND event
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [("Women's Soccer",), ('Football game',)]
 ----------------------------

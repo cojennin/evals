@@ -274,12 +274,12 @@ SELECT Player.player_name, Player_Attributes.balance, Player_Attributes.potentia
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Tomasz Foszmanczyk',)]
 ----------------------------

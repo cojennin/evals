@@ -174,12 +174,12 @@ SELECT originalType FROM cards WHERE name = 'Ancestor''s Chosen'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Creature - Human Cleric',), (None,), ('Creature - Cleric',), ('Creature — Human Cleric',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Creature - Human Cleric',), ('Creature - Cleric',), ('Creature — Human Cleric',)]
 ----------------------------

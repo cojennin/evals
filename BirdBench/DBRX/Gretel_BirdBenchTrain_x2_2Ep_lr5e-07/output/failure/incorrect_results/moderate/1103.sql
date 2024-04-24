@@ -274,12 +274,12 @@ SELECT overall_rating FROM Player_Attributes WHERE player_fifa_api_id = (SELECT 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(75,)]
 ----------------------------

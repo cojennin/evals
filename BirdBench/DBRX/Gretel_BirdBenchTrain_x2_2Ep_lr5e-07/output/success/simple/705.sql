@@ -157,6 +157,6 @@ SELECT u.Reputation, u.UpVotes FROM users u INNER JOIN comments c ON u.Id = c.Us
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2316, 74)]
 ----------------------------

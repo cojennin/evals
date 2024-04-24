@@ -159,8 +159,4 @@ no such column: UserId
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

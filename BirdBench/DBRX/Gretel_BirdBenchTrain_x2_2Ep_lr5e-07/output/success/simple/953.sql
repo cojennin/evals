@@ -205,6 +205,6 @@ SELECT COUNT(DISTINCT c.constructorId) as num_constructors FROM constructors c J
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(11,)]
 ----------------------------

@@ -69,12 +69,12 @@ SELECT gs.Country, COUNT(*) as num_stations FROM gasstations gs JOIN (SELECT Gas
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('CZE', 214), ('SVK', 27)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('CZE', 597)]
 ----------------------------

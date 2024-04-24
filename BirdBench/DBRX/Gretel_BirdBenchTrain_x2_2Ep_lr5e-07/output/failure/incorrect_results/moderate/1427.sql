@@ -119,12 +119,12 @@ SELECT budget.category FROM budget WHERE budget.link_to_event IN (SELECT event.e
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Speaker Gifts',), ('Food',), ('Parking',), ('Advertisement',), ('Speaker Gifts',), ('Speaker Gifts',), ('Food',), ('Food',), ('Advertisement',), ('Speaker Gifts',), ('Food',), ('Advertisement',), ('Parking',), ('Parking',), ('Advertisement',), ('Parking',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Speaker Gifts', 'Guest Speaker'), ('Food', 'Guest Speaker'), ('Parking', 'Guest Speaker'), ('Advertisement', 'Guest Speaker')]
 ----------------------------

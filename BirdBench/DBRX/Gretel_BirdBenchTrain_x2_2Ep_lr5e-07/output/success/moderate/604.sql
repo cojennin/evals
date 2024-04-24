@@ -157,6 +157,6 @@ SELECT AVG(UpVotes) as Avg_UpVotes, AVG(Age) as Avg_Age FROM (SELECT UpVotes, Ag
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(182.2832618025751, 34.083333333333336)]
 ----------------------------

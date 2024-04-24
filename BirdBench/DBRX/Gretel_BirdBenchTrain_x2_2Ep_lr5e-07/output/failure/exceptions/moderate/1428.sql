@@ -123,8 +123,4 @@ no such column: member.city
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -73,8 +73,4 @@ no such column: c.Country
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

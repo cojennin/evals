@@ -104,8 +104,4 @@ no such column: Sex
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

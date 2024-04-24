@@ -119,12 +119,12 @@ SELECT e.event_name, SUM(b.spent) as total_spent FROM event e JOIN budget b ON e
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('April Speaker', 0.0), ('February Speaker', 0.0), ('January Speaker', 0.0), ('March Speaker', 0.0), ('November Speaker', 16.28), ('October Speaker', 13.45), ('September Speaker', 13.45)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(43.18, 'February Speaker')]
 ----------------------------

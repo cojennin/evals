@@ -102,6 +102,6 @@ SELECT COUNT(*) FROM Laboratory WHERE ID = (SELECT ID FROM Patient WHERE `First 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(12,)]
 ----------------------------

@@ -121,12 +121,12 @@ SELECT client_id FROM client WHERE gender = 'F' AND client_id IN (SELECT client_
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1,), (3,), (5,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(13,), (27,), (138,)]
 ----------------------------

@@ -121,6 +121,6 @@ SELECT member.last_name, member.position FROM member INNER JOIN expense ON membe
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Cullen', 'Vice President')]
 ----------------------------

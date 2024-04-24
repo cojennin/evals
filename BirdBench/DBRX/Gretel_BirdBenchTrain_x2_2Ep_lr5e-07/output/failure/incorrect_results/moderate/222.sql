@@ -50,12 +50,12 @@ SELECT 1 FROM molecule WHERE label = '+' EXCEPT SELECT 1 FROM molecule WHERE lab
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(-39,)]
 ----------------------------

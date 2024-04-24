@@ -203,12 +203,12 @@ SELECT races.name FROM races JOIN results ON races.raceId = results.raceId JOIN 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Australian Grand Prix',)]
 ----------------------------

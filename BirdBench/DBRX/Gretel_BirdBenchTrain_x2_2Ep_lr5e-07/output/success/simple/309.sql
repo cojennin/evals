@@ -52,6 +52,6 @@ SELECT a.atom_id, COUNT(DISTINCT b.bond_type) as bond_type_count FROM atom a JOI
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR346_1', 1), ('TR346_2', 1), ('TR346_3', 1), ('TR346_4', 1), ('TR346_5', 1), ('TR346_6', 1), ('TR346_7', 1), ('TR346_8', 1)]
 ----------------------------

@@ -104,8 +104,4 @@ ambiguous column name: ID
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

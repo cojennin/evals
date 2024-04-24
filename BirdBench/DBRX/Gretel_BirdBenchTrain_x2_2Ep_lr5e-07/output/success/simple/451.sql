@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM cards WHERE availability LIKE '%paper%' AND hand LIKE '+%';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

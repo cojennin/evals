@@ -54,8 +54,4 @@ no such column: subquery.molecule_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

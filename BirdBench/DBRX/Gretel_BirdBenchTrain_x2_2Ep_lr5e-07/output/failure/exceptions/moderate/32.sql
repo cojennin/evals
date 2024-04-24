@@ -129,8 +129,4 @@ no such column: s.CDSCode
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

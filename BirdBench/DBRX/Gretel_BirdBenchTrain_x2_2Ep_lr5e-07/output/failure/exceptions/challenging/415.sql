@@ -181,8 +181,4 @@ no such column: hasContentWarning
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

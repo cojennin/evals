@@ -125,8 +125,4 @@ no such column: amount
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

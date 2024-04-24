@@ -174,12 +174,12 @@ SELECT 1 FROM cards c JOIN legalities l ON c.uuid = l.uuid WHERE c.artist = 'Eri
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(15594,), (15943,), (30953,), (45195,), (45201,)]
 ----------------------------

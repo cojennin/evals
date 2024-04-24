@@ -125,12 +125,12 @@ SELECT s.Website FROM schools s WHERE s.AdmLName1 = 'Larson' OR s.AdmLName2 = 'A
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,), ('www.nusd.org',), ('http://acms.ttusd.org/pages/alder_creek_middle_school',), (None,), (None,), ('www.santeesd.net',), ('http://ripon.ca.rse.schoolinsites.com/',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('http://ripon.ca.rse.schoolinsites.com/',), ('http://ripona.ca.rse.schoolinsites.com/',)]
 ----------------------------

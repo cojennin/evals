@@ -50,12 +50,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM molecule) as percentage FROM ato
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(457.4344023323615,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(42.49729144095341,)]
 ----------------------------

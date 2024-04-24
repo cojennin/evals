@@ -274,12 +274,12 @@ SELECT Player_Attributes.player_api_id, MAX(Player_Attributes.crossing) FROM Pla
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(32578, 95), (30612, 95), (23916, 95), (30618, 94), (41888, 93)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(38921,), (38922,), (38923,), (38924,), (81218,)]
 ----------------------------

@@ -104,8 +104,4 @@ ambiguous column name: Diagnosis
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

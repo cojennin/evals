@@ -178,8 +178,4 @@ no such column: mcmName
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

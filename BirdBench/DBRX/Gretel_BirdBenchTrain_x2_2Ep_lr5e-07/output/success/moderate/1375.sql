@@ -121,6 +121,6 @@ SELECT m.first_name, m.last_name FROM member m INNER JOIN major ma ON m.link_to_
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Angela', 'Sanders'), ('Dean', "O'Reilly"), ('Edwardo', 'Ing'), ('Mccauley', 'Nash'), ('Brent', 'Thomason')]
 ----------------------------

@@ -203,12 +203,12 @@ SELECT COUNT(DISTINCT d.driverId) as num_italian_drivers FROM drivers d WHERE d.
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(61,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2911,)]
 ----------------------------

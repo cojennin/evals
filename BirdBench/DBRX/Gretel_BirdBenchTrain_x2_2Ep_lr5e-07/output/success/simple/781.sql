@@ -110,6 +110,6 @@ SELECT superhero.height_cm FROM superhero WHERE superhero.eye_colour_id = (SELEC
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(178,), (198,), (175,)]
 ----------------------------

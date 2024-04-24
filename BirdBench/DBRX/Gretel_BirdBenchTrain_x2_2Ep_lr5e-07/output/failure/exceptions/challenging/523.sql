@@ -178,8 +178,4 @@ misuse of aggregate function COUNT()
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

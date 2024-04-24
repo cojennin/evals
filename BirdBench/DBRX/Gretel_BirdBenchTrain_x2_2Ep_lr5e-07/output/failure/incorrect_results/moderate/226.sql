@@ -50,12 +50,12 @@ SELECT 100.0 * SUM(bond_type = ' = ') / COUNT(bond_id) as percent FROM bond WHER
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3.8461538461538463,)]
 ----------------------------

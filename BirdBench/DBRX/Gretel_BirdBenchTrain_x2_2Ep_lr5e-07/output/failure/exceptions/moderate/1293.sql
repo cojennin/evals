@@ -104,8 +104,4 @@ no such column: ANA
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

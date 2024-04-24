@@ -102,6 +102,6 @@ SELECT Patient.ID FROM Patient INNER JOIN Laboratory ON Patient.ID = Laboratory.
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(304157,), (4466840,), (4471732,), (4630092,), (4632519,), (4648912,)]
 ----------------------------

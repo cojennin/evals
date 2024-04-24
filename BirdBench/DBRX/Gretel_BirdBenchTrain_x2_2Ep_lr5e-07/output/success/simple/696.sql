@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM posts p JOIN tags t ON p.Id = t.ExcerptPostId WHERE t.TagNa
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

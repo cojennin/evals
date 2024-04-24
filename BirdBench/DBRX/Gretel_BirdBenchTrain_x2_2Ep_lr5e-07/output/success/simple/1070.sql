@@ -276,6 +276,6 @@ SELECT Country.name FROM Country INNER JOIN League ON Country.id = League.countr
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Italy',)]
 ----------------------------

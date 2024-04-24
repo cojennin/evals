@@ -100,12 +100,12 @@ SELECT Patient.Diagnosis FROM Patient INNER JOIN Laboratory ON Patient.ID = Labo
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('BEHCET',), ('SJS',), ('PMR',), ('RA',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('BEHCET',)]
 ----------------------------

@@ -203,12 +203,12 @@ SELECT constructorId, MAX(points) FROM constructorStandings;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(131, 765.0)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Mercedes',)]
 ----------------------------

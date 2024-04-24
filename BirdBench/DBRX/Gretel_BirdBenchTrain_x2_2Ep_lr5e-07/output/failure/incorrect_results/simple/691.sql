@@ -155,12 +155,12 @@ SELECT COUNT(DISTINCT users.Id) FROM users WHERE users.Age BETWEEN 19 AND 65 AND
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2,)]
 ----------------------------

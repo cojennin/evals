@@ -121,6 +121,6 @@ SELECT zip_code.county FROM zip_code, member WHERE member.zip = zip_code.zip_cod
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Hendricks County',)]
 ----------------------------

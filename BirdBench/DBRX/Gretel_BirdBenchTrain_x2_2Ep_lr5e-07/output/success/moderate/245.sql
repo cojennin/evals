@@ -52,6 +52,6 @@ SELECT AVG(bond_count) FROM (SELECT atom_id, COUNT(bond_id) as bond_count FROM c
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1.0,)]
 ----------------------------

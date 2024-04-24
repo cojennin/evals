@@ -207,8 +207,4 @@ no such column: surname
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -121,6 +121,6 @@ SELECT COUNT(*) FROM member WHERE t_shirt_size = 'X-Large' AND position = 'Membe
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4,)]
 ----------------------------

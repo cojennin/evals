@@ -104,8 +104,4 @@ near "IgA": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

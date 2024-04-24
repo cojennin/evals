@@ -157,6 +157,6 @@ SELECT Title FROM posts ORDER BY ViewCount DESC LIMIT 5;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('What is the meaning of p values and t values in statistical tests?',), ('How to choose between Pearson and Spearman correlation?',), ('How do I get the number of rows of a data.frame in R?',), ('How to interpret and report  eta squared / partial eta squared in statistically significant and non-significant analyses?',), ('How to interpret F- and p-value in ANOVA?',)]
 ----------------------------

@@ -174,12 +174,12 @@ SELECT COUNT(*) FROM cards WHERE borderColor = 'white' AND (power = '*' OR power
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2991,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2993,)]
 ----------------------------

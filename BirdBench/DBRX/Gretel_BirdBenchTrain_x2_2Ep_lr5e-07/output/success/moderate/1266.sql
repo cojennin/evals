@@ -102,6 +102,6 @@ SELECT Patient.Birthday FROM Patient WHERE Patient.ID IN (SELECT Laboratory.ID F
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1989-08-28',)]
 ----------------------------

@@ -157,6 +157,6 @@ SELECT c.Score FROM comments c WHERE c.CreationDate = '2010-07-19 19:19:56.0'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(11,)]
 ----------------------------

@@ -174,12 +174,12 @@ SELECT c.name, l.status FROM cards c JOIN legalities l ON c.uuid = l.uuid WHERE 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Crusade', 'Banned'), ('Crusade', 'Banned')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Banned',)]
 ----------------------------

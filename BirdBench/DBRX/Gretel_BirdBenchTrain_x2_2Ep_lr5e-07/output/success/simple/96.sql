@@ -123,6 +123,6 @@ SELECT COUNT(*) FROM client c JOIN disp d ON c.client_id = d.client_id JOIN acco
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

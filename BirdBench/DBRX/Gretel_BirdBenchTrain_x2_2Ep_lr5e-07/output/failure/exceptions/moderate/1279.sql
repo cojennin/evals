@@ -104,8 +104,4 @@ no such column: Diagnosis
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

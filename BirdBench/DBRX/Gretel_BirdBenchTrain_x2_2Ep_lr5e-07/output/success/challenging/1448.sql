@@ -121,6 +121,6 @@ SELECT event_name, event_date FROM event WHERE event_id IN (SELECT link_to_event
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('September Meeting', '2019-09-10T12:00:00'), ('October Speaker', '2019-10-22T12:00:00'), ('November Speaker', '2019-11-19T12:00:00'), ('October Meeting', '2019-10-08T12:00:00')]
 ----------------------------

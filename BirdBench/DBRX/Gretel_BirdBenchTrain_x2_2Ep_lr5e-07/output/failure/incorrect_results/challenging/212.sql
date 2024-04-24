@@ -50,12 +50,12 @@ SELECT element, COUNT(*) as count FROM atom WHERE molecule_id IN (SELECT molecul
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('ca', 1)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('ca',), ('i',), ('k',), ('pb',)]
 ----------------------------

@@ -110,6 +110,6 @@ SELECT superpower.power_name FROM  superpower INNER JOIN  hero_power ON superpow
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Flight',), ('Super Strength',), ('Size Changing',), ('Density Control',), ('Gliding',)]
 ----------------------------

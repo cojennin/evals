@@ -121,6 +121,6 @@ SELECT zip_code.state FROM member INNER JOIN zip_code ON member.zip = zip_code.z
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('New Jersey',)]
 ----------------------------

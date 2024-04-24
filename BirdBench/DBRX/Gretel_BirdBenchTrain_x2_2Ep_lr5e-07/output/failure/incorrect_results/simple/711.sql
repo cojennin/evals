@@ -155,12 +155,12 @@ SELECT COUNT(DISTINCT users.Id) FROM users INNER JOIN comments ON users.Id = com
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(31,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1975,)]
 ----------------------------

@@ -205,6 +205,6 @@ SELECT drivers.forename, drivers.surname FROM drivers, lapTimes WHERE drivers.dr
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Sebastian', 'Vettel')]
 ----------------------------

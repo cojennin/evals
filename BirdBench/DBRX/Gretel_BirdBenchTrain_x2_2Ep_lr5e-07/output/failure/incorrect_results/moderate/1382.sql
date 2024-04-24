@@ -119,12 +119,12 @@ SELECT m.member_id, m.first_name, m.last_name FROM member m JOIN attendance a ON
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('recUdRhbhcEO1Hk5r', 'Amy', 'Firth')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Amy', 'Firth')]
 ----------------------------

@@ -123,8 +123,4 @@ unrecognized token: "2019_spent"
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

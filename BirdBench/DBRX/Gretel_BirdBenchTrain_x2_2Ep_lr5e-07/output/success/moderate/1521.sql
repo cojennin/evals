@@ -71,6 +71,6 @@ SELECT COUNT(*) FROM transactions_1k WHERE Time BETWEEN '08:00:00' AND '09:00:00
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(14,)]
 ----------------------------

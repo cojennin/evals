@@ -52,6 +52,6 @@ SELECT COUNT(*) FROM atom WHERE element IN ('c', 'h')
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(10123,)]
 ----------------------------

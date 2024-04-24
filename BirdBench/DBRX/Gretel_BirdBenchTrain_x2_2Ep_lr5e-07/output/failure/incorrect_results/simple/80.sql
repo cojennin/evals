@@ -125,12 +125,12 @@ SELECT s.School, s.Latitude FROM schools s WHERE s.Latitude = (SELECT MAX(s2.Lat
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Leggett Valley High', 44.219305), ('Leggett Valley Elementary', 44.219305)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('High Schools (Public)', 'Leggett Valley High', 44.219305)]
 ----------------------------

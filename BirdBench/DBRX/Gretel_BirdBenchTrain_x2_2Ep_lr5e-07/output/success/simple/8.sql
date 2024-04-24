@@ -127,6 +127,6 @@ SELECT satscores.NumTstTakr FROM satscores INNER JOIN (SELECT CDSCode FROM frpm 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(459,)]
 ----------------------------

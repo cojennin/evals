@@ -104,8 +104,4 @@ no such column: Patient.Thrombosis
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

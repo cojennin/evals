@@ -121,6 +121,6 @@ SELECT member.phone FROM member WHERE member.first_name = 'Carlo' AND member.las
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('928-555-2577',)]
 ----------------------------

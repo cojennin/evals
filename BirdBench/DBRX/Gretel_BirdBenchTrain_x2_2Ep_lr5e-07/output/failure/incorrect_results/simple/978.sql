@@ -203,12 +203,12 @@ SELECT COUNT(*) as count, circuits.location, circuits.lat, circuits.lng FROM cir
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2, 'Spielburg', 47.2197, 14.7647), (1, 'Styria', 47.2039, 14.7478)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Spielburg', 47.2197, 14.7647), ('Styria', 47.2039, 14.7478)]
 ----------------------------

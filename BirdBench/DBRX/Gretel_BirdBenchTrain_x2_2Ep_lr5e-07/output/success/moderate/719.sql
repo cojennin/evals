@@ -110,6 +110,6 @@ SELECT COUNT(*) FROM superhero WHERE id IN (SELECT hero_id FROM hero_power WHERE
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(56,)]
 ----------------------------

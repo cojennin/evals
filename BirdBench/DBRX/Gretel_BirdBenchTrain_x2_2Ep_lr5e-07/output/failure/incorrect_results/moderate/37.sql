@@ -125,12 +125,12 @@ SELECT Street, City, Zip, State FROM schools WHERE CDSCode = (SELECT cds FROM sa
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1111 Van Ness Avenue', 'Fresno', '93721-2002', 'CA')]
 ----------------------------

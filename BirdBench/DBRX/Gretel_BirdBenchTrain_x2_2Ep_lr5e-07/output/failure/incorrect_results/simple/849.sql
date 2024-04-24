@@ -203,12 +203,12 @@ SELECT url FROM races WHERE name = 'Circuit de Barcelona-Catalunya'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya',)]
 ----------------------------

@@ -203,12 +203,12 @@ SELECT 100.0 * (SUM(lapTimes.time) - (SELECT SUM(lapTimes.time) FROM lapTimes WH
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.31555732286030097,)]
 ----------------------------

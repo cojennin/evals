@@ -174,12 +174,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM cards WHERE layout = 'normal') a
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.2094488762612465,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.20238639963394459,)]
 ----------------------------

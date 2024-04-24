@@ -121,6 +121,6 @@ SELECT member.phone FROM member INNER JOIN major ON member.link_to_major = major
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('(651) 928-4507',)]
 ----------------------------

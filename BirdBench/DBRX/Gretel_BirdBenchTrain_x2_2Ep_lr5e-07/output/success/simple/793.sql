@@ -110,6 +110,6 @@ SELECT COUNT(*) FROM superhero WHERE race_id = 21 AND gender_id = 1;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(17,)]
 ----------------------------

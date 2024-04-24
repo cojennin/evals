@@ -155,12 +155,12 @@ SELECT Name FROM badges WHERE Date = '2010-07-19 19:39:08'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Student',), ('Student',), ('Student',), ('Student',), ('Student',), ('Student',), ('Student',), ('Student',), ('Editor',), ('Editor',), ('Organizer',), ('Organizer',), ('Organizer',)]
 ----------------------------

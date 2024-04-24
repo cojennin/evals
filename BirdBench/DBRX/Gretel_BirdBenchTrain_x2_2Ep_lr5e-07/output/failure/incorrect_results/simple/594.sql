@@ -155,12 +155,12 @@ SELECT u.Reputation, u.DisplayName FROM users u INNER JOIN posts p ON u.Id = p.O
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(6764, 'csgillespie')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(8, 6764)]
 ----------------------------

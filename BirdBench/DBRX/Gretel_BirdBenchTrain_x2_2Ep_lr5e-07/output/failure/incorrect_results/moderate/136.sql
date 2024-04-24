@@ -121,12 +121,12 @@ SELECT COUNT(*) FROM loan WHERE amount >= 250000 AND status = 'approved' AND acc
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(65,)]
 ----------------------------

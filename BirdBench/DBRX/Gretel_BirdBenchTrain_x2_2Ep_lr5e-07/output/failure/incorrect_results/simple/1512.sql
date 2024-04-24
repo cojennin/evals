@@ -69,12 +69,12 @@ SELECT c.CustomerID, SUM(t.Price) as TotalPrice FROM customers c INNER JOIN tran
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(19182, 6287.699999999999)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(19182,)]
 ----------------------------

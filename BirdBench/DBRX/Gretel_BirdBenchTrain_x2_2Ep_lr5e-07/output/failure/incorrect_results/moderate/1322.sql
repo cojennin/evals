@@ -119,12 +119,12 @@ SELECT COUNT(event_id) FROM event WHERE event_id IN (SELECT link_to_event FROM a
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(4,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(109,)]
 ----------------------------

@@ -121,6 +121,6 @@ SELECT event_name FROM event WHERE event_id = (SELECT link_to_event FROM budget 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Yearly Kickoff',)]
 ----------------------------

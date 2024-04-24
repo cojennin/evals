@@ -174,12 +174,12 @@ SELECT c.name, c.originalReleaseDate, l.format FROM cards c JOIN legalities l ON
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2009/4/25', 'commander')]
 ----------------------------

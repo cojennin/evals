@@ -121,6 +121,6 @@ SELECT COUNT(*) FROM income WHERE amount = 50;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(33,)]
 ----------------------------

@@ -102,6 +102,6 @@ SELECT AVG(Laboratory.LDH) FROM Laboratory WHERE Laboratory.LDH < 500;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(262.36002396166134,)]
 ----------------------------

@@ -119,12 +119,12 @@ SELECT m.first_name, m.last_name FROM member m WHERE m.zip IN (SELECT z.zip_code
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Trent', 'Smith'), ('Tyler', 'Hewitt'), ('Annabella', 'Warren')]
 ----------------------------

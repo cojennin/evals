@@ -276,6 +276,6 @@ SELECT team_long_name FROM Team WHERE team_short_name = 'GEN';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('KRC Genk',), ('KAA Gent',), ('Genoa',)]
 ----------------------------

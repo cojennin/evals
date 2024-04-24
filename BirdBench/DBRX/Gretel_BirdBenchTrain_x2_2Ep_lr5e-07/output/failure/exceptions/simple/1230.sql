@@ -104,8 +104,4 @@ no such column: Admission
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

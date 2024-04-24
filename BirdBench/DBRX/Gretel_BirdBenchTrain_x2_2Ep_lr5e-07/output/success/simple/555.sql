@@ -157,6 +157,6 @@ SELECT AVG(Score) FROM posts WHERE OwnerUserId IN (SELECT Id FROM users WHERE Di
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(9.0,)]
 ----------------------------

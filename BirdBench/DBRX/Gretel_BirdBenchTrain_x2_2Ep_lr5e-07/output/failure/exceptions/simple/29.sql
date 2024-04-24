@@ -129,8 +129,4 @@ no such column: enroll12
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -157,6 +157,6 @@ SELECT p.Id, p.Title FROM posts p WHERE p.OwnerUserId = (SELECT u.Id FROM users 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(109, "Power of Holm's multiple comparison testing compared to others")]
 ----------------------------

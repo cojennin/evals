@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM badges WHERE Name = 'Revival'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1018,)]
 ----------------------------

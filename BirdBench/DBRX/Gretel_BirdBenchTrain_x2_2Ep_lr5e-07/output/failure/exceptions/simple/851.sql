@@ -207,8 +207,4 @@ no such column: position
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -125,12 +125,12 @@ SELECT AdmEmail1 FROM schools WHERE County = 'San Bernardino' AND District = 'Sa
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('a.lucero@realjourney.org',)]
 ----------------------------

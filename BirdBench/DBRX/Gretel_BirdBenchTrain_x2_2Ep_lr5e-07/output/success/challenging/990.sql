@@ -205,6 +205,6 @@ SELECT c.constructorRef, c.url FROM constructors c JOIN results r ON c.construct
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('mclaren', 'http://en.wikipedia.org/wiki/McLaren')]
 ----------------------------

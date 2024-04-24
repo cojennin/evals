@@ -203,12 +203,12 @@ SELECT circuits.country, MAX(circuits.alt) FROM circuits;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Azerbaijan', None)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Malaysia',)]
 ----------------------------

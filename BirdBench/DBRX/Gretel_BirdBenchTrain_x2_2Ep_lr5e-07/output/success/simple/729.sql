@@ -110,6 +110,6 @@ SELECT AVG(height_cm) FROM superhero WHERE publisher_id = (SELECT id FROM publis
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(347.9590163934426,)]
 ----------------------------

@@ -71,6 +71,6 @@ SELECT COUNT(*) FROM transactions_1k WHERE GasStationID IN (SELECT GasStationID 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(56,)]
 ----------------------------

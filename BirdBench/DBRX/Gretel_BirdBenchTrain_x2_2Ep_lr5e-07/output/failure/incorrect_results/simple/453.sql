@@ -174,12 +174,12 @@ SELECT 1 FROM cards WHERE name = 'Ancestor`s Chosen'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('{5}{W}{W}',)]
 ----------------------------

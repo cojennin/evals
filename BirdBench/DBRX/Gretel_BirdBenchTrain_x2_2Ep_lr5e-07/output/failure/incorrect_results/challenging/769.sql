@@ -108,12 +108,12 @@ SELECT s.superhero_name FROM superhero s JOIN hero_attribute ha ON s.id = ha.her
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Dash',)]
 ----------------------------

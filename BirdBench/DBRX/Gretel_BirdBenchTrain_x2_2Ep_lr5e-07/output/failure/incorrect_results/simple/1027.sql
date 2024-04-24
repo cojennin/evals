@@ -274,12 +274,12 @@ SELECT Player.player_name, Player_Attributes.penalties FROM Player INNER JOIN Pl
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Rickie Lambert', 96), ('Rickie Lambert', 96), ('Rickie Lambert', 96), ('Rickie Lambert', 96), ('Andrea Pirlo', 95), ('Andrea Pirlo', 95), ('Mario Balotelli', 95), ('Mario Balotelli', 95), ('Mario Balotelli', 95), ('Mario Balotelli', 95)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Emanuel Rivas',), ('Emanuel Sarki',), ('Emanuele Belardi',), ('Emanuele Calaio',), ('Jesus Datolo',), ('Jesus Fernandez',), ('Jesus Gamez',), ('Moritz Hartmann',), ('Moritz Leitner',), ('Manu Lanzarote',)]
 ----------------------------

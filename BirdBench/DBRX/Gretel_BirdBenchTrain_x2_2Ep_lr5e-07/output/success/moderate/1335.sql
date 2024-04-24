@@ -121,6 +121,6 @@ SELECT SUM(budget.spent) FROM budget WHERE budget.category = 'Advertisement' AND
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(54.25,)]
 ----------------------------

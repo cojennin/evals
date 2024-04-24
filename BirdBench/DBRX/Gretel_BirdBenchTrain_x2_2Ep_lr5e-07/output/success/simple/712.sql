@@ -157,6 +157,6 @@ SELECT p.Id, c.Text FROM posts p JOIN comments c ON p.Id = c.PostId WHERE p.Titl
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(203, 'A related question: People often use the nonparametric Mann-Whitney test for this kind of data. Since there are only five possible values, there will be lots of tied ranks. The Mann-Whitney test adjusts for tied ranks, but does this adjustment work when there are a huge number of ties?'), (203, 'You may be interested in this recent article published in PARE, *Five-Point Likert Items: t test versus Mann-Whitney-Wilcoxon*, http://j.mp/biLWrA.')]
 ----------------------------

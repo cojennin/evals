@@ -50,12 +50,12 @@ SELECT b.bond_type, m.label FROM bond b JOIN connected c ON b.bond_id = c.bond_i
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',)]
 ----------------------------

@@ -127,6 +127,6 @@ SELECT s.Phone, s.Ext, s.School FROM schools s WHERE s.Zip = '95203-3704'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('(209) 933-7470', '2222', 'Spanos (Alex G.) Elementary')]
 ----------------------------

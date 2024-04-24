@@ -208,8 +208,4 @@ no such column: r.driverId
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

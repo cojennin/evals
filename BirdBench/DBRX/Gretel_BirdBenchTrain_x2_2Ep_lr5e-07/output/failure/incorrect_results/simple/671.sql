@@ -155,12 +155,12 @@ SELECT u.DisplayName FROM users u JOIN badges b ON u.Id = b.UserId WHERE b.Name 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Geoff Dalgas',), ('Jarrod Dixon',), ('Vince',), ('csgillespie',), ('Pierre',), ('wahalulu',), ('Jin',), ('Sharpie',), ('grokus',), ('Noah Snyder',), ('balpha',), ('JD Long',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Geoff Dalgas',)]
 ----------------------------

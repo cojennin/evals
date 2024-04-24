@@ -203,12 +203,12 @@ SELECT c.url, c.name, MAX(cr.points) as max_points FROM constructors c JOIN cons
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('http://en.wikipedia.org/wiki/ATS_(wheels)', 'ATS', 2.0), ('http://en.wikipedia.org/wiki/Alfa_Romeo_(Formula_One)', 'Alfa Romeo', 6.0), ('http://en.wikipedia.org/wiki/Andrea_Moda_Formula', 'Andrea Moda', 0.0), ('http://en.wikipedia.org/wiki/Behra-Porsche', 'Behra-Porsche', 0.0), ('http://en.wikipedia.org/wiki/Benetton_Formula', 'Benetton', 16.0), ('http://en.wikipedia.org/wiki/Enzo_Coloni_Racing_Car_Systems', 'Coloni', 0.0), ('http://en.wikipedia.org/wiki/Dallara', 'Dallara', 5.0), ('http://en.wikipedia.org/wiki/De_Tomaso', 'De Tomaso', 0.0), ('http://en.wikipedia.org/wiki/De_Tomaso', 'De Tomaso-Alfa Romeo', 0.0), ('http://en.wikipedia.org/wiki/De_Tomaso', 'De Tomaso-Ferrari', 0.0), ('http://en.wikipedia.org/wiki/De_Tomaso', 'De Tomaso-Osca', 0.0), ('http://en.wikipedia.org/wiki/Euro_Brun', 'Euro Brun', 0.0), ('http://en.wikipedia.org/wiki/Scuderia_Ferrari', 'Ferrari', 43.0), ('http://en.wikipedia.org/wiki/Fondmetal', 'Fondmetal', 0.0), ('http://en.wikipedia.org/wiki/Forti', 'Forti', 0.0), ('http://en.wikipedia.org/wiki/Modena_(racing_team)', 'Lambo', 0.0), ('http://en.wikipedia.org/wiki/Life_(Racing_Team)', 'Life', 0.0), ('http://en.wikipedia.org/wiki/Maserati', 'Maserati', 15.0), ('http://en.wikipedia.org/wiki/Merzario', 'Merzario', 0.0), ('http://en.wikipedia.org/wiki/Minardi', 'Minardi', 7.0), ('http://en.wikipedia.org/wiki/Officine_Specializate_Costruzione_Automobili', 'OSCA', 0.0), ('http://en.wikipedia.org/wiki/Osella', 'Osella', 3.0), ('http://en.wikipedia.org/wiki/Tec-Mec', 'Tec-Mec', 0.0), ('http://en.wikipedia.org/wiki/Tecno', 'Tecno', 1.0), ('http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso', 'Toro Rosso', 18.0)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('http://en.wikipedia.org/wiki/Scuderia_Ferrari',)]
 ----------------------------

@@ -205,6 +205,6 @@ SELECT name FROM circuits WHERE circuitId = (SELECT circuitId FROM races WHERE n
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Circuit de Barcelona-Catalunya',)]
 ----------------------------

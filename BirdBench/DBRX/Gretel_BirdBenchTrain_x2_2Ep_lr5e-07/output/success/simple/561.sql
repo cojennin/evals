@@ -157,6 +157,6 @@ SELECT posts.Title FROM posts INNER JOIN comments ON posts.Id = comments.PostId 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Detecting a given face in a database of facial images',)]
 ----------------------------

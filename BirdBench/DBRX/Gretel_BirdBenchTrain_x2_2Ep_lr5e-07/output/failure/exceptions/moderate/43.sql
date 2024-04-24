@@ -129,8 +129,4 @@ no such column: County
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

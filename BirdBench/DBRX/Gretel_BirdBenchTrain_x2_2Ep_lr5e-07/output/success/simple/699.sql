@@ -157,6 +157,6 @@ SELECT CreationDate FROM users WHERE DisplayName = 'IrishStat';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2011-02-23 13:29:56.0',)]
 ----------------------------

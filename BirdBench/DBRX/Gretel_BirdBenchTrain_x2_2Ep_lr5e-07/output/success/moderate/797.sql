@@ -110,6 +110,6 @@ SELECT s.superhero_name FROM superhero s WHERE s.eye_colour_id = 7 AND s.hair_co
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Atlas',), ('Atlas',), ('Big Man',), ('Bloodaxe',), ('Blue Beetle',), ('Blue Beetle II',), ('Captain Epic',), ('Chewbacca',), ('Fabian Cortez',), ('Gravity',), ('Hawkman',), ('Hercules',), ('Jack-Jack',), ('Mister Knife',), ('Molecule Man',), ('Multiple Man',), ('Rick Flag',), ('Scarecrow',), ('Scarlet Witch',), ('Spider-Girl',), ('Toxin',), ('X-Man',)]
 ----------------------------

@@ -155,12 +155,12 @@ SELECT LastEditorDisplayName FROM posts WHERE Title = 'Open source tools for vis
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Paul',)]
 ----------------------------

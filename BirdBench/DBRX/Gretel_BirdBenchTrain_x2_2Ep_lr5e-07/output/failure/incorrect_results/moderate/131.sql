@@ -121,12 +121,12 @@ SELECT district_id, COUNT(*) as active_loans FROM account WHERE frequency = 'mon
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('south Moravia',)]
 ----------------------------

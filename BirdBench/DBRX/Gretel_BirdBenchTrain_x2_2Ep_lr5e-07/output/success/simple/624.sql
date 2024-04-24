@@ -157,6 +157,6 @@ SELECT users.DisplayName FROM users WHERE users.Id = 30;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('gappy',)]
 ----------------------------

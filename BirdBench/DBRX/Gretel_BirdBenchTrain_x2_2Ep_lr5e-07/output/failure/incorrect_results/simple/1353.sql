@@ -119,12 +119,12 @@ SELECT zip_code.type FROM zip_code WHERE zip_code.zip_code = (SELECT member.zip 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Standard',)]
 ----------------------------

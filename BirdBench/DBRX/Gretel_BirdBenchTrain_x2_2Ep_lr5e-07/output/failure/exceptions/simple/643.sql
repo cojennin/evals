@@ -160,8 +160,4 @@ Function execute_sql (args=('SELECT users.DisplayName, users.Age FROM users WHER
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

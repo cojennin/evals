@@ -157,6 +157,6 @@ SELECT 100.0 * COUNT(DISTINCT CASE WHEN p.OwnerUserId IN (SELECT Id FROM users W
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.0,)]
 ----------------------------

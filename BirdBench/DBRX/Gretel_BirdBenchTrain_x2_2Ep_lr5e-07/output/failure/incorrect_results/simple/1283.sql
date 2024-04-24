@@ -100,12 +100,12 @@ SELECT COUNT(*) FROM Patient WHERE ID IN (SELECT ID FROM Laboratory WHERE GOT < 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(45,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1924,)]
 ----------------------------

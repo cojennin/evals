@@ -121,6 +121,6 @@ SELECT m.first_name, m.last_name FROM member m WHERE m.zip = (SELECT z.zip_code 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Grant', 'Gilmour')]
 ----------------------------

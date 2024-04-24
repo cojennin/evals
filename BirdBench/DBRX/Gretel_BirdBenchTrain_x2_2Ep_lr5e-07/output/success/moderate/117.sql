@@ -123,6 +123,6 @@ SELECT 100.0 * SUM(CASE WHEN status = 'A' THEN amount ELSE 0 END) / SUM(amount) 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(18.01559415907576,)]
 ----------------------------

@@ -203,12 +203,12 @@ SELECT COUNT(*) FROM results WHERE raceId = (SELECT raceId FROM races WHERE date
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(19,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(11,)]
 ----------------------------

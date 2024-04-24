@@ -205,12 +205,12 @@ SELECT circuits.name, circuits.location, circuits.country FROM circuits INNER JO
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Yas Marina Circuit', 'Abu Dhabi', 'UAE')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Abu Dhabi',)]
 ----------------------------

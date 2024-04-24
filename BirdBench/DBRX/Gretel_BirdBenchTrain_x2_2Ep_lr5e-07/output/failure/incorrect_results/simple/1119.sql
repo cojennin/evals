@@ -274,12 +274,12 @@ SELECT SUM(home_team_goal) FROM Match WHERE home_player_1 = (SELECT player_api_i
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(135,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(10,)]
 ----------------------------

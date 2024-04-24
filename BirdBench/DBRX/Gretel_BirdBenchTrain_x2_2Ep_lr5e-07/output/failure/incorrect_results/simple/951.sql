@@ -203,12 +203,12 @@ SELECT COUNT(DISTINCT c.constructorId) as num_constructors FROM constructors c J
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2,)]
 ----------------------------

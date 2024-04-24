@@ -125,12 +125,12 @@ SELECT AdmFName1, AdmLName1 FROM schools s JOIN satscores ss ON s.CDSCode = ss.c
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Michelle', 'King', None, None, None, None)]
 ----------------------------

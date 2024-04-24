@@ -157,6 +157,6 @@ SELECT MIN(CreationDate) FROM votes WHERE UserId = (SELECT Id FROM users WHERE D
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2010-08-13',)]
 ----------------------------

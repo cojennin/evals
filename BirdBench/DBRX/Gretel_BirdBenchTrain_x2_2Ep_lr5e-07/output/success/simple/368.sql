@@ -176,6 +176,6 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM cards) as percentage FROM cards 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.42413149836331,)]
 ----------------------------

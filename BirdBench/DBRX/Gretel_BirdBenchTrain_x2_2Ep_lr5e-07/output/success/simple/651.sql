@@ -157,6 +157,6 @@ SELECT p.Title FROM posts p WHERE p.Id = (SELECT pl.RelatedPostId FROM postLinks
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Time series for count data, with counts < 20',)]
 ----------------------------

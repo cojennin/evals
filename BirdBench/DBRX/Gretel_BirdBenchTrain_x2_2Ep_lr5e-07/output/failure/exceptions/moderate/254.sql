@@ -54,8 +54,4 @@ no such column: atom_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

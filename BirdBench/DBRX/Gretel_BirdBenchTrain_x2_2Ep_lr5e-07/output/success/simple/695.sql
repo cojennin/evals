@@ -157,6 +157,6 @@ SELECT COUNT(DISTINCT UserId) FROM badges WHERE Name = 'Citizen Patrol'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(656,)]
 ----------------------------

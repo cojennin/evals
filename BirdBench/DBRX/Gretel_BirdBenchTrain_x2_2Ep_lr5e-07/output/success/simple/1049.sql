@@ -277,6 +277,6 @@ SELECT COUNT(*) FROM Match WHERE season = '2015/2016' AND league_id IN (SELECT i
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(228,)]
 ----------------------------

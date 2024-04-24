@@ -71,6 +71,6 @@ SELECT customers.Segment FROM customers WHERE customers.CustomerID = (SELECT tra
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('KAM',)]
 ----------------------------

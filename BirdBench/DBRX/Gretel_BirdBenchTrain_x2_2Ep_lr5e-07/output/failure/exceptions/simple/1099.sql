@@ -278,8 +278,4 @@ no such column: preferred_foot
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -73,8 +73,4 @@ no such column: t.Currency
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

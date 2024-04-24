@@ -108,12 +108,12 @@ SELECT s.superhero_name, s.alignment_id, hp.power_id FROM superhero s INNER JOIN
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Atom IV', 1, 17)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Intelligence',)]
 ----------------------------

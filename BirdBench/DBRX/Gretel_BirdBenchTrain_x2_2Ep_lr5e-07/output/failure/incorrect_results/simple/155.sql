@@ -121,12 +121,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM card) as percent FROM card WHERE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(7.900677200902934,)]
 ----------------------------

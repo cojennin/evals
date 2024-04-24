@@ -203,12 +203,12 @@ SELECT circuits.location, circuits.lat, circuits.lng FROM circuits WHERE circuit
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(-34.9272, 138.617)]
 ----------------------------

@@ -50,12 +50,12 @@ SELECT atom_id, atom_id2 FROM connected WHERE bond_id = 'TR_000_2_5'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR000_2',), ('TR000_5',)]
 ----------------------------

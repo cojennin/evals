@@ -125,6 +125,6 @@ WHERE e.event_name = 'Women''s Soccer' AND m.t_shirt_size = 'Medium'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(7,)]
 ----------------------------

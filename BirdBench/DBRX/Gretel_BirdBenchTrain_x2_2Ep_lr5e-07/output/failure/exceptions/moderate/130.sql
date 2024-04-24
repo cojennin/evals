@@ -125,8 +125,4 @@ no such column: c.account_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

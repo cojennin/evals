@@ -121,12 +121,12 @@ SELECT COUNT(*) FROM account WHERE district_id IN (SELECT district_id FROM distr
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(84,)]
 ----------------------------

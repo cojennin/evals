@@ -123,8 +123,4 @@ no such column: m.first_name
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

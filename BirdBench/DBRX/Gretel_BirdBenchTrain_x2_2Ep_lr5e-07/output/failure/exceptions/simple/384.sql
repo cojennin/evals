@@ -178,8 +178,4 @@ no such column: c.legalities
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

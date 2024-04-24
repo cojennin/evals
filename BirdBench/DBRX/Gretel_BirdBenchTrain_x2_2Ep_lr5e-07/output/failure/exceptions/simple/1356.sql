@@ -123,8 +123,4 @@ no such column: m.department
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

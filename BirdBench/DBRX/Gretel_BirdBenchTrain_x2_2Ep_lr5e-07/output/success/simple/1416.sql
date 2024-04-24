@@ -121,6 +121,6 @@ SELECT COUNT(*) FROM member WHERE t_shirt_size = 'Medium' AND link_to_major IN (
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

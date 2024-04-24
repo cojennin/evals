@@ -123,8 +123,4 @@ no such column: event_name
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

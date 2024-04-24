@@ -119,12 +119,12 @@ SELECT t_shirt_size, COUNT(t_shirt_size) as count FROM member GROUP BY t_shirt_s
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Large', 13)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Large',)]
 ----------------------------

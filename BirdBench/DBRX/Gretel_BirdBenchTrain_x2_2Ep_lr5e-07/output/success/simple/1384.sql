@@ -121,6 +121,6 @@ SELECT SUM(income.amount) FROM income WHERE income.link_to_member = (SELECT memb
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(50,)]
 ----------------------------

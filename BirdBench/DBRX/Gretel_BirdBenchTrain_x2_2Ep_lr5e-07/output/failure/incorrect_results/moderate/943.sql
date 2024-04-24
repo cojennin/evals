@@ -203,12 +203,12 @@ SELECT 100.0 * COUNT(DISTINCT r.driverId) / (SELECT COUNT(DISTINCT r2.driverId) 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(55.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(None,)]
 ----------------------------

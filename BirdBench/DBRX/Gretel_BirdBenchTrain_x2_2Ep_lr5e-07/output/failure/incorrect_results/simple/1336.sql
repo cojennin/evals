@@ -119,12 +119,12 @@ SELECT major.department FROM major WHERE major.major_name = 'Computer Science' A
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Civil and Environmental Engineering Department',), ('Civil and Environmental Engineering Department',)]
 ----------------------------

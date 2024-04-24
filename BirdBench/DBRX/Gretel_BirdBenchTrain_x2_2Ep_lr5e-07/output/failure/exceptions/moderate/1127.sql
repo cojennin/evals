@@ -278,8 +278,4 @@ no such column: Player.country_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

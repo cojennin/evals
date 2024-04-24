@@ -123,6 +123,6 @@ SELECT DISTINCT d.A2 FROM district d JOIN account a ON d.district_id = a.distric
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Pisek',), ('Hl.m. Praha',), ('Kolin',), ('Pribram',), ('Cesky Krumlov',), ('Trutnov',), ('Prostejov',), ('Hodonin',), ('Karvina',), ('Brno - mesto',), ('Sumperk',), ('Tabor',), ('Pardubice',), ('Hradec Kralove',), ('Ostrava - mesto',), ('Sokolov',), ('Frydek - Mistek',), ('Usti nad Orlici',), ('Opava',), ('Melnik',), ('Liberec',), ('Domazlice',), ('Bruntal',), ('Prerov',), ('Strakonice',), ('Prachatice',), ('Zlin',), ('Olomouc',), ('Most',), ('Ceska Lipa',), ('Jicin',), ('Jindrichuv Hradec',), ('Vsetin',), ('Kladno',), ('Svitavy',), ('Rokycany',), ('Rychnov nad Kneznou',), ('Litomerice',), ('Mlada Boleslav',), ('Vyskov',), ('Beroun',), ('Plzen - mesto',), ('Chrudim',), ('Tachov',), ('Pelhrimov',), ('Benesov',), ('Brno - venkov',), ('Usti nad Labem',), ('Jablonec n. Nisou',), ('Praha - zapad',), ('Blansko',), ('Kutna Hora',), ('Plzen - jih',), ('Znojmo',), ('Teplice',), ('Chomutov',), ('Louny',), ('Karlovy Vary',), ('Praha - vychod',), ('Nachod',), ('Jihlava',), ('Cheb',), ('Plzen - sever',), ('Klatovy',), ('Kromeriz',), ('Rakovnik',), ('Zdar nad Sazavou',), ('Novy Jicin',), ('Jesenik',), ('Trebic',), ('Breclav',), ('Semily',), ('Ceske Budejovice',), ('Uherske Hradiste',), ('Havlickuv Brod',), ('Nymburk',), ('Decin',)]
 ----------------------------

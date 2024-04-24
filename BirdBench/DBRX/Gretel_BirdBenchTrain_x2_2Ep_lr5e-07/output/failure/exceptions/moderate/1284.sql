@@ -104,8 +104,4 @@ near "Date": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

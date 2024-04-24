@@ -274,12 +274,12 @@ SELECT Player.player_name, Player.height FROM Player ORDER BY Player.height DESC
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Kristof van Hout', 208.28)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Kristof van Hout',)]
 ----------------------------

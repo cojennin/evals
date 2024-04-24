@@ -155,12 +155,12 @@ SELECT u.DisplayName, COUNT(b.Name) as badge_count FROM users u JOIN badges b ON
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('whuber', 456)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('whuber',)]
 ----------------------------

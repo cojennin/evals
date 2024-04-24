@@ -174,12 +174,12 @@ SELECT name FROM cards WHERE faceConvertedManaCost = (SELECT MAX(faceConvertedMa
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Rags // Riches',), ('Rags // Riches',), ('Elbrus, the Binding Blade // Withengar Unbound',), ('Realm-Cloaked Giant // Cast Off',), ('Reaper of Night // Harvest Fear',), ('Beanstalk Giant // Fertile Footsteps',), ('Flaxen Intruder // Welcome Home',), ('Realm-Cloaked Giant // Cast Off',), ('Reaper of Night // Harvest Fear',), ('Beanstalk Giant // Fertile Footsteps',), ('Flaxen Intruder // Welcome Home',), ('Reaper of Night // Harvest Fear',), ('Rags // Riches',), ('Realm-Cloaked Giant // Cast Off',), ('Realm-Cloaked Giant // Cast Off',), ('Beanstalk Giant // Fertile Footsteps',), ('Reaper of Night // Harvest Fear',), ('Beanstalk Giant // Fertile Footsteps',), ('Realm-Cloaked Giant // Cast Off',), ('Flaxen Intruder // Welcome Home',), ('Elbrus, the Binding Blade // Withengar Unbound',), ('Beanstalk Giant // Fertile Footsteps',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [("Ancestor's Chosen",)]
 ----------------------------

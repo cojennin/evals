@@ -127,6 +127,6 @@ SELECT AdmEmail1 FROM schools WHERE CDSCode = (SELECT CDSCode FROM frpm WHERE `C
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('mjennings@kesd.org',)]
 ----------------------------

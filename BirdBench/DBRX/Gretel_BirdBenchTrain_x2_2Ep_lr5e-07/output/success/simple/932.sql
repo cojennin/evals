@@ -205,6 +205,6 @@ SELECT DISTINCT year FROM races WHERE races.raceId IN (SELECT results.raceId FRO
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2008,), (2007,), (2009,), (2010,), (2011,), (2012,), (2013,), (2014,), (2015,), (2016,), (2017,)]
 ----------------------------

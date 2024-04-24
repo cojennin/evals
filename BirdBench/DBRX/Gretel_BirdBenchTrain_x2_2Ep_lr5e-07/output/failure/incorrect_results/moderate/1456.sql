@@ -119,12 +119,12 @@ SELECT member.first_name, member.last_name, SUM(expense.cost) as total_spent FRO
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Sacha', 'Harrison', 866.25), ('Phillip', 'Cullen', 621.1800000000001), ('Elijah', 'Allen', 598.62)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Elijah', 'Allen'), ('Elijah', 'Allen'), ('Sacha', 'Harrison'), ('Elijah', 'Allen'), ('Sacha', 'Harrison')]
 ----------------------------

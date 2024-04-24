@@ -276,6 +276,6 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM Player_Attributes) as percentage
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1.8556566546000066,)]
 ----------------------------

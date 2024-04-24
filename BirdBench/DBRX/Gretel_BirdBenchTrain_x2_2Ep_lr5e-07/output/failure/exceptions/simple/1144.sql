@@ -278,8 +278,4 @@ no such column: Player_Attributes.weight
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

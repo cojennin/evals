@@ -104,8 +104,4 @@ no such column: GPT
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

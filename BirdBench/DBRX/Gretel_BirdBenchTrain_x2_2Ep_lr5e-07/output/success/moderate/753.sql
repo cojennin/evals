@@ -110,6 +110,6 @@ SELECT s.superhero_name FROM superhero s WHERE s.height_cm BETWEEN 170 AND 190 A
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Chuck Norris',), ('Destroyer',), ('Flash III',), ('Goku',), ('Green Goblin III',), ('Indiana Jones',), ('Judge Dredd',), ('Mister Freeze',), ('One Punch Man',), ('Paul Blart',), ('Robocop',), ('Space Ghost',), ('Stormtrooper',), ('T-1000',), ('Two-Face',)]
 ----------------------------

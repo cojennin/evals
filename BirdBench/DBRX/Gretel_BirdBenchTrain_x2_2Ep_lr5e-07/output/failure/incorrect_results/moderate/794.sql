@@ -108,12 +108,12 @@ SELECT s.superhero_name, ha.attribute_value FROM superhero s JOIN hero_attribute
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Air-Walker', 100), ('Angela', 100), ('Ardina', 100), ('Aurora', 100), ('Ben 10', 100), ('Beyonder', 100), ('Binary', 100), ('Bizarro', 100), ('Black Bolt', 100), ('Black Flash', 100), ('Flash', 100), ('Flash II', 100), ('Flash III', 100), ('Flash IV', 100), ('General Zod', 100), ('Gladiator', 100), ('Hyperion', 100), ('Impulse', 100), ('Jack of Hearts', 100), ('Jesse Quick', 100), ('Kid Flash II', 100), ('Krypto', 100), ('Living Tribunal', 100), ('Man of Miracles', 100), ('Mister Mxyzptlk', 100), ('Monarch', 100), ('One-Above-All', 100), ('Peter Petrelli', 100), ('Power Girl', 100), ('Professor Zoom', 100), ('Quicksilver', 100), ('Sentry', 100), ('Silver Surfer', 100), ('Spectre', 100), ('Stardust', 100), ('Superboy-Prime', 100), ('Supergirl', 100), ('Superman', 100), ('The Presence', 100), ('Zoom', 100)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Air-Walker',)]
 ----------------------------

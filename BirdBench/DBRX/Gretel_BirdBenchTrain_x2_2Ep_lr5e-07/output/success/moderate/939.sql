@@ -205,6 +205,6 @@ SELECT COUNT(*) FROM drivers WHERE nationality = 'American' AND driverId IN (SEL
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

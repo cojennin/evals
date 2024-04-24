@@ -71,6 +71,6 @@ SELECT Currency FROM customers c JOIN transactions_1k t ON c.CustomerID = t.Cust
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('CZK',), ('CZK',), ('CZK',)]
 ----------------------------

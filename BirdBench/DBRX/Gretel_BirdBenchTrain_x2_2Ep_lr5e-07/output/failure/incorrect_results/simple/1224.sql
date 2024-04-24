@@ -100,12 +100,12 @@ SELECT Patient.ID, Patient.SEX, Patient.Birthday FROM Patient INNER JOIN Laborat
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2931207, 'F', '1959-01-05')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(7.9, 2931207, 'F', '1959-01-05')]
 ----------------------------

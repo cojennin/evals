@@ -50,12 +50,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM molecule WHERE label = '+') as p
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3.9473684210526314,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(66.66666666666667,)]
 ----------------------------

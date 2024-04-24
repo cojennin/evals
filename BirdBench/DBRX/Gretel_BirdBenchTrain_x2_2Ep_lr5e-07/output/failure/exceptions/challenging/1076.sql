@@ -279,8 +279,4 @@ no such column: player_name
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

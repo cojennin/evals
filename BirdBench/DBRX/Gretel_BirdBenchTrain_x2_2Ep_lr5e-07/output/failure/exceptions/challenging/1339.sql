@@ -123,8 +123,4 @@ no such function: MONTH
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

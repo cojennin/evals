@@ -274,12 +274,12 @@ SELECT Player.player_name, MIN(Player.height) FROM Player;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Juan Quero', 157.48)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Juan Quero',)]
 ----------------------------

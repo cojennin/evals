@@ -178,8 +178,4 @@ no such column: c.language
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -52,6 +52,6 @@ SELECT COUNT(*) FROM atom WHERE molecule_id = 'TR005';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(29,)]
 ----------------------------

@@ -104,8 +104,4 @@ no such column: Examination.SSB
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

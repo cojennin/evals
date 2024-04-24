@@ -69,12 +69,12 @@ SELECT Date, SUM(Price) FROM transactions_1k WHERE CustomerID = (SELECT Customer
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(40333, '201201', 4084.9), (7630, '201201', 24953.81)]
 ----------------------------

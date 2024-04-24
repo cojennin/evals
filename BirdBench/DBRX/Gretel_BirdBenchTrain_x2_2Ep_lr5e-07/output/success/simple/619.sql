@@ -157,6 +157,6 @@ SELECT COUNT(DISTINCT users.Id) FROM users INNER JOIN badges ON users.Id = badge
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3024,)]
 ----------------------------

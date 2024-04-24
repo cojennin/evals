@@ -157,6 +157,6 @@ SELECT p.Body FROM posts p JOIN tags t ON p.Id = t.ExcerptPostId WHERE t.Count =
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Use this tag for any *on-topic* question that (a) involves `R` either as a critical part of the question or expected answer (b) is not *just* about how to program in `R`.',)]
 ----------------------------

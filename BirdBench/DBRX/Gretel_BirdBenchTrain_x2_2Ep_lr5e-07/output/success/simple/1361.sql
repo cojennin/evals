@@ -121,6 +121,6 @@ SELECT SUM(cost) FROM expense WHERE expense_description = 'Pizza'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(600.11,)]
 ----------------------------

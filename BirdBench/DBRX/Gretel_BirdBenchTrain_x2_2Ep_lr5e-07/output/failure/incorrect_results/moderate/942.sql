@@ -203,12 +203,12 @@ SELECT AVG(fastestLapTime) FROM results WHERE driverId = (SELECT driverId FROM d
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(92.01671065989851,)]
 ----------------------------

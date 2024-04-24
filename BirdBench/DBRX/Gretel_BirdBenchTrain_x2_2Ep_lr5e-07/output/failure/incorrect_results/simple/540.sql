@@ -155,12 +155,12 @@ SELECT Title FROM posts WHERE OwnerDisplayName = 'csgillespie' AND ViewCount = (
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Examples for teaching: Correlation does not mean causation',)]
 ----------------------------

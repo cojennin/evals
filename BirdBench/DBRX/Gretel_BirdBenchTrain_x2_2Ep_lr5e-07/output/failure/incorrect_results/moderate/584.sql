@@ -155,12 +155,12 @@ SELECT c.Text FROM comments c JOIN posts p ON c.PostId = p.Id JOIN postHistory p
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('In a way, the measurement you proposed is widely used in case of error (model quality) analysis -- then it is called MAE, "mean absolute error".',), ('In a way, the measurement you proposed is widely used in case of error (model quality) analysis -- then it is called MAE, "mean absolute error".',), ('In a way, the measurement you proposed is widely used in case of error (model quality) analysis -- then it is called MAE, "mean absolute error".',), ('Related question: http://stats.stackexchange.com/q/354/919 ("Bias towards natural numbers in the case of least squares.")',), ("Every answer offered so far is circular. They focus on ease of mathematical calculations (which is nice but by no means fundamental) or on properties of the Gaussian (Normal) distribution and OLS. Around 1800 Gauss *started* with least squares and variance and from those *derived* the Normal distribution--there's the circularity. A truly fundamental reason that has not been invoked in any answer yet is the *unique* role played by the variance in the [Central Limit Theorem](http://stats.stackexchange.com/questions/3734). Another is the importance in decision theory of minimizing quadratic loss.",)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('',), ('',), ('',), ('edited title',), ('TeXified the formulas.',), ('deleted 5 characters in body; edited title',), ('deleted 5 characters in body; edited title',), ('edited title',)]
 ----------------------------

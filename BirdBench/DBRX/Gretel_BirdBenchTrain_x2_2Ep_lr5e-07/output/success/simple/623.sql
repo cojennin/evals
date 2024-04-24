@@ -157,6 +157,6 @@ SELECT COUNT(DISTINCT u.Id) as ElderSupporters FROM users u JOIN badges b ON u.I
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(37,)]
 ----------------------------

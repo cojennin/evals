@@ -179,8 +179,4 @@ no such column: isFoil
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

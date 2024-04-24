@@ -174,12 +174,12 @@ SELECT 1 FROM cards c JOIN sets s ON c.setCode = s.code WHERE c.name = 'Adarkar 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('NO',), ('NO',), ('NO',), ('NO',), ('NO',)]
 ----------------------------

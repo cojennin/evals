@@ -50,12 +50,12 @@ SELECT 1 FROM connected WHERE atom_id = 'TR001_2' AND atom_id2 = 'TR001_4' AND b
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('+',)]
 ----------------------------

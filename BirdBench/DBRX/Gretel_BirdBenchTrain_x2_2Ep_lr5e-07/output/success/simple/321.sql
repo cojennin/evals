@@ -52,6 +52,6 @@ SELECT molecule_id FROM atom WHERE atom_id = 'TR000_2' INTERSECT SELECT molecule
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR000',)]
 ----------------------------

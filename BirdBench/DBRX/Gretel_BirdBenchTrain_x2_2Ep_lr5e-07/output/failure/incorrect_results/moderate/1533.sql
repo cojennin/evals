@@ -69,12 +69,12 @@ SELECT ym.CustomerID, ym.Consumption FROM yearmonth ym JOIN transactions_1k t ON
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(18831, 1903.2), (5443, 88265.39), (46933, 1129.2), (6768, 126157.7), (6768, 126157.7), (20447, 58.19), (45868, 1142.95), (23861, 8878.07), (24700, 69331.72), (7626, 45937.22)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1903.2,), (88265.39,), (1129.2,), (126157.7,), (126157.7,), (58.19,), (1142.95,), (8878.07,), (69331.72,), (45937.22,)]
 ----------------------------

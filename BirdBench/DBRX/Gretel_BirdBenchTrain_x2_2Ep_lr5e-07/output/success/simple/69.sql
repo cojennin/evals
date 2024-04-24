@@ -127,6 +127,6 @@ SELECT NCESDist FROM schools WHERE SOC = 31;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('0600002',), ('0600003',), ('0600007',)]
 ----------------------------

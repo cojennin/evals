@@ -69,12 +69,12 @@ SELECT p.Description FROM transactions_1k t JOIN products p ON t.ProductID = p.P
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(317, 'Diesel'), (322, 'Nat.Super'), (336, 'Prev.náplne'), (332, 'Diesel aditiv'), (341, 'Umývanie voz'), (352, 'Autokozmetik'), (2, 'Nafta')]
 ----------------------------

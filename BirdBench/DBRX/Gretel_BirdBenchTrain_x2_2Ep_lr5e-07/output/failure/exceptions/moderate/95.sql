@@ -125,8 +125,4 @@ no such column: A11
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

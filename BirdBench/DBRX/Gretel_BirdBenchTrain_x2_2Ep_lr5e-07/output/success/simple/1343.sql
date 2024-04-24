@@ -121,6 +121,6 @@ SELECT b.remaining FROM budget b WHERE b.category = 'Food' AND b.amount = (SELEC
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(22.9299999999999,)]
 ----------------------------

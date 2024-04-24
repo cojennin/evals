@@ -123,6 +123,6 @@ SELECT 100.0 * (t1.balance - t2.balance) / t2.balance as increase_rate FROM tran
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(430.45454545454544,)]
 ----------------------------

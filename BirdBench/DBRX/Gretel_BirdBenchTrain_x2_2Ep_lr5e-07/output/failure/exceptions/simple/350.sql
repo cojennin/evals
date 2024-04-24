@@ -178,8 +178,4 @@ no such column: foreign_data.number
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

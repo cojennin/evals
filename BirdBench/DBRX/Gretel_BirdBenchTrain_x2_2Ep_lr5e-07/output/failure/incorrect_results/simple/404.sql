@@ -176,12 +176,12 @@ SELECT s.name FROM sets s WHERE s.baseSetSize = 309;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Commander 2017',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Chinese Simplified',), ('Chinese Traditional',), ('French',), ('German',), ('Italian',), ('Japanese',), ('Korean',), ('Portuguese (Brazil)',), ('Russian',), ('Spanish',)]
 ----------------------------

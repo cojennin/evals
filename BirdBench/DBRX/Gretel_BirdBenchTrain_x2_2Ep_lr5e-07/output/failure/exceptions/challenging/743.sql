@@ -112,8 +112,4 @@ no such column: alignment
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -276,6 +276,6 @@ SELECT Player_Attributes.sprint_speed, Player_Attributes.agility, Player_Attribu
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(60, 61, 56), (60, 61, 56), (60, 61, 56), (61, 60, 62), (61, 60, 62), (61, 60, 62), (49, 56, 52), (49, 56, 52), (49, 56, 52)]
 ----------------------------

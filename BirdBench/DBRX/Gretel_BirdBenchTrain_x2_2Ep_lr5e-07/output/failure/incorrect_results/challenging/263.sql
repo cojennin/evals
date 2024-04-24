@@ -50,12 +50,12 @@ SELECT 100.0 * SUM(CASE WHEN element = 'cl' THEN 1 ELSE 0 END) / COUNT(atom_id) 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3.5768516956301672,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2.6840451814272206,)]
 ----------------------------

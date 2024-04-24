@@ -155,12 +155,12 @@ SELECT COUNT(p.Id) as post_count, COUNT(c.Id) as comment_count FROM users u LEFT
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0, 0)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(171570,)]
 ----------------------------

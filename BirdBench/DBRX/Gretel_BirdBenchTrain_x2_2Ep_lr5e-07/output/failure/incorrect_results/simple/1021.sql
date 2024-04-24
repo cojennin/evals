@@ -274,12 +274,12 @@ SELECT Player.player_name, MAX(Player.height) FROM Player;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Kristof van Hout', 208.28)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Kristof van Hout',)]
 ----------------------------

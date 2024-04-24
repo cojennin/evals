@@ -71,6 +71,6 @@ SELECT SUM(Consumption) FROM yearmonth WHERE CustomerID IN (SELECT CustomerID FR
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(136224462.01000026,)]
 ----------------------------

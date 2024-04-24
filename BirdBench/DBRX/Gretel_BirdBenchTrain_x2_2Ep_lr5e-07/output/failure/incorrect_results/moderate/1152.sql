@@ -100,12 +100,12 @@ SELECT 1.0 * COUNT(*) FILTER (WHERE Admission = '-') / COUNT(*) FILTER (WHERE Ad
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.7636363636363637,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

@@ -121,12 +121,12 @@ SELECT 100.0 * SUM(CASE WHEN status = 'C' THEN amount ELSE 0 END) / SUM(amount) 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(47.55164983164983,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(46.885245901639344,)]
 ----------------------------

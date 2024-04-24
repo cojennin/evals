@@ -110,6 +110,6 @@ SELECT AVG(attribute_value) FROM hero_attribute;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(52.426431246655966,)]
 ----------------------------

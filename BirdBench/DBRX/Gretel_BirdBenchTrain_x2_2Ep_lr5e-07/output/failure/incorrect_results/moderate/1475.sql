@@ -69,12 +69,12 @@ SELECT COUNT(DISTINCT CustomerID) FROM yearmonth WHERE Consumption < 30000 AND D
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1746,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1123,)]
 ----------------------------

@@ -159,8 +159,4 @@ no such column: CreationDate
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

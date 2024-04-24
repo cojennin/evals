@@ -113,6 +113,6 @@ AND superhero.eye_colour_id = (SELECT id FROM colour WHERE colour = 'Gold')
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2,)]
 ----------------------------

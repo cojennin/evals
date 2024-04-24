@@ -276,6 +276,6 @@ SELECT Player.birthday FROM Player INNER JOIN Player_Attributes ON Player.player
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1987-06-24 00:00:00',)]
 ----------------------------

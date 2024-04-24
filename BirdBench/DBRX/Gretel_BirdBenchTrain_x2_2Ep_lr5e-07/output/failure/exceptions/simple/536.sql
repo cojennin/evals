@@ -159,8 +159,4 @@ no such column: p.Views
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

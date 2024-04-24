@@ -203,12 +203,12 @@ SELECT driverRef FROM drivers WHERE driverId = (SELECT driverId FROM results WHE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('hamilton',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Heikki', 'Kovalainen', 'kovalainen')]
 ----------------------------

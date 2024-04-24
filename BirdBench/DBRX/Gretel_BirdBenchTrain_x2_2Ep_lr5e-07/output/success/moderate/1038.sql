@@ -276,6 +276,6 @@ SELECT League.name, SUM(Match.home_team_goal + Match.away_team_goal) as total_go
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Switzerland Super League', 4166), ('Poland Ekstraklasa', 4656), ('Scotland Premier League', 4804), ('Belgium Jupiler League', 4841), ('Portugal Liga ZON Sagres', 5201)]
 ----------------------------

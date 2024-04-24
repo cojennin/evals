@@ -205,6 +205,6 @@ SELECT driverRef FROM drivers WHERE forename = 'Lewis' AND surname = 'Hamilton'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('hamilton',)]
 ----------------------------

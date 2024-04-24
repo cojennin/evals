@@ -123,8 +123,4 @@ near "s": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

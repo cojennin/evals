@@ -125,6 +125,6 @@ WHERE e.event_name = 'Women''s Soccer';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(17,)]
 ----------------------------

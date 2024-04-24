@@ -121,6 +121,6 @@ SELECT member.first_name, member.last_name FROM member WHERE member.t_shirt_size
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Grant', 'Gilmour'), ('Randy', 'Woodard'), ('Connor', 'Hilton'), ('Christof', 'Nielson'), ('Phillip', 'Cullen'), ('Trent', 'Smith'), ('Keaton', 'Mccray'), ('Elijah', 'Allen')]
 ----------------------------

@@ -176,6 +176,6 @@ SELECT r.text FROM rulings r WHERE r.uuid IN (SELECT c.uuid FROM cards c WHERE c
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('The affected creature’s last known existence on the battlefield is checked to determine its toughness.',), ('The affected creature’s last known existence on the battlefield is checked to determine its toughness.',), ('The affected creature’s last known existence on the battlefield is checked to determine its toughness.',), ('The affected creature’s last known existence on the battlefield is checked to determine its toughness.',), ('The affected creature’s last known existence on the battlefield is checked to determine its toughness.',), ('The affected creature’s last known existence on the battlefield is checked to determine its toughness.',), ('The affected creature’s last known existence on the battlefield is checked to determine its toughness.',), ('The affected creature’s last known existence on the battlefield is checked to determine its toughness.',), ('The affected creature’s last known existence on the battlefield is checked to determine its toughness.',), ('The affected creature’s last known existence on the battlefield is checked to determine its toughness.',)]
 ----------------------------

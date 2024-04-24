@@ -104,8 +104,4 @@ no such column: SM
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

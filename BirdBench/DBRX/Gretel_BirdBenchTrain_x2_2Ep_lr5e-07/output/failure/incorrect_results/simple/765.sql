@@ -108,12 +108,12 @@ SELECT COUNT(DISTINCT h.id) as hero_count FROM superhero h JOIN hero_power hp ON
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(127,)]
 ----------------------------

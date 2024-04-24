@@ -102,6 +102,6 @@ SELECT Date FROM Laboratory WHERE ID = 48473 AND GOT > 60;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1981-03-23',), ('1981-06-29',), ('1982-12-13',), ('1983-03-28',), ('1984-04-23',), ('1985-05-20',), ('1985-06-10',)]
 ----------------------------

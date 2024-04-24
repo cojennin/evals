@@ -176,6 +176,6 @@ SELECT legalities.status FROM legalities WHERE legalities.uuid = (SELECT cards.u
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Legal',)]
 ----------------------------

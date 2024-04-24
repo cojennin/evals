@@ -108,12 +108,12 @@ SELECT full_name FROM superhero WHERE publisher_id = (SELECT id FROM publisher W
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('-',), ('Ymir',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',)]
 ----------------------------

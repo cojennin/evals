@@ -174,12 +174,12 @@ SELECT COUNT(*) FROM cards WHERE artist = 'UDON' AND availability = 'mtgo' AND h
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(17,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

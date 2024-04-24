@@ -203,12 +203,12 @@ SELECT circuits.lat, circuits.lng FROM circuits WHERE circuits.name = 'Abu Dhabi
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(24.4672, 54.6031, 'Abu Dhabi')]
 ----------------------------

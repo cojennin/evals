@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM badges WHERE UserId = (SELECT Id FROM users WHERE DisplayNa
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(95,)]
 ----------------------------

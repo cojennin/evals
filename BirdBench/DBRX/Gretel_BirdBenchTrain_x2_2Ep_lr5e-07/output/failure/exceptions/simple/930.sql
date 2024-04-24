@@ -207,8 +207,4 @@ incomplete input
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

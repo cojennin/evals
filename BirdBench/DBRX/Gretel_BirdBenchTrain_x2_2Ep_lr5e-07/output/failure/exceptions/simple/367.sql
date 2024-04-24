@@ -178,8 +178,4 @@ no such table: artists
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -69,12 +69,12 @@ SELECT COUNT(*) FROM gasstations WHERE Country = 'Czech Republic' AND Segment = 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(176,)]
 ----------------------------

@@ -176,6 +176,6 @@ SELECT translation FROM set_translations WHERE setCode = (SELECT code FROM sets 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('秘罗地',)]
 ----------------------------

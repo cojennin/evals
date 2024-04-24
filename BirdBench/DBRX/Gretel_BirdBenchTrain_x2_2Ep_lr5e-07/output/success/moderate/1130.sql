@@ -276,6 +276,6 @@ SELECT Team.team_short_name FROM Team INNER JOIN Team_Attributes ON Team.team_ap
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('HAA',), ('ARK',), ('ARL',), ('ARS',), ('BAR',), ('BMU',), ('BOL',), ('BRE',), ('CAG',), ('CAT',), ('COR',), ('DUF',), ('EMP',), ('COT',), ('UTR',), ('FRE',), ('FRO',), ('GEN',), ('GRF',), ('HER',), ('LIV',), ('LOK',), ('LOR',), ('MCI',), ('NAC',), ('PAL',), ('PSV',), ('BET',), ('HUE',), ('REG',), ('SIE',), ('ROD',), ('SAM',), ('SAS',), ('SPA',), ('NAP',), ('STK',), ('UDI',), ('WAA',), ('WHU',), ('WII',), ('WIS',), ('ZAG',)]
 ----------------------------

@@ -121,6 +121,6 @@ SELECT COUNT(*) FROM member WHERE zip IN (SELECT zip_code FROM zip_code WHERE st
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3,)]
 ----------------------------

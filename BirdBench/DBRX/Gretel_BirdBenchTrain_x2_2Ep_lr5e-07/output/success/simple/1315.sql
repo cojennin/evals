@@ -121,6 +121,6 @@ SELECT COUNT(DISTINCT m.member_id) FROM member m JOIN attendance a ON m.member_i
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(17,)]
 ----------------------------

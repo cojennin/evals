@@ -69,12 +69,12 @@ SELECT GasStationID, MIN(Time) FROM transactions_1k WHERE Date = '2012-08-25' GR
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3712, '00:07:00')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('CZE',)]
 ----------------------------

@@ -121,6 +121,6 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM member WHERE t_shirt_size = 'Med
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(100.0,)]
 ----------------------------

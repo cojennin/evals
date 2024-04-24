@@ -205,6 +205,6 @@ SELECT r.name, r.year FROM races r JOIN results res ON r.raceId = res.raceId WHE
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Australian Grand Prix', 1991)]
 ----------------------------

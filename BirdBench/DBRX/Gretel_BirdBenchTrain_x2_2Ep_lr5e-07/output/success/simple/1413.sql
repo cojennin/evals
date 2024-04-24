@@ -121,6 +121,6 @@ SELECT m.zip FROM member m JOIN expense e ON m.member_id = e.link_to_member WHER
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(21784,), (21784,), (21784,), (21784,), (7080,), (7080,), (21784,), (7080,), (1020,), (21784,)]
 ----------------------------

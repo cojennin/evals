@@ -176,6 +176,6 @@ SELECT DISTINCT availability FROM cards WHERE artist = 'Aleksi Briclot' AND isTe
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('paper',), ('mtgo',)]
 ----------------------------

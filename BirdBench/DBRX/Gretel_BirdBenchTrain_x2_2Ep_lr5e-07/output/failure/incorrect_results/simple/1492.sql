@@ -69,12 +69,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM customers WHERE Segment = 'KAM')
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3.480392156862745,)]
 ----------------------------

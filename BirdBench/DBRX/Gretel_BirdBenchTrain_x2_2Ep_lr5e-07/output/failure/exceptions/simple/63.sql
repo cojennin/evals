@@ -129,8 +129,4 @@ no such table: school_admins
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

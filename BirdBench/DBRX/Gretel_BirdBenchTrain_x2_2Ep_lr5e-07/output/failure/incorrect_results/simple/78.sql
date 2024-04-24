@@ -125,12 +125,12 @@ SELECT GSserved, COUNT(*) as count FROM schools WHERE City = 'Adelanto' GROUP BY
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('K-6', 5)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('K-6',)]
 ----------------------------

@@ -174,12 +174,12 @@ SELECT s.baseSetSize, s.code FROM sets s WHERE s.block IN ('Masques', 'Mirage')
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(350, 'MIR'), (350, 'MMQ'), (143, 'NEM'), (144, 'PCY'), (1, 'PMMQ'), (1, 'PNEM'), (1, 'PPCY'), (167, 'VIS'), (167, 'WTH')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(350, 'MMQ'), (144, 'PCY'), (167, 'WTH')]
 ----------------------------

@@ -121,6 +121,6 @@ SELECT income.date_received FROM income WHERE income.link_to_member = (SELECT me
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2019-10-14',)]
 ----------------------------

@@ -203,12 +203,12 @@ SELECT 100.0 * (SELECT fastestLapSpeed FROM results WHERE raceId = 853) / (SELEC
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(43.39012908486035,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(32.50155167390781,)]
 ----------------------------

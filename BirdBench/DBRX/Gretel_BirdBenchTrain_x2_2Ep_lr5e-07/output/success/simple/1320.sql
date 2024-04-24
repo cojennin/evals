@@ -121,6 +121,6 @@ SELECT e.event_name FROM event e JOIN attendance a ON e.event_id = a.link_to_eve
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [("Women's Soccer",), ('Laugh Out Loud',), ('October Speaker',), ('Football game',), ('September Speaker',), ('Registration',), ('October Meeting',), ('November Speaker',), ('November Meeting',), ("Kid's Care",), ('Food Bank',), ('Community Theater',), ('Yearly Kickoff',), ('September Meeting',)]
 ----------------------------

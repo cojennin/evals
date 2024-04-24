@@ -119,12 +119,12 @@ SELECT 100.0 * SUM(budget.amount) / (SELECT SUM(budget.amount) FROM budget WHERE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3.8461538461538463,)]
 ----------------------------

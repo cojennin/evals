@@ -203,12 +203,12 @@ SELECT r.name, l.time FROM races r JOIN lapTimes l ON r.raceId = l.raceId WHERE 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Austrian Grand Prix',)]
 ----------------------------

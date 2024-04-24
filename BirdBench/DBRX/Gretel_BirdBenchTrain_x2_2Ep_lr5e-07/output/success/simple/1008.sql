@@ -205,6 +205,6 @@ SELECT lap FROM pitStops WHERE raceId = (SELECT raceId FROM races WHERE year = 2
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(16,), (36,)]
 ----------------------------

@@ -50,12 +50,12 @@ SELECT a.element FROM atom a WHERE a.atom_id NOT IN (SELECT c.atom_id FROM conne
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('cl',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('h',), ('zn',), ('h',), ('h',), ('h',), ('na',), ('na',), ('na',), ('cl',), ('h',), ('h',), ('h',), ('cl',), ('na',), ('na',), ('k',), ('cl',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('na',), ('cl',), ('na',), ('na',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('na',), ('zn',), ('k',)]
 ----------------------------

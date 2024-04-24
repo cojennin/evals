@@ -174,12 +174,12 @@ SELECT releaseDate FROM sets WHERE code = (SELECT setCode FROM cards WHERE name 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('2007-07-13',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2007-07-13',), ('2002-05-27',), ('2018-12-07',)]
 ----------------------------

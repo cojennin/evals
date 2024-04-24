@@ -100,12 +100,12 @@ SELECT COUNT(DISTINCT ID) FROM Patient WHERE Birthday > '1980-01-01' AND ID IN (
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(75,)]
 ----------------------------

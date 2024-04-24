@@ -203,12 +203,12 @@ SELECT AVG(milliseconds) FROM lapTimes WHERE driverId = (SELECT driverId FROM dr
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(126133.66071428571,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(None,)]
 ----------------------------

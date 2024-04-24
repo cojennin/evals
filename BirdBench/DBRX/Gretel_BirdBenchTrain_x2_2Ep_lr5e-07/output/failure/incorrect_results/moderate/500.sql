@@ -174,12 +174,12 @@ SELECT s.name FROM sets s JOIN cards c ON s.code = c.setCode WHERE c.name = 'Fel
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Fourth Edition',), ('Fifth Edition',), ('Ninth Edition',), ('Commander 2015',), ('Commander 2016',), ('Commander 2017',), ('Commander 2011',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('第９版 基本セット',), ('Commander (2015 Edition)',), ('Commander (2016 Edition)',), ('Commander (2017 EDITION)',), ('Magic: the Gathering Commander',)]
 ----------------------------

@@ -205,6 +205,6 @@ SELECT drivers.forename, drivers.surname, drivers.url FROM drivers JOIN results 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Lewis', 'Hamilton', 'http://en.wikipedia.org/wiki/Lewis_Hamilton')]
 ----------------------------

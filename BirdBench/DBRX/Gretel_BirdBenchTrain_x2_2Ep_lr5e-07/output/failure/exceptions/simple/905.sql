@@ -207,8 +207,4 @@ no such column: year
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

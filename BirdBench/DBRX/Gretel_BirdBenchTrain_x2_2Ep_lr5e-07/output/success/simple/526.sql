@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM cards WHERE artist = 'Matthew D. Wilson' AND availability =
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(38,)]
 ----------------------------

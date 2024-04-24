@@ -203,12 +203,12 @@ SELECT drivers.url FROM drivers, lapTimes WHERE drivers.driverId = lapTimes.driv
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('David', 'Coulthard', 'http://en.wikipedia.org/wiki/David_Coulthard'), ('Jarno', 'Trulli', 'http://en.wikipedia.org/wiki/Jarno_Trulli'), ('Jenson', 'Button', 'http://en.wikipedia.org/wiki/Jenson_Button'), ('Rubens', 'Barrichello', 'http://en.wikipedia.org/wiki/Rubens_Barrichello'), ('Ralf', 'Schumacher', 'http://en.wikipedia.org/wiki/Ralf_Schumacher'), ('Michael', 'Schumacher', 'http://en.wikipedia.org/wiki/Michael_Schumacher'), ('Ricardo', 'Zonta', 'http://en.wikipedia.org/wiki/Ricardo_Zonta'), ('Heinz-Harald', 'Frentzen', 'http://en.wikipedia.org/wiki/Heinz-Harald_Frentzen'), ('Mika', 'Häkkinen', 'http://en.wikipedia.org/wiki/Mika_H%C3%A4kkinen')]
 ----------------------------

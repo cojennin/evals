@@ -52,6 +52,6 @@ SELECT bond_type FROM bond WHERE bond_id = 'TR007_4_19';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',)]
 ----------------------------

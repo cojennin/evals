@@ -203,12 +203,12 @@ SELECT COUNT(*) FROM results WHERE driverId = (SELECT driverId FROM drivers WHER
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(16,)]
 ----------------------------

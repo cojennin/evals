@@ -203,12 +203,12 @@ SELECT number FROM qualifying WHERE raceId = 903 AND q3 = '0:01:54';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3,), (5,)]
 ----------------------------

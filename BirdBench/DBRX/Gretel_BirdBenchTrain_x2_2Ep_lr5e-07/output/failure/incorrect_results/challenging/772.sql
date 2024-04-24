@@ -108,12 +108,12 @@ SELECT s.superhero_name, c.colour as eye_colour, c2.colour as hair_colour, c3.co
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Buffy', 'Green', 'Blond', 'No Colour'), ('Elastigirl', 'Brown', 'Brown', 'No Colour'), ('Liz Sherman', 'No Colour', 'No Colour', 'No Colour'), ('T-X', 'No Colour', 'No Colour', 'Silver'), ('Violet Parr', 'Violet', 'Black', 'No Colour')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(14, 6, 1), (9, 9, 1), (1, 1, 1), (1, 1, 28), (30, 4, 1)]
 ----------------------------

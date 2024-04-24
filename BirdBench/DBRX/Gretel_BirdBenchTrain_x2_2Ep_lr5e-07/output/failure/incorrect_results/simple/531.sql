@@ -155,12 +155,12 @@ SELECT 1 FROM users WHERE DisplayName = 'Harlan' AND Reputation > (SELECT Reputa
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Harlan',)]
 ----------------------------

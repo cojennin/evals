@@ -112,8 +112,4 @@ no such column: publisher.id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

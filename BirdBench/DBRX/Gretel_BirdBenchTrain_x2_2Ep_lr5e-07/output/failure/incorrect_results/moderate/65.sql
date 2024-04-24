@@ -125,12 +125,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM schools WHERE County = 'Santa Cl
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(33.333333333333336,)]
 ----------------------------

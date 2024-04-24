@@ -207,8 +207,4 @@ no such column: driverRef
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

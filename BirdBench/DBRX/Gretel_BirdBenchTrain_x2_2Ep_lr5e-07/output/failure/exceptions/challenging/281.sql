@@ -54,8 +54,4 @@ unrecognized token: "4th_atom"
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

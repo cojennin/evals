@@ -129,8 +129,4 @@ no such column: s.LowGrade
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

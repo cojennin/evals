@@ -119,12 +119,12 @@ SELECT e.event_name, COUNT(a.link_to_event) as attendance_count FROM event e JOI
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Registration', 30)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Yearly Kickoff',)]
 ----------------------------

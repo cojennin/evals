@@ -110,6 +110,6 @@ SELECT ha.attribute_value FROM superhero s JOIN hero_attribute ha ON s.id = ha.h
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(60,), (20,), (15,), (15,), (15,), (15,)]
 ----------------------------

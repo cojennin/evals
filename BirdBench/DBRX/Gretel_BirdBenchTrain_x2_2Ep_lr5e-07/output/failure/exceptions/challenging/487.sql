@@ -180,8 +180,4 @@ no such column: incredibly_powerful
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

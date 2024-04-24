@@ -123,8 +123,4 @@ no such column: m.city
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

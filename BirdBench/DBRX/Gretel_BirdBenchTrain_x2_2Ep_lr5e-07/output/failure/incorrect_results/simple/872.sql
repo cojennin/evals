@@ -203,12 +203,12 @@ SELECT code FROM drivers WHERE driverId = (SELECT driverId FROM qualifying WHERE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('HAM',)]
 ----------------------------

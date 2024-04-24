@@ -129,8 +129,4 @@ no such column: Street
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

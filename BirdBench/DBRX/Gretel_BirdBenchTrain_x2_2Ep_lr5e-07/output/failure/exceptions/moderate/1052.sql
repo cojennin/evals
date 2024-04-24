@@ -278,8 +278,4 @@ no such column: weight
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

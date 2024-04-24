@@ -155,12 +155,12 @@ SELECT p1.OwnerDisplayName FROM posts p1 WHERE p1.Id = (SELECT p2.ParentId FROM 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('ars',)]
 ----------------------------

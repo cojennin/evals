@@ -174,12 +174,12 @@ SELECT COUNT(*) FROM cards WHERE setCode = 'CNS' AND borderColor = 'black'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(210,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(155,)]
 ----------------------------

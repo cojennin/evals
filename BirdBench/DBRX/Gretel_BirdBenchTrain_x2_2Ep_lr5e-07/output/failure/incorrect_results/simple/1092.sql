@@ -274,12 +274,12 @@ SELECT League.name, COUNT(Match.id) as num_matches FROM Match INNER JOIN League 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Spain LIGA BBVA', 380)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Spain LIGA BBVA',)]
 ----------------------------

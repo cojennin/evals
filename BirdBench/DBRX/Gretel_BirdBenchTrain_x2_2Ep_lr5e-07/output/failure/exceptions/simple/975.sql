@@ -207,8 +207,4 @@ ambiguous column name: milliseconds
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -129,8 +129,4 @@ no such column: Phone
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

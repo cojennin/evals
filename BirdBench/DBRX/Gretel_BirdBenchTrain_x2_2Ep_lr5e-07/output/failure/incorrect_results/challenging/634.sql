@@ -155,12 +155,12 @@ SELECT p.Id, p.Title, p.ViewCount FROM posts p JOIN users u ON p.OwnerUserId = u
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(109, "Power of Holm's multiple comparison testing compared to others", 3980)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Harvey Motulsky',)]
 ----------------------------

@@ -102,6 +102,6 @@ SELECT Patient.Diagnosis FROM Patient INNER JOIN Laboratory ON Patient.ID = Labo
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('MCTD',), ('SLE',), ('SLE, SJS susp',)]
 ----------------------------

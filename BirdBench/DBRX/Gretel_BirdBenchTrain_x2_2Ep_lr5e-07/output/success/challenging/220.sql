@@ -52,6 +52,6 @@ SELECT element FROM atom WHERE molecule_id = 'TR000' GROUP BY element ORDER BY e
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('c',), ('cl',), ('h',)]
 ----------------------------

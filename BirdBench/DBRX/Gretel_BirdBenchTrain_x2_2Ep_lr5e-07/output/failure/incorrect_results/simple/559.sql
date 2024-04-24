@@ -155,12 +155,12 @@ SELECT CreationDate FROM votes WHERE Id = (SELECT MAX(Id) FROM votes)
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('2011-05-01',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2010-07-20',)]
 ----------------------------

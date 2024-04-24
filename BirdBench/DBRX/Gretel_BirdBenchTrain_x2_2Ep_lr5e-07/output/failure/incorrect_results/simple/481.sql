@@ -174,12 +174,12 @@ SELECT DISTINCT language FROM foreign_data WHERE name = 'Ancestor''s Chosen' AND
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('German',), ('Spanish',), ('French',), ('Italian',), ('Japanese',), ('Portuguese (Brazil)',), ('Russian',), ('Chinese Simplified',), ('German',), ('Spanish',), ('French',), ('Italian',), ('Japanese',), ('Portuguese (Brazil)',), ('Japanese',)]
 ----------------------------

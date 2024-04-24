@@ -121,6 +121,6 @@ SELECT amount FROM income WHERE link_to_member IN (SELECT member_id FROM member 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(50,)]
 ----------------------------

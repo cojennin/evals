@@ -205,6 +205,6 @@ SELECT COUNT(DISTINCT driverId) FROM results WHERE raceId = (SELECT raceId FROM 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(11,)]
 ----------------------------

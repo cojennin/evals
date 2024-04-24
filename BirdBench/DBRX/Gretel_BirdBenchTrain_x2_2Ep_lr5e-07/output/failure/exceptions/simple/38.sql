@@ -129,8 +129,4 @@ no such column: s.Website
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

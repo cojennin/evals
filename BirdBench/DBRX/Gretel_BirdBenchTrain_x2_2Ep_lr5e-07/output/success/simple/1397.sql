@@ -121,6 +121,6 @@ SELECT AVG(budget.spent) FROM budget WHERE budget.category = 'Food' AND budget.e
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(117.83111111111111,)]
 ----------------------------

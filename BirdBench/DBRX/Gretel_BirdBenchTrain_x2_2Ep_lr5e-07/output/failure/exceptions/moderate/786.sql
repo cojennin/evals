@@ -112,8 +112,4 @@ no such column: attribute_name
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -276,6 +276,6 @@ SELECT team_short_name FROM Team WHERE team_long_name = 'Queens Park Rangers'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('QPR',)]
 ----------------------------

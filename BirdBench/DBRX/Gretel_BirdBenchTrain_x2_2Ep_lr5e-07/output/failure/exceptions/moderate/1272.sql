@@ -104,8 +104,4 @@ no such column: SSA
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

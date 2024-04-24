@@ -155,12 +155,12 @@ SELECT COUNT(*) FROM comments WHERE PostId = (SELECT Id FROM posts WHERE Score =
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(35,)]
 ----------------------------

@@ -52,6 +52,6 @@ SELECT 100.0 * SUM(bond_type = '-') / COUNT(bond_id) as percentage FROM bond;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(85.04725745213668,)]
 ----------------------------

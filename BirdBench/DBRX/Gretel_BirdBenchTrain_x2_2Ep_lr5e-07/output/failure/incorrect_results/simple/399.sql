@@ -176,12 +176,12 @@ SELECT DISTINCT types FROM cards WHERE availability = 'arena';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Creature',), ('Enchantment',), ('Sorcery',), ('Instant',), ('Planeswalker',), ('Artifact',), ('Artifact,Creature',), ('Land',), ('Enchantment,Creature',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Human,Wizard', 'Legendary'), ('Gideon', 'Legendary'), ('God', 'Legendary'), ('Jace', 'Legendary'), ('Sphinx', 'Legendary'), ('Liliana', 'Legendary'), ('Demon', 'Legendary'), ('Chandra', 'Legendary'), ('Zombie,Minotaur,Warrior', 'Legendary'), ('Human,Cleric', 'Legendary'), ('Minotaur,Warrior', 'Legendary'), ('Bolas', 'Legendary'), ('Nissa', 'Legendary'), ('Samut', 'Legendary'), ('Human,Warrior', 'Legendary'), ('Forest', 'Basic'), ('Island', 'Basic'), ('Mountain', 'Basic'), ('Plains', 'Basic'), ('Swamp', 'Basic'), ('Human,Soldier', 'Legendary'), ('Eldrazi', 'Legendary'), ('Shrine', 'Legendary'), ('Dwarf,Advisor', 'Legendary'), ('Vedalken,Artificer', 'Legendary'), ('Aetherborn,Rogue', 'Legendary'), ('Aetherborn,Vampire', 'Legendary'), ('Human,Pirate', 'Legendary'), ('Human,Artificer', 'Legendary'), ('Elf,Druid', 'Legendary'), ('Ajani', 'Legendary'), ('Dwarf,Pilot', 'Legendary'), ('Dovin', 'Legendary'), ('Human,Advisor', 'Legendary'), ('Saheeli', 'Legendary'), ('Tezzeret', 'Legendary'), ('Vehicle', 'Legendary'), ('Thopter', 'Legendary'), ('Ral', 'Legendary'), ('Teferi', 'Legendary'), ('Vraska', 'Legendary'), ('Elder,Dinosaur', 'Legendary'), ('Elf,Warrior', 'Legendary'), ('Merfolk,Wizard', 'Legendary'), ('Frog,Horror', 'Legendary'), ('Zombie,Dragon', 'Legendary')]
 ----------------------------

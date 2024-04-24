@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM set_translations WHERE setCode = 'Salvat 2011' AND translat
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

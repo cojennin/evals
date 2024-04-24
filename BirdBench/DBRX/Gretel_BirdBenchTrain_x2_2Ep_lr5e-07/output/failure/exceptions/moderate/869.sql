@@ -207,8 +207,4 @@ no such column: c.points
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

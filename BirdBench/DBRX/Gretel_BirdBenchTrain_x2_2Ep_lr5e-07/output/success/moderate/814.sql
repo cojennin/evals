@@ -110,6 +110,6 @@ SELECT colour.colour FROM superhero INNER JOIN colour ON superhero.skin_colour_i
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('No Colour',), ('Grey',), ('Blue',), ('Green',), ('White',), ('Gold',), ('Blue/White',), ('Purple',), ('Red',), ('Silver',)]
 ----------------------------

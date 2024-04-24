@@ -125,8 +125,4 @@ no such column: a.type
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -207,8 +207,4 @@ unrecognized token: "2017.raceName"
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

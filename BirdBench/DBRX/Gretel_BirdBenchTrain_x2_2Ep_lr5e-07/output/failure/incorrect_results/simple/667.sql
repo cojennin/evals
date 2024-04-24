@@ -155,12 +155,12 @@ SELECT Title FROM posts WHERE Id = (SELECT MIN(CreationDate) FROM postLinks);
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Assessing the significance of differences in distributions',)]
 ----------------------------

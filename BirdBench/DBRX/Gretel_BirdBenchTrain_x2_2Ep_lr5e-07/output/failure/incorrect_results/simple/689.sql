@@ -155,12 +155,12 @@ SELECT u.DisplayName, u.Location FROM users u JOIN posts p ON u.Id = p.LastEdito
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Jeromy Anglim', 'Melbourne, Australia')]
 ----------------------------

@@ -203,12 +203,12 @@ SELECT 3 AS code, COUNT(*) AS num FROM (SELECT driverId, ROW_NUMBER() OVER (ORDE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3, 3)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

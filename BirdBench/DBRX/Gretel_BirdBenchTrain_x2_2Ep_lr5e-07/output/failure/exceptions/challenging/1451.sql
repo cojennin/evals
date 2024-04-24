@@ -123,8 +123,4 @@ no such column: member_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

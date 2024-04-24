@@ -174,12 +174,12 @@ SELECT s.code, s.name FROM sets s WHERE s.mtgoCode IS NULL OR s.mtgoCode = '' GR
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('P15A', '15th Anniversary Cards'), ('HTR', '2016 Heroes of the Realm'), ('G17', '2017 Gift Pack')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('15th Anniversary Cards',), ('2016 Heroes of the Realm',), ('2017 Gift Pack',)]
 ----------------------------

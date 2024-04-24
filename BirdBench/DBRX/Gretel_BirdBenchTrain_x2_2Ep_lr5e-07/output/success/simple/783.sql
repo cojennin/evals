@@ -110,6 +110,6 @@ SELECT DISTINCT c.colour FROM superhero s INNER JOIN colour c ON s.eye_colour_id
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('White',), ('Blue',)]
 ----------------------------

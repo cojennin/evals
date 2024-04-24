@@ -203,12 +203,12 @@ SELECT time FROM results WHERE driverId = (SELECT driverId FROM drivers WHERE fo
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(39,)]
 ----------------------------

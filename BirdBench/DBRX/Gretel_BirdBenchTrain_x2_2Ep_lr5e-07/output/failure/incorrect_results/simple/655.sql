@@ -155,12 +155,12 @@ SELECT p.Title, pl.LinkTypeId FROM posts p JOIN postLinks pl ON p.Id = pl.PostId
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('What are principal component scores?', 1), ('What are principal component scores?', 1)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('What is the best way to identify outliers in multivariate data?', 1), ('PCA scores in multiple regression', 1)]
 ----------------------------

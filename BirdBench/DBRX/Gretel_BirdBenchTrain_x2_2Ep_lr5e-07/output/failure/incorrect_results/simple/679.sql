@@ -155,12 +155,12 @@ SELECT p.Id, p.Title FROM posts p WHERE p.Score = (SELECT MAX(p2.Score) FROM pos
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1595, 'Python as a statistics workbench')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(890, 'Python as a statistics workbench')]
 ----------------------------

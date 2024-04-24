@@ -203,12 +203,12 @@ SELECT AVG(fastestLapTime) FROM results WHERE raceId = (SELECT raceId FROM races
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(None,)]
 ----------------------------

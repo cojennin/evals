@@ -119,12 +119,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM event) as percentage FROM budget
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(11.904761904761905,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(9.615384615384615,)]
 ----------------------------

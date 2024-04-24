@@ -119,12 +119,12 @@ SELECT b.budget_id, b.amount FROM budget b WHERE b.category = 'Advertisement' OR
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('recvKTAWAFKkVNnXQ', 150), ('rec0QmEc3cSQFQ6V2', 75), ('recFZ47e0eVqcQD9O', 75)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('recvKTAWAFKkVNnXQ',), ('rec0QmEc3cSQFQ6V2',), ('recFZ47e0eVqcQD9O',)]
 ----------------------------

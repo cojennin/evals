@@ -112,6 +112,6 @@ WHERE s.publisher_id = (SELECT id FROM publisher WHERE publisher_name = 'DC Comi
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(224,)]
 ----------------------------

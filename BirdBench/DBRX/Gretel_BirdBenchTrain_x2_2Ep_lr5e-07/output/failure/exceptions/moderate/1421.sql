@@ -123,8 +123,4 @@ no such column: major_name
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

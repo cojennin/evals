@@ -121,6 +121,6 @@ SELECT b.category, b.amount FROM budget b WHERE b.link_to_event = (SELECT e.even
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Parking', 10), ('Speaker Gifts', 25), ('Advertisement', 75), ('Food', 150)]
 ----------------------------

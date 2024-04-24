@@ -121,6 +121,6 @@ SELECT m.first_name, m.last_name FROM member m JOIN attendance a ON m.member_id 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Phillip', 'Cullen'), ('Katy', 'Balentine'), ('Luisa', 'Guidi'), ('Edwardo', 'Ing'), ('Maya', 'Mclean'), ('Annabella', 'Warren'), ('Matthew', 'Snay'), ('Garrett', 'Gerke'), ('Keaton', 'Mccray'), ('Adele', 'Deleon'), ('Madelyn', 'Nicholson'), ('Rafi', 'Mckee'), ('Carlo', 'Jacobs'), ('Emily', 'Jaquith'), ('Keith', 'Dunlop'), ('Casey', 'Mason'), ('Kevin', 'Pierce'), ('Sherri', 'Ramsey'), ('Amy', 'Firth'), ('Mccauley', 'Nash')]
 ----------------------------

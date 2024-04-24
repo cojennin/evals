@@ -207,8 +207,4 @@ no such column: location
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

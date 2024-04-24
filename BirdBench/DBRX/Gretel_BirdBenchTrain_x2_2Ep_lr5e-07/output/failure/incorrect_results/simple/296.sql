@@ -50,12 +50,12 @@ SELECT molecule_id FROM atom WHERE atom_id = 'TR00_1'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR000', 'TR000_1_2', 'TR000_1')]
 ----------------------------

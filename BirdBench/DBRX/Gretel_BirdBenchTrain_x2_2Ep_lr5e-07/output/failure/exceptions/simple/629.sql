@@ -159,8 +159,4 @@ near "2010": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

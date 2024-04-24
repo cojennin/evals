@@ -206,6 +206,6 @@ SELECT MAX(accidents) FROM (SELECT driverId, COUNT(*) as accidents FROM results 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2,)]
 ----------------------------

@@ -71,6 +71,6 @@ SELECT DISTINCT Time FROM transactions_1k WHERE GasStationID IN (SELECT GasStati
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('14:29:00',), ('11:55:00',)]
 ----------------------------

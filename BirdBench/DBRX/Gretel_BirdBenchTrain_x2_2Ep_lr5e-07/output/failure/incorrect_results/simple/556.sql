@@ -155,12 +155,12 @@ SELECT AVG(badges.Id) FROM badges JOIN users ON badges.UserId = users.Id WHERE u
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(37511.04868193188,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(48.570093457943926,)]
 ----------------------------

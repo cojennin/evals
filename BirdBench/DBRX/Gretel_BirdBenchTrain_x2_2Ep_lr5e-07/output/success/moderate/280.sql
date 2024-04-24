@@ -52,6 +52,6 @@ SELECT b.bond_id, m.label FROM bond b JOIN connected c ON b.bond_id = c.bond_id 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR041_7_10', '+'), ('TR041_8_9', '+'), ('TR377_3_5', '-'), ('TR377_4_6', '-'), ('TR499_1_2', '+')]
 ----------------------------

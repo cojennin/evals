@@ -159,8 +159,4 @@ no such column: u.UserDisplayName
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -205,6 +205,6 @@ SELECT circuitRef FROM circuits WHERE name = 'Marina Bay Street Circuit'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('marina_bay',)]
 ----------------------------

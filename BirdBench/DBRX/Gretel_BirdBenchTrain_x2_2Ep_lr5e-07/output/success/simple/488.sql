@@ -176,6 +176,6 @@ SELECT code FROM sets WHERE releaseDate = '2017-07-14';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('HOU',), ('PHOU',)]
 ----------------------------

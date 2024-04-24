@@ -203,12 +203,12 @@ SELECT d.forename, d.surname, r.points FROM drivers d JOIN results r ON d.driver
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Lewis', 'Hamilton', 50.0)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Sebastian', 'Vettel', 397.0)]
 ----------------------------

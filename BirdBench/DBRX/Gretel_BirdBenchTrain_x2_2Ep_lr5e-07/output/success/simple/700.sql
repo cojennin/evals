@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM votes WHERE BountyAmount > 30;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(87,)]
 ----------------------------

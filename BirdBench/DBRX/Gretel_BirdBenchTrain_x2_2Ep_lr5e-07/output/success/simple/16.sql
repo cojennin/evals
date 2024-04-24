@@ -127,6 +127,6 @@ SELECT COUNT(*) FROM satscores WHERE rtype = 'merged' AND cname = 'Alameda' AND 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

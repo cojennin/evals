@@ -108,12 +108,12 @@ SELECT 100.0 * COUNT(hero_id) / (SELECT COUNT(*) FROM superhero WHERE alignment_
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(16.50943396226415,)]
 ----------------------------

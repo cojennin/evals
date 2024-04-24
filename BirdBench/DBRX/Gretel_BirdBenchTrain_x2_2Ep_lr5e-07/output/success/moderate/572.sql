@@ -157,6 +157,6 @@ SELECT ViewCount FROM posts WHERE Title = 'Integration of Weka and/or RapidMiner
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(60,)]
 ----------------------------

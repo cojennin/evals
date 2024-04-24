@@ -119,12 +119,12 @@ SELECT COUNT(*) FROM member WHERE t_shirt_size = 'Large' AND link_to_major = (SE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

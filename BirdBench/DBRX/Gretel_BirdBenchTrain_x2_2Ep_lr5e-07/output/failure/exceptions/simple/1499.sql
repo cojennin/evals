@@ -73,8 +73,4 @@ ambiguous column name: CustomerID
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM tags WHERE Id < 15 AND Count <= 20;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2,)]
 ----------------------------

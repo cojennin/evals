@@ -50,12 +50,12 @@ SELECT bond_type FROM bond WHERE molecule_id = 'TR006' GROUP BY bond_type ORDER 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('-',), ('=',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR006_11_12',), ('TR006_11_13',)]
 ----------------------------

@@ -203,12 +203,12 @@ SELECT drivers.forename, drivers.surname, results.position FROM drivers JOIN res
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Timo', 'Glock', None), ('Nick', 'Heidfeld', None), ('Lewis', 'Hamilton', None), ('Christian', 'Klien', None), ('Kamui', 'Kobayashi', None), ('Bruno', 'Senna', None), ('Jarno', 'Trulli', None), ('Vitantonio', 'Liuzzi', None), ('Fernando', 'Alonso', 1), ('Sebastian', 'Vettel', 2), ('Mark', 'Webber', 3), ('Jenson', 'Button', 4), ('Nico', 'Rosberg', 5), ('Rubens', 'Barrichello', 6), ('Robert', 'Kubica', 7), ('Felipe', 'Massa', 8), ('Adrian', 'Sutil', 9), ('Nico', 'Hülkenberg', 10), ('Vitaly', 'Petrov', 11), ('Jaime', 'Alguersuari', 12), ('Michael', 'Schumacher', 13), ('Sébastien', 'Buemi', 14), ('Lucas', 'di Grassi', 15), ('Heikki', 'Kovalainen', 16)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Mark', 'Webber'), ('Fernando', 'Alonso'), ('Lewis', 'Hamilton'), ('Sebastian', 'Vettel'), ('Jenson', 'Button'), ('Felipe', 'Massa'), ('Nico', 'Rosberg'), ('Robert', 'Kubica'), ('Adrian', 'Sutil'), ('Michael', 'Schumacher'), ('Rubens', 'Barrichello'), ('Kamui', 'Kobayashi'), ('Vitaly', 'Petrov'), ('Nico', 'Hülkenberg'), ('Vitantonio', 'Liuzzi'), ('Sébastien', 'Buemi'), ('Pedro', 'de la Rosa'), ('Jaime', 'Alguersuari'), ('Heikki', 'Kovalainen'), ('Karun', 'Chandhok'), ('Lucas', 'di Grassi'), ('Jarno', 'Trulli'), ('Bruno', 'Senna'), ('Timo', 'Glock'), ('Sakon', 'Yamamoto'), ('Nick', 'Heidfeld'), ('Christian', 'Klien')]
 ----------------------------

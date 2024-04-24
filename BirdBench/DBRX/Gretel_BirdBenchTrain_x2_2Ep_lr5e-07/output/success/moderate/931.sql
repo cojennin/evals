@@ -205,6 +205,6 @@ SELECT MAX(fastestLapSpeed) FROM results WHERE raceId = (SELECT raceId FROM race
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('202.484',)]
 ----------------------------

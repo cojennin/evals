@@ -119,12 +119,12 @@ SELECT COUNT(*) FROM member WHERE link_to_major IN (SELECT major_id FROM major W
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2,)]
 ----------------------------

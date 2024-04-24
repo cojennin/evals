@@ -155,12 +155,12 @@ SELECT p.Title, c.Text, p.Score, AVG(p.ViewCount) as AvgViewCount FROM posts p J
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(32384.5, 'So how many staticians *does* it take to screw in a lightbulb?', '@Srikant Vadali I just did. Replace p^i with p, j with j/i and k with k/i and you get the exact same probabilities as an output with a different set of parameters (unless i=1 - with that constraint the model is identifiable).')]
 ----------------------------

@@ -157,6 +157,6 @@ SELECT SUM(CommentCount) FROM posts WHERE OwnerUserId IN (SELECT Id FROM users W
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(256,)]
 ----------------------------

@@ -205,6 +205,6 @@ SELECT circuits.name FROM circuits INNER JOIN races ON circuits.circuitId = race
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('A1-Ring',), ('Autódromo Juan y Oscar Gálvez',)]
 ----------------------------

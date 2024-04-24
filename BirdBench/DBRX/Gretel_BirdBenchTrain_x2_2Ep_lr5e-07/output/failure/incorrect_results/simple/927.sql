@@ -203,12 +203,12 @@ SELECT d.forename, d.surname, r.fastestLapSpeed FROM results r JOIN drivers d ON
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Vitantonio', 'Liuzzi', '91.610')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Vitantonio', 'Liuzzi')]
 ----------------------------

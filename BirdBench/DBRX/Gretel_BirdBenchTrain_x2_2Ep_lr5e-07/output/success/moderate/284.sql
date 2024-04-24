@@ -52,6 +52,6 @@ SELECT bond_type FROM bond WHERE molecule_id IN (SELECT molecule_id FROM atom WH
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',), ('=',)]
 ----------------------------

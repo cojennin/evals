@@ -69,12 +69,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM customers) as percentage FROM cu
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(37.60820677120237,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(66.62300807683911,)]
 ----------------------------

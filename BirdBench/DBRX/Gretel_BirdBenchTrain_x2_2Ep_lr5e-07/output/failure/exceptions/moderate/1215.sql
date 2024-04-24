@@ -105,8 +105,4 @@ no such function: SUBTRACT
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

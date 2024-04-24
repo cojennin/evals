@@ -278,8 +278,4 @@ no such column: country_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

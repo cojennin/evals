@@ -104,8 +104,4 @@ no such column: SC170
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

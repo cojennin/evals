@@ -125,12 +125,12 @@ SELECT s.MailZip, s.School FROM schools s WHERE s.AdmLName1 = 'Atoian'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('93926-0238', 'Fairview Middle')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Fairview Middle', '93926-0238')]
 ----------------------------

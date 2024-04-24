@@ -274,12 +274,12 @@ SELECT Player_Attributes.player_api_id FROM Player_Attributes WHERE Player_Attri
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(41496,), (41496,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(33339,), (33340,), (33341,)]
 ----------------------------

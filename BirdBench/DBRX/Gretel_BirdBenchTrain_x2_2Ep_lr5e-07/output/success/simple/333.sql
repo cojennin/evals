@@ -52,6 +52,6 @@ SELECT COUNT(*) FROM atom WHERE element = 'c' AND molecule_id = 'TR008';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(10,)]
 ----------------------------

@@ -50,12 +50,12 @@ SELECT bond_type, COUNT(*) as count FROM bond GROUP BY bond_type ORDER BY count 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('-', 10528)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',)]
 ----------------------------

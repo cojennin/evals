@@ -119,12 +119,12 @@ SELECT e.event_name, b.category FROM event e JOIN budget b ON e.event_id = b.lin
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('March Speaker', 'Food'), ('March Speaker', 'Speaker Gifts'), ('March Speaker', 'Advertisement'), ('March Speaker', 'Parking')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Food',), ('Speaker Gifts',), ('Advertisement',), ('Parking',)]
 ----------------------------

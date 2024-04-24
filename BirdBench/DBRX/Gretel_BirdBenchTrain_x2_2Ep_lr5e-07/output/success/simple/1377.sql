@@ -121,6 +121,6 @@ SELECT COUNT(*) FROM member WHERE position = 'President'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

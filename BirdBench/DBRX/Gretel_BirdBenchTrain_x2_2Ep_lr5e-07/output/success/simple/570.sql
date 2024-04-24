@@ -157,6 +157,6 @@ SELECT b.Name FROM badges b JOIN users u ON b.UserId = u.Id WHERE u.DisplayName 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Autobiographer',)]
 ----------------------------

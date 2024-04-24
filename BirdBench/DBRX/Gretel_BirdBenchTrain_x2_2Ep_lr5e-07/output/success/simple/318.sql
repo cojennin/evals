@@ -52,6 +52,6 @@ SELECT molecule_id FROM bond WHERE bond_id = 'TR001_1_7'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR001',)]
 ----------------------------

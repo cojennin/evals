@@ -52,6 +52,6 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM molecule) as percentage FROM mol
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(44.31486880466473,)]
 ----------------------------

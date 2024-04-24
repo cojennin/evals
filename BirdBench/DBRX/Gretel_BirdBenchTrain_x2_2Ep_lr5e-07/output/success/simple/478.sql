@@ -176,6 +176,6 @@ SELECT c.name FROM cards c WHERE c.number = 4 AND c.setCode = 'CSP';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Darien, King of Kjeldor',)]
 ----------------------------

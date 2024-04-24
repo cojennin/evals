@@ -119,12 +119,12 @@ SELECT m.first_name, m.last_name FROM member m JOIN attendance a ON m.member_id 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Phillip', 'Cullen'), ('Katy', 'Balentine'), ('Matthew', 'Snay'), ('Luisa', 'Guidi'), ('Garrett', 'Gerke'), ('Maya', 'Mclean'), ('Edwardo', 'Ing'), ('Emily', 'Jaquith'), ('Rafi', 'Mckee'), ('Casey', 'Mason'), ('Elijah', 'Allen'), ('Keith', 'Dunlop'), ('Adele', 'Deleon'), ('Madelyn', 'Nicholson'), ('Sacha', 'Harrison'), ('Sherri', 'Ramsey'), ('Amy', 'Firth'), ('Kevin', 'Pierce'), ('Tyler', 'Hewitt'), ('Grant', 'Gilmour'), ('Dean', "O'Reilly"), ('Connor', 'Hilton'), ('Adela', "O'Gallagher")]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('recD078PnS3x2doBe',), ('recP6DJPyi5donvXL',), ('recEFd8s6pkrTt4Pz',), ('rec28ORZgcm1dtqBZ',), ('recf4UKTfipCzgcSA',), ('recZ4PkGERzl9ziHO',), ('recTjHY5xXhvkCdVT',), ('recT92PyyZCGq1R68',), ('recL94zpn6Xh6kQii',), ('recJMazpPVexyFYTc',), ('recro8T1MPMwRadVH',), ('reco0mr8dXTgs5wWA',), ('recEymrwCUKxiiosI',), ('recsTO4OZIF9rbubk',), ('rec4BLdZHS2Blfp4v',), ('recxBj3tjKTGHqucS',), ('recUdRhbhcEO1Hk5r',), ('recuSfhAZIlKba4s2',), ('recWh2lJVOT6HjChK',), ('rec280Sk7o31iG0Tx',), ('recQaxyXBQG5BBtD0',), ('rec3pH4DxMcWHMRB7',), ('reccW7q1KkhSKZsea',)]
 ----------------------------

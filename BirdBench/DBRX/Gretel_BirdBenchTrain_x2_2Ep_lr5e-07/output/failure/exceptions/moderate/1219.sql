@@ -104,8 +104,4 @@ no such column: Patient.SEX
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

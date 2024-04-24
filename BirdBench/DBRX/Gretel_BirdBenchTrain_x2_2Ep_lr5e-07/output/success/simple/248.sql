@@ -52,6 +52,6 @@ SELECT a1.atom_id, a2.atom_id FROM connected c1 JOIN connected c2 ON c1.atom_id 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR447_1', 'TR447_3'), ('TR447_3', 'TR447_1')]
 ----------------------------

@@ -129,8 +129,4 @@ no such column: s.Enrollment
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

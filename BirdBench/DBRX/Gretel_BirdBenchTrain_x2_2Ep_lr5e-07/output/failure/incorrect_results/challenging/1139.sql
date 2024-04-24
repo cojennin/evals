@@ -274,12 +274,12 @@ SELECT home_team_goal, away_team_goal FROM Match WHERE date = '2008-09-24%' AND 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1, 1)]
 ----------------------------

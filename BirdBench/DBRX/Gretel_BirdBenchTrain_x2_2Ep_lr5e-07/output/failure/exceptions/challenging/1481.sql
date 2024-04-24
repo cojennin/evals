@@ -73,8 +73,4 @@ no such column: Segment
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

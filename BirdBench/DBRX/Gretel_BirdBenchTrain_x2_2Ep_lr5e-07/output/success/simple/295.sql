@@ -52,6 +52,6 @@ SELECT COUNT(*) FROM atom WHERE element = 'h' AND molecule_id IN (SELECT molecul
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1569,)]
 ----------------------------

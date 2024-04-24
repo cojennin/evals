@@ -159,8 +159,4 @@ no such column: UpVotes
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

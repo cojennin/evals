@@ -121,6 +121,6 @@ SELECT SUM(cost) FROM expense WHERE link_to_budget IN (SELECT budget_id FROM bud
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(449.13,)]
 ----------------------------

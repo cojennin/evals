@@ -274,12 +274,12 @@ SELECT AVG(buildUpPlaySpeed) FROM Team_Attributes WHERE team_fifa_api_id IN (SEL
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(59.6,)]
 ----------------------------

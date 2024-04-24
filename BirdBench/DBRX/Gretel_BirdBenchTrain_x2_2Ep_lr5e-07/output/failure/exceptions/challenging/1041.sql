@@ -278,8 +278,4 @@ near "=": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

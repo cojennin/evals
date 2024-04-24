@@ -100,12 +100,12 @@ SELECT Laboratory.`T-BIL` FROM Laboratory WHERE Laboratory.`T-BIL` = (SELECT MAX
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1.9,), (1.9,), (1.9,), (1.9,), (1.9,), (1.9,), (1.9,), (1.9,), (1.9,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4096,)]
 ----------------------------

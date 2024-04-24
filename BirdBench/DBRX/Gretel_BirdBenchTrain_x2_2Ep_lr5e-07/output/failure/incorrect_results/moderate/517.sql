@@ -174,12 +174,12 @@ SELECT COUNT(*) FROM cards c WHERE c.rarity = 'rare' AND c.types LIKE '%Enchantm
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(5,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(35,)]
 ----------------------------

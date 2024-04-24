@@ -119,12 +119,12 @@ SELECT expense.expense_description FROM expense WHERE expense.link_to_member IN 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Pizza',), ('Pizza',), ('Pizza',), ('Posters',), ('Posters',), ('Water, chips, cookies',), ('Posters',), ('Water, chips, cookies',), ('Pizza',), ('Water, Cookies',), ('Water, cookies, chips',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('rec1oMgNFt7Y0G40x', 'Pizza'), ('recHPdtBtpThSA9lq', 'Pizza'), ('recILV3eykJuWc489', 'Pizza'), ('recIudsuLiDpzK8Io', 'Posters'), ('recJnyr7Z1CjAlHgA', 'Posters'), ('recTUt9QxJ0Sp3H3m', 'Water, chips, cookies'), ('recc708ab2lufAlNR', 'Posters'), ('reccb1HM5bxQG3mLF', 'Water, chips, cookies'), ('receRmFWtS9xJdkL2', 'Pizza'), ('recoMvesC2XeccvpV', 'Water, Cookies'), ('recpalswlVDIbuLLu', 'Water, cookies, chips')]
 ----------------------------

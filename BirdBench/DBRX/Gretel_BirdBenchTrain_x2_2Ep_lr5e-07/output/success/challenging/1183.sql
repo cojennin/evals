@@ -102,6 +102,6 @@ SELECT Patient.Diagnosis FROM Patient WHERE Patient.ID = (SELECT Examination.ID 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('SLE',)]
 ----------------------------

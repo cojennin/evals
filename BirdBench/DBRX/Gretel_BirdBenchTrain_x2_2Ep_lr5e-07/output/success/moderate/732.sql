@@ -110,6 +110,6 @@ SELECT publisher_name FROM  publisher p JOIN  superhero s ON p.id = s.publisher_
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Marvel Comics',)]
 ----------------------------

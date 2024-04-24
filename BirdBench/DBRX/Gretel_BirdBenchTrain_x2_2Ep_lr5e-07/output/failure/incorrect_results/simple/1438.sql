@@ -119,12 +119,12 @@ SELECT member_id FROM member WHERE first_name = 'Katy' AND link_to_major = 'rec1
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('recP6DJPyi5donvXL',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('College of Natural Resources',)]
 ----------------------------

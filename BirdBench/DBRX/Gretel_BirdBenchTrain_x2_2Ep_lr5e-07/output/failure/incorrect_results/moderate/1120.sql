@@ -274,12 +274,12 @@ SELECT SUM(away_team_goal) FROM Match WHERE away_player_1 = (SELECT player_api_i
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(35,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(29,)]
 ----------------------------

@@ -102,6 +102,6 @@ SELECT ANA FROM Examination WHERE ID = 3605340 AND `Examination Date` = '1996-12
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(16,)]
 ----------------------------

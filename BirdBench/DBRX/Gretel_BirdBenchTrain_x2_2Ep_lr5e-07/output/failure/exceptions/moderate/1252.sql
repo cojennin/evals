@@ -104,8 +104,4 @@ no such column: IGG
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

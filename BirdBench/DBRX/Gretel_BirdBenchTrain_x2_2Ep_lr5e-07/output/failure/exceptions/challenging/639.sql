@@ -159,8 +159,4 @@ near "WHERE": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

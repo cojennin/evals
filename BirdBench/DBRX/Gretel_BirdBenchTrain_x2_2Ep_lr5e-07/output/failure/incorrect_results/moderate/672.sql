@@ -155,12 +155,12 @@ SELECT COUNT(DISTINCT u.Id) as user_count FROM users u JOIN posts p ON u.Id = p.
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(14,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(19,)]
 ----------------------------

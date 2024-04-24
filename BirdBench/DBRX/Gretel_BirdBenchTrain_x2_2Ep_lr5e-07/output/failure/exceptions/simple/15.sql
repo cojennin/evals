@@ -129,8 +129,4 @@ no such column: StatusType
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

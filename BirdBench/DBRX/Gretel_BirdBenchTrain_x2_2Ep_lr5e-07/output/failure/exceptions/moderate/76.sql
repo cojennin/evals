@@ -129,8 +129,4 @@ no such column: s.NSLPProvisionStatus
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

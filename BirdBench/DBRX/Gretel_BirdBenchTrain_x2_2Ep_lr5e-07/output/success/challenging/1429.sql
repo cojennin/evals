@@ -121,6 +121,6 @@ SELECT event_name FROM event WHERE type = 'Social' AND event_id IN (SELECT link_
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Laugh Out Loud',)]
 ----------------------------

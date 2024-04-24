@@ -155,12 +155,12 @@ SELECT Text FROM comments WHERE CreationDate = '2010-07-19 19:25:47.0';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('also the US census data http://www.census.gov/main/www/access.html',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [("Yes, R is nice- but WHY is it 'valuable'.",)]
 ----------------------------

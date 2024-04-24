@@ -110,6 +110,6 @@ SELECT COUNT(DISTINCT hp.power_id) as power_count FROM hero_power hp WHERE hp.he
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(44,)]
 ----------------------------

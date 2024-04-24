@@ -157,6 +157,6 @@ SELECT Id FROM users WHERE Age = (SELECT MIN(Age) FROM users)
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(805,)]
 ----------------------------

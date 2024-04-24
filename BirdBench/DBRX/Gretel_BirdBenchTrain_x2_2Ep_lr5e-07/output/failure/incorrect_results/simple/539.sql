@@ -155,12 +155,12 @@ SELECT OwnerDisplayName FROM posts WHERE Title = 'Eliciting priors from experts'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('csgillespie',)]
 ----------------------------

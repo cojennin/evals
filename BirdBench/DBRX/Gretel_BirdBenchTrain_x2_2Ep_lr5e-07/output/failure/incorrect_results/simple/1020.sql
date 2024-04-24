@@ -274,12 +274,12 @@ SELECT player_api_id, MAX(overall_rating) FROM Player_Attributes;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(30981, 94)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(30981,)]
 ----------------------------

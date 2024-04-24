@@ -174,12 +174,12 @@ SELECT c.name FROM cards c JOIN sets s ON c.setCode = s.code WHERE s.name = 'Col
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Rimefeather Owl',), ('Herald of Leshrac',), ('Jokulmorder',), ('Fury of the Horde',), ('Allosaurus Rider',), ('Commandeer',), ('Sunscour',), ('Garza Zol, Plague Queen',), ('Panglacial Wurm',), ('Tresserhorn Skyknight',), ('Soul Spike',), ('Rimescale Dragon',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Sunscour',)]
 ----------------------------

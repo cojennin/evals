@@ -53,12 +53,12 @@ AND m.molecule_id IN (SELECT c.atom_id FROM connected c WHERE c.bond_id IN (SELE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(7,)]
 ----------------------------

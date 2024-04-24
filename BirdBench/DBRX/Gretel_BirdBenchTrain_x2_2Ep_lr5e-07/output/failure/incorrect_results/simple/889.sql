@@ -203,12 +203,12 @@ SELECT MAX(year) FROM races WHERE name = 'British Grand Prix' AND circuitId = (S
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1986,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1986-07-13',)]
 ----------------------------

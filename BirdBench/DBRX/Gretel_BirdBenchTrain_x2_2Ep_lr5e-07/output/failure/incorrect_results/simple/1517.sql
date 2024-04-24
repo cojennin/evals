@@ -69,12 +69,12 @@ SELECT customers.Segment FROM customers INNER JOIN (SELECT CustomerID, MIN(Date)
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('KAM',), ('SME',), ('LAM',), ('KAM',), ('SME',), ('SME',), ('SME',), ('KAM',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('KAM',)]
 ----------------------------

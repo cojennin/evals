@@ -121,6 +121,6 @@ SELECT COUNT(*) FROM major WHERE college = 'College of Humanities and Social Sci
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(24,)]
 ----------------------------

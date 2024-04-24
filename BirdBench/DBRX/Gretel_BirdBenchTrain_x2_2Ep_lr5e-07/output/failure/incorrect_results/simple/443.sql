@@ -174,12 +174,12 @@ SELECT code FROM sets WHERE type = 'expansion'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('5DN',), ('AER',), ('AKH',), ('ALA',), ('ALL',), ('APC',), ('ARB',), ('ARN',), ('ATQ',), ('AVR',), ('BFZ',), ('BNG',), ('BOK',), ('CHK',), ('CON',), ('CSP',), ('DGM',), ('DIS',), ('DKA',), ('DOM',), ('DRK',), ('DST',), ('DTK',), ('ELD',), ('EMN',), ('EVE',), ('EXO',), ('FEM',), ('FRF',), ('FUT',), ('GPT',), ('GRN',), ('GTC',), ('HML',), ('HOU',), ('ICE',), ('IKO',), ('INV',), ('ISD',), ('JOU',), ('JUD',), ('KHM',), ('KLD',), ('KTK',), ('LEG',), ('LGN',), ('LRW',), ('MBS',), ('MIR',), ('MMQ',), ('MOR',), ('MRD',), ('NEM',), ('NPH',), ('ODY',), ('OGW',), ('ONS',), ('PCY',), ('PLC',), ('PLS',), ('RAV',), ('RIX',), ('RNA',), ('ROE',), ('RTR',), ('SCG',), ('SHM',), ('SOI',), ('SOK',), ('SOM',), ('STH',), ('THB',), ('THS',), ('TMP',), ('TOR',), ('TSB',), ('TSP',), ('UDS',), ('ULG',), ('USG',), ('VIS',), ('WAR',), ('WTH',), ('WWK',), ('XLN',), ('ZEN',), ('ZNR',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('5DN',), ('AER',), ('AKH',), ('ALA',), ('APC',), ('ARB',), ('BFZ',), ('BNG',), ('BOK',), ('CHK',), ('CON',), ('CSP',), ('DIS',), ('DOM',), ('DST',), ('DTK',), ('ELD',), ('EMN',), ('EVE',), ('EXO',), ('FRF',), ('FUT',), ('GPT',), ('GTC',), ('HML',), ('ICE',), ('IKO',), ('JOU',), ('JUD',), ('KLD',), ('KTK',), ('LGN',), ('LRW',), ('MBS',), ('MMQ',), ('MOR',), ('MRD',), ('ODY',), ('OGW',), ('ONS',), ('PCY',), ('PLC',), ('RAV',), ('RIX',), ('RNA',), ('RTR',), ('SCG',), ('SHM',), ('SOI',), ('SOK',), ('STH',), ('THB',), ('THS',), ('TMP',), ('TOR',), ('TSP',), ('UDS',), ('ULG',), ('USG',), ('WAR',), ('WTH',)]
 ----------------------------

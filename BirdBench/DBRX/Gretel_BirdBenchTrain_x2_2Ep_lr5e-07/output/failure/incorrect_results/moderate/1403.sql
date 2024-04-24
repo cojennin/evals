@@ -119,12 +119,12 @@ SELECT event_name FROM event WHERE status = 'Closed' AND event_id IN (SELECT lin
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('September Speaker',)]
 ----------------------------

@@ -276,6 +276,6 @@ SELECT Player_Attributes.heading_accuracy FROM Player_Attributes WHERE Player_At
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(65,)]
 ----------------------------

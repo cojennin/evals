@@ -174,12 +174,12 @@ SELECT s.name, st.translation FROM sets s INNER JOIN set_translations st ON s.co
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Tenth Edition', 'Set Base Decima Edizione')]
 ----------------------------

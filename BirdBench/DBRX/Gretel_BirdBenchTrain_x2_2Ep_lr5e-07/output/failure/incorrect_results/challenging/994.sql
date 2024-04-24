@@ -203,12 +203,12 @@ SELECT c.name, c.nationality, SUM(r.points) as total_points FROM constructors c 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('McLaren', 'British', 218.5)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(218.5, 'McLaren', 'British')]
 ----------------------------

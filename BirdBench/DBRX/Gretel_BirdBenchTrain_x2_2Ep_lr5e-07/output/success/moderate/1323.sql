@@ -121,6 +121,6 @@ SELECT event_name FROM event WHERE event_id IN (SELECT link_to_event FROM attend
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('October Speaker',), ('September Speaker',), ('Registration',), ('October Meeting',), ('November Speaker',), ('November Meeting',), ('Yearly Kickoff',), ('September Meeting',)]
 ----------------------------

@@ -129,8 +129,4 @@ no such column: s.City
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

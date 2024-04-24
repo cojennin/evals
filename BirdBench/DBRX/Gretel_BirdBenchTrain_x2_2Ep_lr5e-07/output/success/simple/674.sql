@@ -157,6 +157,6 @@ SELECT DisplayName FROM users WHERE Reputation = (SELECT MAX(Reputation) FROM us
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('whuber',)]
 ----------------------------

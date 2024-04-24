@@ -52,6 +52,6 @@ SELECT b.bond_type, c.atom_id, c.atom_id2 FROM bond b JOIN connected c ON b.bond
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-', 'TR001_6', 'TR001_9'), ('-', 'TR001_9', 'TR001_6')]
 ----------------------------

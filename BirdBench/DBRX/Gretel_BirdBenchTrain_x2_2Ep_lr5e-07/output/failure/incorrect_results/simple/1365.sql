@@ -119,12 +119,12 @@ SELECT expense_description, remaining FROM expense, budget WHERE expense.link_to
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Water, chips, cookies', -24.25), ('Pizza', -24.25)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Water, chips, cookies',)]
 ----------------------------

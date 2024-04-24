@@ -205,6 +205,6 @@ SELECT COUNT(*) FROM results WHERE raceId = (SELECT raceId FROM races WHERE name
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(12,)]
 ----------------------------

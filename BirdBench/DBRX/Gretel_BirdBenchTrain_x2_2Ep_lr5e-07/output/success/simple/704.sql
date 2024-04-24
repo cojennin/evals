@@ -157,6 +157,6 @@ SELECT ExcerptPostId, WikiPostId FROM tags WHERE TagName = 'sample';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(28276, 28275)]
 ----------------------------

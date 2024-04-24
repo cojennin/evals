@@ -104,8 +104,4 @@ no such column: Laboratory.Birthday
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

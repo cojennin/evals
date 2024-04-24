@@ -174,12 +174,12 @@ SELECT COUNT(*) FROM cards WHERE setCode = 'World Championship Decks 2004' AND c
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(10,)]
 ----------------------------

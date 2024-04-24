@@ -54,8 +54,4 @@ no such column: c1.element
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

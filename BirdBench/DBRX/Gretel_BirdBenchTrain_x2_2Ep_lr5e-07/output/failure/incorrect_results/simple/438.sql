@@ -174,12 +174,12 @@ SELECT st.translation FROM set_translations st WHERE st.setCode = (SELECT s.code
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('German',)]
 ----------------------------

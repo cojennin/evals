@@ -121,6 +121,6 @@ SELECT SUM(cost) FROM expense WHERE expense_date = '2019-08-20';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(122.06,)]
 ----------------------------

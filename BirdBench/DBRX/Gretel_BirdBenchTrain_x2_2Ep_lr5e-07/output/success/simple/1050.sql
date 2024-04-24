@@ -276,6 +276,6 @@ SELECT Player_Attributes.preferred_foot FROM Player_Attributes, Player WHERE Pla
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('right',)]
 ----------------------------

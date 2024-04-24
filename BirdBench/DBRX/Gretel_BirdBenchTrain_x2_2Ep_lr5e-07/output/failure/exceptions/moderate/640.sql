@@ -159,8 +159,4 @@ no such column: DisplayName
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

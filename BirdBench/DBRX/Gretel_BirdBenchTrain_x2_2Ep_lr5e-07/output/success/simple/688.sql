@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM posts WHERE ViewCount > 35000 AND CommentCount = 0;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(7,)]
 ----------------------------

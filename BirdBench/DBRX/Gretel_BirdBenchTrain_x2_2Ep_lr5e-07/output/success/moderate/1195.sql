@@ -102,6 +102,6 @@ SELECT AVG(ALB) FROM Patient, Laboratory WHERE Patient.ID = Laboratory.ID AND SE
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3.912307692307692,)]
 ----------------------------

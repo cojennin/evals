@@ -50,12 +50,12 @@ SELECT molecule_id FROM  molecule WHERE  molecule_id IN (SELECT  molecule_id FRO
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR001',), ('TR002',), ('TR004',), ('TR005',), ('TR006',)]
 ----------------------------

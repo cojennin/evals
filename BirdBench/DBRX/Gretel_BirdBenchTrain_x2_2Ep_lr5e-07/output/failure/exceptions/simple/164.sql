@@ -125,8 +125,4 @@ near "order": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

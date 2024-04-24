@@ -157,6 +157,6 @@ SELECT users.DisplayName FROM users WHERE users.WebsiteUrl = 'http://stackoverfl
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Geoff Dalgas',), ('Jarrod Dixon',), ('Jeffrey',), ('rosh',), ('clyfe',), ('Rachel',), ('Paul R',), ('0xc0de',), ('Tom',), ('AGS',), ('Kuba Ober',), ('rob',), ('username',), ('Pio',), ('NickLarsen',)]
 ----------------------------

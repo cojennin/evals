@@ -108,12 +108,12 @@ SELECT s.superhero_name, COUNT(hp.power_id) as power_count FROM superhero s JOIN
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Captain Marvel', 66)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Captain Marvel',)]
 ----------------------------

@@ -123,8 +123,4 @@ no such column: spent
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

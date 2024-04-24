@@ -174,12 +174,12 @@ SELECT flavorText FROM foreign_data WHERE name = 'Ancestor''s Chosen' AND langua
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('"La volontà di tutti, eseguita per mano mia."',), ('Sancito da generazioni di forza.',)]
 ----------------------------

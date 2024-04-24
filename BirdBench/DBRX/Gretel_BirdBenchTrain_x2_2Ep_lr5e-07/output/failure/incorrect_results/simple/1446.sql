@@ -119,12 +119,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM zip_code) FROM zip_code WHERE ty
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(22.537431048069347,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.0,)]
 ----------------------------

@@ -176,6 +176,6 @@ SELECT s.id FROM sets s WHERE s.type = 'commander' AND s.totalSetSize = (SELECT 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(37,)]
 ----------------------------

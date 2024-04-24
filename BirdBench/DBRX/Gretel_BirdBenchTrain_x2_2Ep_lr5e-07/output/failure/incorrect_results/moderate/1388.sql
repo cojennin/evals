@@ -119,12 +119,12 @@ SELECT m.first_name, m.last_name, i.source, MAX(i.amount) FROM member m JOIN inc
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Angela', 'Sanders', 'Dues', 50), ('Grant', 'Gilmour', 'Dues', 50), ('Luisa', 'Guidi', 'Dues', 50), ('Connor', 'Hilton', 'Dues', 50), ('Sacha', 'Harrison', 'Dues', 50), ('Christof', 'Nielson', 'Dues', 50), ('Carlo', 'Jacobs', 'Dues', 50), ('Phillip', 'Cullen', 'Dues', 50), ('Matthew', 'Snay', 'Dues', 50), ('Adele', 'Deleon', 'Dues', 50), ('Casey', 'Mason', 'Dues', 50), ('Trent', 'Smith', 'Dues', 50), ('Rafi', 'Mckee', 'Dues', 50), ('Katy', 'Balentine', 'Dues', 50), ('Dean', "O'Reilly", 'Dues', 50), ('Emily', 'Jaquith', 'Dues', 50), ('Edwardo', 'Ing', 'Dues', 50), ('Amy', 'Firth', 'Dues', 50), ('Mccauley', 'Nash', 'Dues', 50), ('Tyler', 'Hewitt', 'Dues', 50), ('Maya', 'Mclean', 'Dues', 50), ('Brent', 'Thomason', 'Dues', 50), ('Vincent', 'Ratcliffe', 'Dues', 50), ('Adela', "O'Gallagher", 'Dues', 50), ('Garrett', 'Gerke', 'Dues', 50), ('Keaton', 'Mccray', 'Dues', 50), ('Elijah', 'Allen', 'Dues', 50), ('Madelyn', 'Nicholson', 'Dues', 50), ('Annabella', 'Warren', 'Dues', 50), ('Kevin', 'Pierce', 'Dues', 50), ('Sherri', 'Ramsey', 'Dues', 50)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Connor', 'Hilton', 'Dues')]
 ----------------------------

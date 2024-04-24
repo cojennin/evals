@@ -122,8 +122,4 @@ WHERE s.superhero_name = '": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

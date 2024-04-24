@@ -274,12 +274,12 @@ SELECT buildUpPlayDribblingClass FROM Team_Attributes WHERE team_fifa_api_id = (
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Normal',)]
 ----------------------------

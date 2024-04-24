@@ -108,12 +108,12 @@ SELECT s.superhero_name, ha.attribute_value FROM superhero s JOIN hero_attribute
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Ammo', 35)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Ammo',)]
 ----------------------------

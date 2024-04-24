@@ -121,6 +121,6 @@ SELECT member.position FROM member WHERE member.link_to_major = (SELECT major_id
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Member',)]
 ----------------------------

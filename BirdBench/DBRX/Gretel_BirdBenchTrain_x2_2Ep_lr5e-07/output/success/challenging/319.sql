@@ -52,6 +52,6 @@ SELECT 1 FROM connected WHERE bond_id = 'TR001_3_4'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

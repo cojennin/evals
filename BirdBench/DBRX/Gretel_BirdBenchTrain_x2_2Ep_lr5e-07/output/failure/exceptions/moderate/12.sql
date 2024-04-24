@@ -131,8 +131,4 @@ no such column: s.Enrollment (Ages 5-17)
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

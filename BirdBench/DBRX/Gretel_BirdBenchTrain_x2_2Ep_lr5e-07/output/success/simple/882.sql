@@ -205,6 +205,6 @@ SELECT MIN(year) FROM races WHERE name = 'Singapore Grand Prix';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2008,)]
 ----------------------------

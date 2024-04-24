@@ -159,8 +159,4 @@ no such column: posts.Views
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

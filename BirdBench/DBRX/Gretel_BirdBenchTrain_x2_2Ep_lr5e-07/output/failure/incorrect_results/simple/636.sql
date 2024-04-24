@@ -155,12 +155,12 @@ SELECT COUNT(*) FROM comments WHERE UserId IN (SELECT Id FROM users WHERE Displa
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(67,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(136,)]
 ----------------------------

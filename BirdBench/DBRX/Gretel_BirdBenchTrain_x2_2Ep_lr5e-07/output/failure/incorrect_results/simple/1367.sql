@@ -119,12 +119,12 @@ SELECT major.college, COUNT(major.college) as count FROM major JOIN member ON ma
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('College of Education & Human Services', 8)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('College of Education & Human Services',)]
 ----------------------------

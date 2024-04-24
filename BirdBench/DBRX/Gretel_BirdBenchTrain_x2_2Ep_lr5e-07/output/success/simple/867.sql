@@ -205,6 +205,6 @@ SELECT drivers.nationality FROM drivers, results WHERE drivers.driverId = result
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('German',)]
 ----------------------------

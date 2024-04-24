@@ -125,12 +125,12 @@ SELECT 100.0 * MAX(`Free Meal Count (K-12)`) / `Enrollment (K-12)` FROM frpm WHE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1.0,)]
 ----------------------------

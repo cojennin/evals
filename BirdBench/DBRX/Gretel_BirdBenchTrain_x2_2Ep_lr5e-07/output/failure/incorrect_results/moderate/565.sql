@@ -155,12 +155,12 @@ SELECT 1 FROM posts WHERE Id = (SELECT PostId FROM comments WHERE CreationDate =
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('well-finished',)]
 ----------------------------

@@ -69,12 +69,12 @@ SELECT GasStationID, SUM(Price * Amount) as Revenue FROM transactions_1k GROUP B
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(3250, 1540190.2599999998)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4347,)]
 ----------------------------

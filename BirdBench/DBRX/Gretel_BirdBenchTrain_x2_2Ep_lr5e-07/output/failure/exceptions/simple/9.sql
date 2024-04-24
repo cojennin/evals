@@ -129,8 +129,4 @@ no such column: Charter
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

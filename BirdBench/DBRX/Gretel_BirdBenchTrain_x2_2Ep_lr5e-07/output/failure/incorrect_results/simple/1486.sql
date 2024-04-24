@@ -69,12 +69,12 @@ SELECT 1 FROM (SELECT COUNT(*) as total_czk FROM customers WHERE Currency = 'CZK
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(23505,)]
 ----------------------------

@@ -50,12 +50,12 @@ SELECT COUNT(DISTINCT m.molecule_id) FROM molecule m WHERE m.molecule_id NOT IN 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(343,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(442,)]
 ----------------------------

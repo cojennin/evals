@@ -276,6 +276,6 @@ SELECT League.name FROM League WHERE League.country_id = (SELECT Country.id FROM
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Netherlands Eredivisie',)]
 ----------------------------

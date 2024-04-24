@@ -274,12 +274,12 @@ SELECT Player.player_name, Player_Attributes.crossing FROM Player INNER JOIN Pla
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Arouna Kone', 61)]
 ----------------------------

@@ -129,8 +129,4 @@ no such column: Virtual
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -174,12 +174,12 @@ SELECT SUM(unconverted_mana) FROM (SELECT  SUM(LENGTH(cards.manaCost) - LENGTH(R
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(-436,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.0,)]
 ----------------------------

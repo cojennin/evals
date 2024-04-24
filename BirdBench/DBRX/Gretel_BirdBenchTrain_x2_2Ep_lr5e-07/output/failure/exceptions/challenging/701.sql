@@ -159,8 +159,4 @@ no such table: stats_posts
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

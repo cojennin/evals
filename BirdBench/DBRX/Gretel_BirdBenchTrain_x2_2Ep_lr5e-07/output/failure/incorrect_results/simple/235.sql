@@ -50,12 +50,12 @@ SELECT COUNT(*) FROM molecule m WHERE m.molecule_id IN (SELECT a.molecule_id FRO
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(14,)]
 ----------------------------

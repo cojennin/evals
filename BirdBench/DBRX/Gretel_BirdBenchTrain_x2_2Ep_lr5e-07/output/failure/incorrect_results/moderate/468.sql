@@ -174,12 +174,12 @@ SELECT translation FROM set_translations WHERE setCode = (SELECT code FROM sets 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('核心系列第八版',)]
 ----------------------------

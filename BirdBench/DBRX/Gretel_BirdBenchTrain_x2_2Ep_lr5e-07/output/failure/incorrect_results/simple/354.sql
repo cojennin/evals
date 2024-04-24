@@ -174,12 +174,12 @@ SELECT COUNT(DISTINCT type) FROM cards WHERE artist = 'Aaron Boyd'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(4,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(12,)]
 ----------------------------

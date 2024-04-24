@@ -121,12 +121,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM client WHERE gender = 'M') FROM 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(5.39647577092511,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(50.89037138204549,)]
 ----------------------------

@@ -205,6 +205,6 @@ SELECT MAX(duration) FROM pitStops WHERE driverId = (SELECT driverId FROM driver
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('35.688',)]
 ----------------------------

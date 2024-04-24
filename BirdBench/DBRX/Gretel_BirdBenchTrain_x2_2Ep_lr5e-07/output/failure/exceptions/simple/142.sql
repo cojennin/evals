@@ -125,8 +125,4 @@ no such column: district_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

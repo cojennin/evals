@@ -104,8 +104,4 @@ no such column: RF
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

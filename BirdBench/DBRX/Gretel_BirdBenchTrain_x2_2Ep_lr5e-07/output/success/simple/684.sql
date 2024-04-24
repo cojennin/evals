@@ -157,6 +157,6 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM users) as percentage FROM users 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.15623062616243025,)]
 ----------------------------

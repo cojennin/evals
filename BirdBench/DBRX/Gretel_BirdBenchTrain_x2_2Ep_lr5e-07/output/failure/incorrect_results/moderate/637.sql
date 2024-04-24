@@ -155,12 +155,12 @@ SELECT DISTINCT tags.TagName FROM tags INNER JOIN posts ON tags.Id = posts.Id WH
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('goodness-of-fit',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('<books>',), ('<books>',), ('<books>',), ('<books>',), (None,)]
 ----------------------------

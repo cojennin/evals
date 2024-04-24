@@ -54,8 +54,4 @@ ambiguous column name: atom_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

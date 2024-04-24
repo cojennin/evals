@@ -119,12 +119,12 @@ SELECT e.event_name, b.remaining FROM event e JOIN budget b ON e.event_id = b.li
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('February Speaker', 150.0), ('April Meeting', 55.0), ('February Speaker', 75.0), ('March Meeting', 55.0), ('March Meeting', 150.0), ('April Speaker', 150.0), ('March Speaker', 150.0), ('February Meeting', 55.0), ('January Speaker', 75.0), ('January Speaker', 150.0), ('March Speaker', 75.0), ('February Meeting', 150.0), ('January Meeting', 150.0), ('January Meeting', 55.0), ('April Meeting', 150.0), ('April Speaker', 75.0), ('September Meeting', 48.06)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Guest Speaker',), ('Meeting',), ('Guest Speaker',), ('Meeting',), ('Meeting',), ('Guest Speaker',), ('Guest Speaker',), ('Meeting',), ('Guest Speaker',), ('Guest Speaker',), ('Guest Speaker',), ('Meeting',), ('Meeting',), ('Meeting',), ('Meeting',), ('Guest Speaker',), ('Meeting',)]
 ----------------------------

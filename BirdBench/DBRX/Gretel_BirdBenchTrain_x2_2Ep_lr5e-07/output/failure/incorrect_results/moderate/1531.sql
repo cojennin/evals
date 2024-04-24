@@ -69,12 +69,12 @@ SELECT c.CustomerID, AVG(t.Price/t.Amount) as avg_price, c.Currency FROM custome
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(14801, 116.61410256410257, 'CZK')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(12459, 203.85607873542577, 'CZK')]
 ----------------------------

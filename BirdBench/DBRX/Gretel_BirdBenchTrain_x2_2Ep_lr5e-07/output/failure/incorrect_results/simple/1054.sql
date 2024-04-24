@@ -275,12 +275,12 @@ SELECT Player_Attributes.defensive_work_rate FROM Player_Attributes INNER JOIN P
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('medium',)]
 ----------------------------

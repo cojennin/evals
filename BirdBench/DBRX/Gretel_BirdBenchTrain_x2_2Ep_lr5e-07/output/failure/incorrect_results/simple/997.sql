@@ -205,12 +205,12 @@ SELECT nationality, COUNT(*) as count FROM drivers GROUP BY nationality ORDER BY
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('British', 162)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('British',)]
 ----------------------------

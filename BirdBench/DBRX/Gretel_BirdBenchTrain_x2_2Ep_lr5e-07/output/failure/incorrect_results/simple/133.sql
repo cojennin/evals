@@ -121,12 +121,12 @@ SELECT A2, A13 FROM district WHERE A13 = (SELECT MAX(A13) FROM district WHERE A1
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Most', 9.4)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(39, 'Most')]
 ----------------------------

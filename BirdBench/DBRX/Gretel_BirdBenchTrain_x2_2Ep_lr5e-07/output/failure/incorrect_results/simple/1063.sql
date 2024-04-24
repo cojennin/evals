@@ -274,12 +274,12 @@ SELECT Player_Attributes.potential FROM Player_Attributes WHERE Player_Attribute
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(67,), (70,), (70,), (72,), (72,), (77,), (77,), (78,), (78,), (78,), (76,), (76,), (76,), (76,), (76,), (76,), (76,), (72,), (75,), (75,), (78,), (78,), (70,), (70,), (70,), (70,)]
 ----------------------------

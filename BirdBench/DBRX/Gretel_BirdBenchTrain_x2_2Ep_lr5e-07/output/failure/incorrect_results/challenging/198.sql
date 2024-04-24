@@ -50,12 +50,12 @@ SELECT AVG(bond_type = '-') FROM connected JOIN atom ON connected.atom_id = atom
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.8285329744279946,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(732.125,)]
 ----------------------------

@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM cards WHERE frameVersion = '1993' AND availability = 'paper
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(20,)]
 ----------------------------

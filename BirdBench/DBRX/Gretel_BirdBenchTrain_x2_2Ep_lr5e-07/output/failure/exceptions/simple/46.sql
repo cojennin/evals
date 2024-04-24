@@ -129,8 +129,4 @@ no such column: grades
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

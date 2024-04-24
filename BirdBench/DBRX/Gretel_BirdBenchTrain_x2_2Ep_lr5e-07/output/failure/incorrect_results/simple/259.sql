@@ -50,12 +50,12 @@ SELECT COUNT(DISTINCT a.element) as num_elements FROM atom a JOIN connected c ON
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(16,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(17,)]
 ----------------------------

@@ -52,6 +52,6 @@ SELECT b.bond_type FROM connected c JOIN bond b ON c.bond_id = b.bond_id WHERE c
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',)]
 ----------------------------

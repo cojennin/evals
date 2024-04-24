@@ -159,8 +159,4 @@ no such function: YEAR
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

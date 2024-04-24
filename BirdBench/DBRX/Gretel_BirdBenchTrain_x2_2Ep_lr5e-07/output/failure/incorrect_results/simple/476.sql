@@ -174,12 +174,12 @@ SELECT name FROM cards WHERE setCode = 'CSP' AND convertedManaCost = (SELECT MAX
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Sunscour',), ('Commandeer',), ('Jokulmorder',), ('Rimefeather Owl',), ('Herald of Leshrac',), ('Soul Spike',), ('Tresserhorn Skyknight',), ('Fury of the Horde',), ('Rimescale Dragon',), ('Allosaurus Rider',), ('Panglacial Wurm',), ('Garza Zol, Plague Queen',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Sunscour',)]
 ----------------------------

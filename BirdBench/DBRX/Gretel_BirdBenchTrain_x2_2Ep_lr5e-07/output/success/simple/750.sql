@@ -110,6 +110,6 @@ SELECT AVG(weight_kg) FROM superhero WHERE gender_id = 2;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(60.77956989247312,)]
 ----------------------------

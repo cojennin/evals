@@ -157,6 +157,6 @@ SELECT u.Reputation FROM users u INNER JOIN badges b ON u.Id = b.UserId WHERE b.
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(817,), (128,), (308,), (344,), (402,), (614,), (530,), (321,), (817,), (308,), (457,), (101,), (211,)]
 ----------------------------

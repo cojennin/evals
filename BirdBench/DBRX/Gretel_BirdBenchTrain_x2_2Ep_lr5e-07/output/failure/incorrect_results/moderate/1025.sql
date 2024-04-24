@@ -274,12 +274,12 @@ SELECT League.name, SUM(Match.home_team_goal + Match.away_team_goal) as total_go
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Spain LIGA BBVA', 1043)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Spain LIGA BBVA',)]
 ----------------------------

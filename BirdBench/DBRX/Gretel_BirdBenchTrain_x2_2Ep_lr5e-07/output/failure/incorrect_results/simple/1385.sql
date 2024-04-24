@@ -119,12 +119,12 @@ SELECT member_id, first_name, last_name, SUM(amount) as total_income FROM member
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('rec1x5zBFIqoOuPW8', 'Angela', 'Sanders', 50), ('rec280Sk7o31iG0Tx', 'Grant', 'Gilmour', 50), ('rec28ORZgcm1dtqBZ', 'Luisa', 'Guidi', 50), ('rec3pH4DxMcWHMRB7', 'Connor', 'Hilton', 100), ('rec4BLdZHS2Blfp4v', 'Sacha', 'Harrison', 100), ('rec4O9rmGnLx3j8vt', 'Christof', 'Nielson', 50), ('rec75vvFxgYtHmqxY', 'Carlo', 'Jacobs', 50), ('recD078PnS3x2doBe', 'Phillip', 'Cullen', 50), ('recEFd8s6pkrTt4Pz', 'Matthew', 'Snay', 50), ('recEymrwCUKxiiosI', 'Adele', 'Deleon', 50), ('recJMazpPVexyFYTc', 'Casey', 'Mason', 50), ('recL4aEZBZoPk9NYx', 'Trent', 'Smith', 50), ('recL94zpn6Xh6kQii', 'Rafi', 'Mckee', 50), ('recP6DJPyi5donvXL', 'Katy', 'Balentine', 50), ('recQaxyXBQG5BBtD0', 'Dean', "O'Reilly", 50), ('recT92PyyZCGq1R68', 'Emily', 'Jaquith', 50), ('recTjHY5xXhvkCdVT', 'Edwardo', 'Ing', 50), ('recUdRhbhcEO1Hk5r', 'Amy', 'Firth', 50), ('recVsoJJHFI8bgtfw', 'Mccauley', 'Nash', 50), ('recWh2lJVOT6HjChK', 'Tyler', 'Hewitt', 50), ('recZ4PkGERzl9ziHO', 'Maya', 'Mclean', 50), ('recZN8afUWlE5fZHG', 'Brent', 'Thomason', 50), ('reccSUPwy30AeZLEb', 'Vincent', 'Ratcliffe', 50), ('reccW7q1KkhSKZsea', 'Adela', "O'Gallagher", 50), ('recf4UKTfipCzgcSA', 'Garrett', 'Gerke', 50), ('recjHj4BS5A541n9v', 'Keaton', 'Mccray', 50), ('recro8T1MPMwRadVH', 'Elijah', 'Allen', 50), ('recsTO4OZIF9rbubk', 'Madelyn', 'Nicholson', 50), ('recttfySfQnYb68u3', 'Annabella', 'Warren', 50), ('recuSfhAZIlKba4s2', 'Kevin', 'Pierce', 50), ('recxBj3tjKTGHqucS', 'Sherri', 'Ramsey', 50)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Adela', "O'Gallagher"), ('Edwardo', 'Ing'), ('Amy', 'Firth'), ('Connor', 'Hilton'), ('Luisa', 'Guidi'), ('Brent', 'Thomason'), ('Keaton', 'Mccray'), ('Rafi', 'Mckee'), ('Elijah', 'Allen'), ('Dean', "O'Reilly"), ('Garrett', 'Gerke'), ('Matthew', 'Snay'), ('Vincent', 'Ratcliffe'), ('Katy', 'Balentine'), ('Sherri', 'Ramsey'), ('Adele', 'Deleon'), ('Annabella', 'Warren'), ('Kevin', 'Pierce'), ('Casey', 'Mason'), ('Christof', 'Nielson'), ('Mccauley', 'Nash'), ('Sacha', 'Harrison'), ('Carlo', 'Jacobs'), ('Grant', 'Gilmour'), ('Phillip', 'Cullen'), ('Sacha', 'Harrison'), ('Angela', 'Sanders'), ('Tyler', 'Hewitt'), ('Madelyn', 'Nicholson'), ('Trent', 'Smith'), ('Emily', 'Jaquith'), ('Maya', 'Mclean'), ('Connor', 'Hilton')]
 ----------------------------

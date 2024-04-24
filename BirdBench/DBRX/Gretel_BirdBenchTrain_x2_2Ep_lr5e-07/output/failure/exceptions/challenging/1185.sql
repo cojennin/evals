@@ -104,8 +104,4 @@ no such column: Birthday
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

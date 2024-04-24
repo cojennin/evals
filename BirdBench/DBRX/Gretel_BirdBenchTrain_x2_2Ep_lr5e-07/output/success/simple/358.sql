@@ -176,6 +176,6 @@ SELECT borderColor FROM cards WHERE name = "Ancestor's Chosen"
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('black',)]
 ----------------------------

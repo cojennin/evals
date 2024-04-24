@@ -155,12 +155,12 @@ SELECT c.Text, u.DisplayName FROM comments c JOIN posts p ON c.PostId = p.Id JOI
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('i thought of integrating seperetly until 4 m/s, between 4 and 15m/s and over 15m/s, and comparing it to a situation of 100% of the time a turbine working in optimal speed', 'eliavs')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [("About the picture, post to some image hosting and put a link -- I'll convert it into a pasted-in picture.", 'eliavs')]
 ----------------------------

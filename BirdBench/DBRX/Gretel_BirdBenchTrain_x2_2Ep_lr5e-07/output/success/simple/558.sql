@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM votes WHERE UserId = 58 AND CreationDate = '2010-07-19';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

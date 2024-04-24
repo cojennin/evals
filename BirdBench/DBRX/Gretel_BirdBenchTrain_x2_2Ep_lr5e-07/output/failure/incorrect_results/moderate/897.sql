@@ -203,12 +203,12 @@ SELECT d.forename, d.surname, d.nationality, AVG(r.points) as avg_points FROM dr
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Lewis', 'Hamilton', 'British', 14.928571428571429)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('David', 'Coulthard', 'British', 28.746268656716417)]
 ----------------------------

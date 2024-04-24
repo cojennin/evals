@@ -203,12 +203,12 @@ SELECT time FROM results WHERE raceId = (SELECT raceId FROM races WHERE year = 2
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('+5.478',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1:34:50.616',)]
 ----------------------------

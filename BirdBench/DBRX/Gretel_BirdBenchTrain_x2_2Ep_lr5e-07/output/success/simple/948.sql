@@ -205,6 +205,6 @@ SELECT AVG(points) FROM constructorStandings cs JOIN constructors c ON cs.constr
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(21.272425249169434,)]
 ----------------------------

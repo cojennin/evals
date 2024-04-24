@@ -123,6 +123,6 @@ SELECT COUNT(*) FROM account WHERE frequency = 'POPLATEK TYDNE' AND account_id I
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(58,)]
 ----------------------------

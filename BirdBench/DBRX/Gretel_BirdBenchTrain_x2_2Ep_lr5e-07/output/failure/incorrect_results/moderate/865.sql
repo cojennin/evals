@@ -203,12 +203,12 @@ SELECT driverId, forename, surname, dob FROM drivers WHERE driverId IN (SELECT d
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(306, 'Jean-Pierre', 'Beltoise', '1937-04-26')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Jean-Pierre', 'Beltoise')]
 ----------------------------

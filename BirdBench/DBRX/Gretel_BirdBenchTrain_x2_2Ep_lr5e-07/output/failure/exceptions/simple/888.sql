@@ -207,8 +207,4 @@ no such column: circuits.year
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

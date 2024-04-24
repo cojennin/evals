@@ -122,6 +122,6 @@ SELECT COUNT(*) FROM member WHERE link_to_major = (SELECT major_id FROM major WH
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2,)]
 ----------------------------

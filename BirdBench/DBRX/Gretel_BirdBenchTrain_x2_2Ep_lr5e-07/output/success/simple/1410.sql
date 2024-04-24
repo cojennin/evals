@@ -121,6 +121,6 @@ SELECT m.first_name, m.last_name, SUM(e.cost) as total_cost FROM member m JOIN e
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Sacha', 'Harrison', 866.25)]
 ----------------------------

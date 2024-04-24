@@ -129,8 +129,4 @@ no such column: s.cds
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

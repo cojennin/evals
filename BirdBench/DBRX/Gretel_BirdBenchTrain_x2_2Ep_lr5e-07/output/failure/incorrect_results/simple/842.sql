@@ -108,12 +108,12 @@ SELECT AVG(height_cm) FROM superhero WHERE alignment_id = (SELECT id FROM alignm
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(164.82142857142858,)]
 ----------------------------

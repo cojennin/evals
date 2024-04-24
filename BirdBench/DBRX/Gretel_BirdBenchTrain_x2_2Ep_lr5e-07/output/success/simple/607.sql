@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM comments WHERE score > 60;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

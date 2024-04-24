@@ -155,12 +155,12 @@ SELECT COUNT(*) FROM votes WHERE PostId = (SELECT PostId FROM comments WHERE Tex
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4235,)]
 ----------------------------

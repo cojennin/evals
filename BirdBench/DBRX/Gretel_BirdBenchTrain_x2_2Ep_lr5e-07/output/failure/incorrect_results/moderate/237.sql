@@ -50,12 +50,12 @@ SELECT m.molecule_id, m.label FROM atom a JOIN connected c ON a.atom_id = c.atom
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('TR001', '+'), ('TR001', '+'), ('TR001', '+')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR001', 'YES')]
 ----------------------------

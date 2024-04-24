@@ -54,8 +54,4 @@ no such column: a.label
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

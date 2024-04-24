@@ -274,12 +274,12 @@ SELECT Player.player_name, Player_Attributes.overall_rating FROM Player INNER JO
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Lionel Messi', 94), ('Lionel Messi', 94), ('Lionel Messi', 94), ('Lionel Messi', 94), ('Lionel Messi', 94), ('Lionel Messi', 94), ('Lionel Messi', 94), ('Lionel Messi', 94), ('Lionel Messi', 94), ('Lionel Messi', 94), ('Lionel Messi', 94), ('Lionel Messi', 94)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Lionel Messi',)]
 ----------------------------

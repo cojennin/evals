@@ -123,6 +123,6 @@ SELECT AVG(amount) FROM trans WHERE type = 'VYBER KARTOU' AND date BETWEEN '2021
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(None,)]
 ----------------------------

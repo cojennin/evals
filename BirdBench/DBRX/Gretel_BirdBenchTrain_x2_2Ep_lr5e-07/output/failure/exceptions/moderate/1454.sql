@@ -123,8 +123,4 @@ no such column: cost
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

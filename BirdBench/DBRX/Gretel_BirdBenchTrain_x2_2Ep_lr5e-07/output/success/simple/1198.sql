@@ -102,6 +102,6 @@ SELECT COUNT(*) FROM Patient WHERE SEX = 'F' AND Diagnosis = 'APS'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(16,)]
 ----------------------------

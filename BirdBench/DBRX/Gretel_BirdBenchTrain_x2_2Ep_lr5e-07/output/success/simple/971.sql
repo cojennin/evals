@@ -205,6 +205,6 @@ SELECT driverRef FROM drivers WHERE nationality = 'German' AND dob = (SELECT MIN
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('brudes',)]
 ----------------------------

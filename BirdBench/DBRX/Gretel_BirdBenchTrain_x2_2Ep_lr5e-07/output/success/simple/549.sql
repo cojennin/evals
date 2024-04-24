@@ -157,6 +157,6 @@ SELECT p.Body FROM posts p JOIN tags t ON p.Id = t.ExcerptPostId WHERE t.TagName
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [("Bayesian inference is a method of statistical inference which uses Bayes' theorem to find probability estimates of parameters or hypotheses.",)]
 ----------------------------

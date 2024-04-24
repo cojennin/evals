@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM posts WHERE Score = 10;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(741,)]
 ----------------------------

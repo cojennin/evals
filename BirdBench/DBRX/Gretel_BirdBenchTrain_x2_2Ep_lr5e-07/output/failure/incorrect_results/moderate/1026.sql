@@ -274,12 +274,12 @@ SELECT home_team_api_id, COUNT(*) as lost_matches FROM Match WHERE season = '201
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(8028, 1)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Piast Gliwice',)]
 ----------------------------

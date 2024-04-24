@@ -209,8 +209,4 @@ unrecognized token: "91st"
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

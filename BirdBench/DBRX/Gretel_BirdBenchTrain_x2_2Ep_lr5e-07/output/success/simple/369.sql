@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM cards WHERE uuid IN (SELECT uuid FROM foreign_data WHERE la
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(9351,)]
 ----------------------------

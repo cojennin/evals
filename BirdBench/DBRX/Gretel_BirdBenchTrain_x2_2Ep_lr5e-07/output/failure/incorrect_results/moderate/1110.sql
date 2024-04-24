@@ -274,12 +274,12 @@ SELECT buildUpPlayPassingClass FROM Team_Attributes WHERE team_fifa_api_id = (SE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Long',)]
 ----------------------------

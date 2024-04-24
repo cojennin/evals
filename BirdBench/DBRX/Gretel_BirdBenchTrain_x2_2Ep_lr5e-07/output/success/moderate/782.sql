@@ -110,6 +110,6 @@ SELECT s.superhero_name FROM superhero s INNER JOIN colour c ON s.eye_colour_id 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Armor',), ('Atom Girl',), ('Bizarro',), ('Galactus',), ('General Zod',), ('Match',), ('Negasonic Teenage Warhead',), ('Phantom Stranger',), ('Shadow Lass',), ('Sinestro',), ('Vulcan',)]
 ----------------------------

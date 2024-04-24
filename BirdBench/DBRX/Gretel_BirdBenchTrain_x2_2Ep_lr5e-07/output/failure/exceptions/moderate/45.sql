@@ -129,8 +129,4 @@ no such column: s.School
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

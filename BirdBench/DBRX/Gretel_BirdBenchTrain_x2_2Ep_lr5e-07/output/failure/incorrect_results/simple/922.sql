@@ -203,12 +203,12 @@ SELECT time FROM races WHERE name = 'Abu Dhabi' AND year = 2010;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2010-11-14', '13:00:00')]
 ----------------------------

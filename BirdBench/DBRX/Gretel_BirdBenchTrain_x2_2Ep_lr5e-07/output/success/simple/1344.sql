@@ -121,6 +121,6 @@ SELECT notes FROM income WHERE date_received = '2019-09-14' AND source = 'Fundra
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Secured donations to help pay for speaker gifts.',)]
 ----------------------------

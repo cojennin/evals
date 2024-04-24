@@ -121,12 +121,12 @@ SELECT A2, SUM(amount) as total_withdrawal FROM trans t JOIN account a ON t.acco
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Hl.m. Praha', 6757078), ('Karvina', 1777590), ('Ostrava - mesto', 1712383), ('Zlin', 1622293), ('Olomouc', 1502053), ('Frydek - Mistek', 1108622), ('Brno - mesto', 998380), ('Usti nad Orlici', 868280), ('Rychnov nad Kneznou', 786415), ('Prerov', 771206)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(54,), (54,), (54,), (54,), (54,), (54,), (54,), (54,), (54,), (54,)]
 ----------------------------

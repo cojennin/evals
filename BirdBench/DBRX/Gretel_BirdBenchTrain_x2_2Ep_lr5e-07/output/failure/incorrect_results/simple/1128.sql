@@ -274,12 +274,12 @@ SELECT Country.name, AVG(Player.weight) as avg_weight FROM Player JOIN Country O
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Germany',)]
 ----------------------------

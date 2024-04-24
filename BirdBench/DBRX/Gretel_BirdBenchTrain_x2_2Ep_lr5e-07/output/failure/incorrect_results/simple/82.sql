@@ -125,12 +125,12 @@ SELECT GSserved FROM schools WHERE Longitude = (SELECT MAX(Longitude) FROM schoo
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('K-8',)]
 ----------------------------

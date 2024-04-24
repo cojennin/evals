@@ -129,8 +129,4 @@ no such column: s.PctGE1500
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -174,12 +174,12 @@ SELECT name FROM cards WHERE frameVersion = '2003' AND convertedManaCost = (SELE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Gleemax',), ('Gleemax',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Gleemax',), ('Gleemax',), ('Draco',)]
 ----------------------------

@@ -121,6 +121,6 @@ SELECT expense_description FROM expense WHERE link_to_member = (SELECT member_id
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Post Cards, Posters',), ('Posters',), ('Water, chips, cookies',), ('Posters',), ('Water, chips, cookies',), ('Pizza',), ('Water, chips, cookies',), ('Travel Mug',), ('Alumni Glass',), ('Posters',), ('Travel Mug',), ('Bakery - Donuts, muffins',)]
 ----------------------------

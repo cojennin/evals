@@ -121,6 +121,6 @@ SELECT 1.0 * COUNT(*) FILTER (WHERE major_name = 'Finance') / COUNT(*) FILTER (W
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

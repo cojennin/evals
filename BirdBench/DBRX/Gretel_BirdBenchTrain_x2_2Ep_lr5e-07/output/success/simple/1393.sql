@@ -121,6 +121,6 @@ SELECT m.first_name, m.last_name, m.email FROM member m WHERE m.position = 'Secr
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Annabella', 'Warren', 'annabella.warren@lpu.edu')]
 ----------------------------

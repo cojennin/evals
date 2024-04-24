@@ -205,6 +205,6 @@ SELECT nationality FROM drivers WHERE dob = (SELECT MIN(dob) FROM drivers)
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('French',)]
 ----------------------------

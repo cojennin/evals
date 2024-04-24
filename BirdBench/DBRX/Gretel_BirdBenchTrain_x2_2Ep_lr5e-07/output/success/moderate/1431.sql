@@ -121,6 +121,6 @@ SELECT m.last_name FROM member m JOIN attendance a ON m.member_id = a.link_to_me
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Balentine',), ('Guidi',), ('Ing',), ('Mclean',), ('Snay',), ('Deleon',), ("O'Reilly",), ('Jaquith',), ('Mason',), ("O'Gallagher",), ('Mckee',), ('Gerke',)]
 ----------------------------

@@ -276,6 +276,6 @@ SELECT League.name, COUNT(Match.id) as match_count FROM League INNER JOIN Match 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Spain LIGA BBVA', 3040)]
 ----------------------------

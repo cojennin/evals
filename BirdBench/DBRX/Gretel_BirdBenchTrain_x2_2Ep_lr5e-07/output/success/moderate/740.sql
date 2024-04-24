@@ -110,6 +110,6 @@ SELECT COUNT(*) FROM superhero WHERE gender_id = (SELECT id FROM gender WHERE ge
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(12,)]
 ----------------------------

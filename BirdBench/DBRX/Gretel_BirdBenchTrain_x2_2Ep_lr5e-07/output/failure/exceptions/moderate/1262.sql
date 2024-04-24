@@ -104,8 +104,4 @@ no such column: Examination.C3
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

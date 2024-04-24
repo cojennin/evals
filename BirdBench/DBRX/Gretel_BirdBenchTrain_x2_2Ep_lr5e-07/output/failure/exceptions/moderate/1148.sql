@@ -278,8 +278,4 @@ no such column: height
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

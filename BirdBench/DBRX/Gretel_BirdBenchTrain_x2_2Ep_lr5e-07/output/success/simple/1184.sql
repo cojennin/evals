@@ -102,6 +102,6 @@ SELECT Symptoms FROM Examination WHERE ID = (SELECT ID FROM Patient WHERE Birthd
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('thrombophlebitis',)]
 ----------------------------

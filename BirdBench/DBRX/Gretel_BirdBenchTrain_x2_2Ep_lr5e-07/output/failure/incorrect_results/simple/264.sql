@@ -50,12 +50,12 @@ SELECT m.label FROM molecule m WHERE m.molecule_id IN ('TR000', 'TR001', 'TR002'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('+',), ('+',), ('-',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR000', '+'), ('TR001', '+'), ('TR002', '-')]
 ----------------------------

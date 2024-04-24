@@ -108,12 +108,12 @@ SELECT full_name FROM superhero WHERE eye_colour_id = (SELECT id FROM colour WHE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Abraham Sapien',), ('-',), ('Abraxas',), (None,), ('-',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Abe Sapien',), ('Abin Sur',), ('Abraxas',), ('Absorbing Man',), ('Adam Monroe',)]
 ----------------------------

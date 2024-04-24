@@ -110,6 +110,6 @@ SELECT colour FROM colour WHERE id = (SELECT skin_colour_id FROM superhero WHERE
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Grey',)]
 ----------------------------

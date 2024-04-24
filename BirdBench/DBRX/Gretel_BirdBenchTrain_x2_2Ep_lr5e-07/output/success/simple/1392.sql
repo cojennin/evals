@@ -121,6 +121,6 @@ SELECT MAX(source) FROM income WHERE date_received BETWEEN '2019-09-01' AND '201
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('School Appropration',)]
 ----------------------------

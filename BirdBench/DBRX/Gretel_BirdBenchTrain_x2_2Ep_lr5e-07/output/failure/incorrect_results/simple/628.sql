@@ -155,12 +155,12 @@ SELECT u.DisplayName, u.Views FROM users u ORDER BY u.Views DESC LIMIT 1;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('whuber', 20932)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(919, 'whuber')]
 ----------------------------

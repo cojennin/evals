@@ -69,12 +69,12 @@ SELECT AVG(Price * Amount) FROM transactions_1k t JOIN gasstations g ON t.GasSta
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(18696.139271168275,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(453.15031082529475,)]
 ----------------------------

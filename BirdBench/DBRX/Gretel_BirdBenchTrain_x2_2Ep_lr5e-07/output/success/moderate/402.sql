@@ -178,6 +178,6 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM cards WHERE isStorySpotlight = 1
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(100.0,)]
 ----------------------------

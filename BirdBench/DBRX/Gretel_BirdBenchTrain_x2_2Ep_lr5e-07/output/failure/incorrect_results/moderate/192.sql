@@ -121,12 +121,12 @@ SELECT AVG(loan.amount) FROM loan WHERE loan.status = 'C' AND loan.date IN (SELE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4828.714285714285,)]
 ----------------------------

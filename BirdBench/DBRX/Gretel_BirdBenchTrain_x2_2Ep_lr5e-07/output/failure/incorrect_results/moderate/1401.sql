@@ -119,12 +119,12 @@ SELECT e.event_name, ex.expense_description, ex.cost FROM event e JOIN budget b 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('September Speaker', 'Posters', 67.81)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(67.81,)]
 ----------------------------

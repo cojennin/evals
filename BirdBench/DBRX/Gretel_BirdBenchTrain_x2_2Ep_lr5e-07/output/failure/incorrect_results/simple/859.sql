@@ -203,12 +203,12 @@ SELECT q1 FROM qualifying WHERE driverId = (SELECT driverId FROM drivers WHERE s
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1:23.796',)]
 ----------------------------

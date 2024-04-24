@@ -50,12 +50,12 @@ SELECT a1.atom_id FROM atom a1, connected c1, atom a2 WHERE a1.element = 'pb' AN
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('TR151_14',), ('TR151_14',), ('TR151_14',), ('TR151_14',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR151_14', 'TR151_15'), ('TR151_14', 'TR151_16'), ('TR151_14', 'TR151_17'), ('TR151_14', 'TR151_18')]
 ----------------------------

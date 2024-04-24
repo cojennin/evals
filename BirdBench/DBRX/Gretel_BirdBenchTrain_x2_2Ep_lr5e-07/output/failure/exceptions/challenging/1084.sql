@@ -278,8 +278,4 @@ no such column: birthday
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

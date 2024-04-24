@@ -279,8 +279,4 @@ no such column: League.name
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

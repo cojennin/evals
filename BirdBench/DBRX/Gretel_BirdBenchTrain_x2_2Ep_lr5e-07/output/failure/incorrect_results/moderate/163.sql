@@ -121,12 +121,12 @@ SELECT district_id, COUNT(*) as count FROM account a JOIN loan l ON a.account_id
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1, 34)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

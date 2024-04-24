@@ -157,6 +157,6 @@ SELECT u.DisplayName FROM users u JOIN comments c ON u.Id = c.UserId WHERE c.Tex
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Preets',)]
 ----------------------------

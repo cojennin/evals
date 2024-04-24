@@ -125,12 +125,12 @@ SELECT s.School, s.GSserved, f.`Percent (%) Eligible FRPM (Ages 5-17)` FROM scho
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('White Oak Elementary', 'K-9', 0.0375586854460094), ('The Accelerated', 'K-9', 0.976388888888889)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('White Oak Elementary', 3.755868544600939), ('The Accelerated', 97.63888888888889)]
 ----------------------------

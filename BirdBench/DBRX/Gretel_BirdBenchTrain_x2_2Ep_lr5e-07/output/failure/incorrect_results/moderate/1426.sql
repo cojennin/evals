@@ -119,12 +119,12 @@ SELECT m.last_name, m.link_to_major, m.zip, major_name, department, college FROM
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Hewitt', 'reclQ8BVvj2w4cQ4V', 60089, 'Environmental Engineering', 'Civil and Environmental Engineering Department', 'College of Engineering'), ('Mclean', 'reclQ8BVvj2w4cQ4V', 11554, 'Environmental Engineering', 'Civil and Environmental Engineering Department', 'College of Engineering')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Hewitt', 'Civil and Environmental Engineering Department', 'College of Engineering'), ('Mclean', 'Civil and Environmental Engineering Department', 'College of Engineering')]
 ----------------------------

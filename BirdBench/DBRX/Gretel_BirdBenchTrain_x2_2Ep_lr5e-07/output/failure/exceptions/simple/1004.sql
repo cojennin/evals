@@ -207,8 +207,4 @@ no such column: r.wins
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

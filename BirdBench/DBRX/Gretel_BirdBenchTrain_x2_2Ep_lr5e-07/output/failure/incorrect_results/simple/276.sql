@@ -50,12 +50,12 @@ SELECT a.atom_id, b.atom_id FROM connected a JOIN connected b ON a.atom_id = b.a
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR041_10', 'TR041_7'), ('TR041_7', 'TR041_10'), ('TR041_8', 'TR041_9'), ('TR041_9', 'TR041_8'), ('TR377_3', 'TR377_5'), ('TR377_5', 'TR377_3'), ('TR377_4', 'TR377_6'), ('TR377_6', 'TR377_4'), ('TR447_1', 'TR447_3'), ('TR447_3', 'TR447_1'), ('TR499_1', 'TR499_2'), ('TR499_2', 'TR499_1')]
 ----------------------------

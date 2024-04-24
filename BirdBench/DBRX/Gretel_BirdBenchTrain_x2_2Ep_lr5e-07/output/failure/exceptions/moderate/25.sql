@@ -129,8 +129,4 @@ no such column: s.fundingtype
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

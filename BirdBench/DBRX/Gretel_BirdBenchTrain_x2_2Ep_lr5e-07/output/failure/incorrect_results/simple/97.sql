@@ -121,12 +121,12 @@ SELECT client_id FROM client WHERE client_id IN (SELECT client_id FROM disp WHER
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(159,), (384,), (1261,), (1706,), (2304,), (3526,), (3609,), (4035,), (4133,), (4334,), (4625,), (5580,), (6318,), (11979,)]
 ----------------------------

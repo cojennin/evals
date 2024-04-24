@@ -157,6 +157,6 @@ SELECT u.Reputation, u.Views FROM users u WHERE u.DisplayName = 'Jarrod Dixon';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(101, 22)]
 ----------------------------

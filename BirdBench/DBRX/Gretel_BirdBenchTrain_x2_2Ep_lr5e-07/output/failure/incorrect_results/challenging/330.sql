@@ -50,12 +50,12 @@ SELECT 100.0 * COUNT(DISTINCT m.molecule_id) / (SELECT COUNT(DISTINCT m.molecule
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(100.0,)]
 ----------------------------

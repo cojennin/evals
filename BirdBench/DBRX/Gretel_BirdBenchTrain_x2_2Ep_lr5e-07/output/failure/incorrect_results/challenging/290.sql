@@ -50,12 +50,12 @@ SELECT atom.element FROM atom WHERE atom.molecule_id = 'TR151' AND atom.element 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('pb',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('n',), ('h',), ('pb',), ('s',), ('c',)]
 ----------------------------

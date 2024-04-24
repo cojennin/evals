@@ -205,6 +205,6 @@ SELECT MIN(fastestLapTime) FROM results WHERE driverId = (SELECT driverId FROM d
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1:07.411',)]
 ----------------------------

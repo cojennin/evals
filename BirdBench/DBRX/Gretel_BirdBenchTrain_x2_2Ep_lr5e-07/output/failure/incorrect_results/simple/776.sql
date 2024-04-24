@@ -108,12 +108,12 @@ SELECT s.superhero_name, r.race FROM superhero s INNER JOIN race r ON s.race_id 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('3-D Man', '-')]
 ----------------------------

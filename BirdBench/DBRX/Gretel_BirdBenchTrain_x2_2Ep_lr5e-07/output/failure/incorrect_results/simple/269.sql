@@ -50,12 +50,12 @@ SELECT COUNT(DISTINCT b.bond_id) as num_bonds FROM atom a JOIN connected c ON a.
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(6,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(12,)]
 ----------------------------

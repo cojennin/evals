@@ -108,12 +108,12 @@ SELECT AVG(height_cm) as avg_height FROM superhero;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(267.7514450867052,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(247.04533333333333,)]
 ----------------------------

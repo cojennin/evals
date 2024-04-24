@@ -110,6 +110,6 @@ SELECT 1.0 * SUM(gender_id = 1) / SUM(gender_id = 2) as ratio FROM superhero;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2.5566502463054186,)]
 ----------------------------

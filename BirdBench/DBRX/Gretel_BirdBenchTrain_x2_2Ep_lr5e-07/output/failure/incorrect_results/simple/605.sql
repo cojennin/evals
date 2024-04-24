@@ -155,12 +155,12 @@ SELECT COUNT(DISTINCT UserId) FROM badges WHERE Name = 'Announcer'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(98,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(207,)]
 ----------------------------

@@ -121,6 +121,6 @@ SELECT major_name FROM major WHERE major_id = (SELECT link_to_major FROM member 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Agricultural Education',)]
 ----------------------------

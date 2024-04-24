@@ -100,12 +100,12 @@ SELECT 1 FROM Patient WHERE SEX = 'M' AND ID IN (SELECT ID FROM Laboratory WHERE
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('F',)]
 ----------------------------

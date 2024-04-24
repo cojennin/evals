@@ -73,8 +73,4 @@ no such column: ProductID
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

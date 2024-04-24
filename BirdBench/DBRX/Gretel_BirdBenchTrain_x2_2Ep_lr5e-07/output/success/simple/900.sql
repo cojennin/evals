@@ -205,6 +205,6 @@ SELECT c.name, c.location, r.name FROM circuits c INNER JOIN races r ON c.circui
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Indianapolis Motor Speedway', 'Indianapolis', 'United States Grand Prix')]
 ----------------------------

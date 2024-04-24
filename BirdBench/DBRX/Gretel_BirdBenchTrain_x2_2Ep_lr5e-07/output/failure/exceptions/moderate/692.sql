@@ -159,8 +159,4 @@ near "from": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

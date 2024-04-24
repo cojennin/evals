@@ -100,12 +100,12 @@ SELECT MAX(Laboratory.UA) FROM Laboratory WHERE Laboratory.UA > 6.50;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(17.3,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1.3, 2.0, 3)]
 ----------------------------

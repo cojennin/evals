@@ -121,6 +121,6 @@ SELECT m.first_name, m.last_name, m.phone FROM member m JOIN expense e ON m.memb
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Sacha', 'Harrison', '840-555-4781'), ('Phillip', 'Cullen', '905-555-5035'), ('Elijah', 'Allen', '724-555-5721')]
 ----------------------------

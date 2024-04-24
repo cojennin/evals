@@ -176,6 +176,6 @@ SELECT type FROM cards WHERE name = 'Benalish Knight';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Creature — Human Knight',)]
 ----------------------------

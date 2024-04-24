@@ -125,12 +125,12 @@ SELECT sname, AdmEmail1 FROM satscores JOIN schools ON satscores.cds = schools.C
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(None, 'michelle.king@lausd.net')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('michelle.king@lausd.net', None)]
 ----------------------------

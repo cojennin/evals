@@ -174,12 +174,12 @@ SELECT name FROM cards WHERE power IS NULL OR power = '*' AND promoTypes = 'aren
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('"Ach! Hans, Run!"',), ('"Rumors of My Death . . ."',), ('1996 World Champion',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Arc Lightning',), ("Ashnod's Coupon",), ('Bonesplitter',)]
 ----------------------------

@@ -205,6 +205,6 @@ SELECT circuits.lat, circuits.lng FROM circuits WHERE circuits.name = 'Silversto
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(52.0786, -1.01694)]
 ----------------------------

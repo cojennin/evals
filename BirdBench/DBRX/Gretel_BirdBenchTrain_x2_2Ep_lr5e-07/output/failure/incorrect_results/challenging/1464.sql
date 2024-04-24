@@ -119,12 +119,12 @@ SELECT m.first_name, m.last_name, i.amount FROM member m JOIN income i ON m.memb
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Sacha', 'Harrison', 50), ('Carlo', 'Jacobs', 50)]
 ----------------------------

@@ -102,6 +102,6 @@ SELECT MAX(Birthday) FROM Patient, Laboratory WHERE Patient.ID = Laboratory.ID A
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1987-12-05',)]
 ----------------------------

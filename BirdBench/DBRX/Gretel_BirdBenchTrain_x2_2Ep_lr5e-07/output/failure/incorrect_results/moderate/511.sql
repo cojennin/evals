@@ -174,12 +174,12 @@ SELECT MAX(frameEffects) FROM cards WHERE cardKingdomFoilId IS NOT NULL AND card
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('tombstone',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('legendary',)]
 ----------------------------

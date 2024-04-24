@@ -127,6 +127,6 @@ SELECT COUNT(*) FROM schools s INNER JOIN satscores ss ON s.CDSCode = ss.cds WHE
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

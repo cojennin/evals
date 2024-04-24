@@ -110,6 +110,6 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM superhero WHERE publisher_id = (
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(13.333333333333334,)]
 ----------------------------

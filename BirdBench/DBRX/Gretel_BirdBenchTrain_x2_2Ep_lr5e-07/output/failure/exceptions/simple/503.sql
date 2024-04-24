@@ -178,8 +178,4 @@ no such column: ets.type
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

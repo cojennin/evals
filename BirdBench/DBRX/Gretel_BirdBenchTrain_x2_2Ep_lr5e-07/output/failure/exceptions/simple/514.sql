@@ -178,8 +178,4 @@ no such column: format
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

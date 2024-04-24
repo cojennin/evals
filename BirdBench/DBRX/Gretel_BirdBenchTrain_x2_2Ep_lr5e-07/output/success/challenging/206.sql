@@ -52,6 +52,6 @@ SELECT DISTINCT a.element FROM atom a WHERE a.atom_id IN (SELECT c.atom_id FROM 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('c',)]
 ----------------------------

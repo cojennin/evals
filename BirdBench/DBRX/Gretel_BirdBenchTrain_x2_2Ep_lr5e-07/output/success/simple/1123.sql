@@ -276,6 +276,6 @@ SELECT Player.player_name FROM Player INNER JOIN Player_Attributes ON Player.pla
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Lionel Messi',)]
 ----------------------------

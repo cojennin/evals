@@ -104,8 +104,4 @@ no such column: Examination.T-CHO
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

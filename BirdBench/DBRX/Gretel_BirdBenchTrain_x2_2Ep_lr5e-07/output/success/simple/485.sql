@@ -176,6 +176,6 @@ SELECT r.date FROM rulings r WHERE r.uuid IN (SELECT c.uuid FROM cards c WHERE c
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2013-07-01',), ('2013-07-01',), ('2013-07-01',), ('2013-07-01',)]
 ----------------------------

@@ -104,8 +104,4 @@ no such column: Symptoms
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

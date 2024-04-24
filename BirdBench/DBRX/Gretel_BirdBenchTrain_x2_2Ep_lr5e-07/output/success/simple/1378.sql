@@ -121,6 +121,6 @@ SELECT MAX(budget.spent) FROM budget;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(327.07,)]
 ----------------------------

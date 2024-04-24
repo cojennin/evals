@@ -119,12 +119,12 @@ SELECT event_name FROM event WHERE location = 'MU 215'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('March Meeting',), ('Spring Elections',), ('April Speaker',), ('March Speaker',), ('October Speaker',), ('February Speaker',), ('September Speaker',), ('Fall Elections',), ('Officers meeting - September',), ('January Meeting',), ('February Meeting',), ('October Meeting',), ('November Speaker',), ('November Meeting',), ('January Speaker',), ('Yearly Wrap-up',), ('April Meeting',), ('Yearly Kickoff',), ('September Meeting',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Advertisement',), ('Food',), ('Speaker Gifts',), ('Food',), ('Parking',), ('Advertisement',), ('Food',), ('Advertisement',), ('Speaker Gifts',), ('Parking',), ('Speaker Gifts',), ('Advertisement',), ('Advertisement',), ('Advertisement',), ('Advertisement',), ('Parking',), ('Advertisement',), ('Food',), ('Food',), ('Food',), ('Advertisement',), ('Advertisement',), ('Food',), ('Parking',), ('Speaker Gifts',), ('Food',), ('Food',), ('Speaker Gifts',), ('Food',), ('Advertisement',), ('Parking',), ('Parking',), ('Food',), ('Food',), ('Advertisement',), ('Food',), ('Food',), ('Advertisement',), ('Speaker Gifts',), ('Advertisement',), ('Speaker Gifts',), ('Advertisement',), ('Food',), ('Food',), ('Parking',)]
 ----------------------------

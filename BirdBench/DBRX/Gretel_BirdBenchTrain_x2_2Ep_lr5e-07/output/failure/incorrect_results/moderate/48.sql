@@ -125,12 +125,12 @@ SELECT 54 AS DistrictType, COUNT(*) AS Count FROM schools WHERE County = 'Orange
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(54, 4), (52, 7)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0.5714285714285714,)]
 ----------------------------

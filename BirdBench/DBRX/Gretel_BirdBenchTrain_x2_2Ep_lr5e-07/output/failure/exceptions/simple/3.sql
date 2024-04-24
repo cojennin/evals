@@ -129,8 +129,4 @@ no such column: MailStreet
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

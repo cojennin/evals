@@ -203,12 +203,12 @@ SELECT drivers.forename, drivers.surname, drivers.dob FROM drivers JOIN results 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Sergio', 'Pérez', '1990-01-26')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Sergio', 'Pérez')]
 ----------------------------

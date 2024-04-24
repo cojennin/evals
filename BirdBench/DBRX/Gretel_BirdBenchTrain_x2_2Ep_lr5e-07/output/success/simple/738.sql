@@ -113,6 +113,6 @@ AND h.attribute_value < 50;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(371,)]
 ----------------------------

@@ -203,12 +203,12 @@ SELECT MIN(milliseconds) FROM lapTimes WHERE raceId IN (SELECT raceId FROM races
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(67411,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1:07.411',)]
 ----------------------------

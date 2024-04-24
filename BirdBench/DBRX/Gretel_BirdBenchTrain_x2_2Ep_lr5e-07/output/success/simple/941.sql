@@ -205,6 +205,6 @@ SELECT SUM(points) FROM results WHERE driverId = (SELECT driverId FROM drivers W
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2510.0,)]
 ----------------------------

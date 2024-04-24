@@ -176,6 +176,6 @@ SELECT 100.0 * SUM(convertedManaCost = 7) / (SELECT COUNT(*) FROM cards WHERE se
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(7.741935483870968,)]
 ----------------------------

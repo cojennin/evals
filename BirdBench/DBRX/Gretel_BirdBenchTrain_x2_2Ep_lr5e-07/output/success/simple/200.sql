@@ -52,6 +52,6 @@ SELECT molecule_id FROM  molecule WHERE  label = '+' INTERSECT SELECT  molecule_
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR041',), ('TR499',)]
 ----------------------------

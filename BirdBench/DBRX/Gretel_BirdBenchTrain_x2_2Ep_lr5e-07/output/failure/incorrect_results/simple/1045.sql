@@ -274,12 +274,12 @@ SELECT Player_Attributes.attacking_work_rate FROM Player_Attributes WHERE Player
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('medium',)]
 ----------------------------

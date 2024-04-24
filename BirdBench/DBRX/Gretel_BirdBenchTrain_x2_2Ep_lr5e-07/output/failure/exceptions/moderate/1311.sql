@@ -104,8 +104,4 @@ no such column: e.PT
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

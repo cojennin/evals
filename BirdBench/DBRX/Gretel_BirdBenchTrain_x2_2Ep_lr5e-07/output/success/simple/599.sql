@@ -157,6 +157,6 @@ SELECT ph.PostHistoryTypeId, COUNT(DISTINCT c.UserId) as UniqueUsers FROM postHi
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2, 3), (5, 3), (5, 3), (5, 3), (5, 3), (5, 3), (5, 3)]
 ----------------------------

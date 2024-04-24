@@ -276,6 +276,6 @@ SELECT MAX(overall_rating) FROM Player_Attributes WHERE player_api_id IN (SELECT
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(76,)]
 ----------------------------

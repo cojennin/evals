@@ -121,6 +121,6 @@ SELECT major_name, department FROM major WHERE major_id = (SELECT link_to_major 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Human Development and Family Studies', 'Human Development and Family Studies Department')]
 ----------------------------

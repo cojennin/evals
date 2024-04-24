@@ -125,12 +125,12 @@ SELECT COUNT(*) FROM schools WHERE StatusType = 'Active' AND DOCType = 'District
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(14,)]
 ----------------------------

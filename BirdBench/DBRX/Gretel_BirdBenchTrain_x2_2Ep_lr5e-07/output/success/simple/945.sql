@@ -205,6 +205,6 @@ SELECT COUNT(*) FROM circuits WHERE location = 'Melbourne' AND country = 'Austra
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

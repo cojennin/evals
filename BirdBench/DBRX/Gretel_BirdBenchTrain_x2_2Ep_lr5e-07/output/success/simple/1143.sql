@@ -276,6 +276,6 @@ SELECT MAX(home_team_goal) FROM Match WHERE league_id = (SELECT id FROM League W
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(10,)]
 ----------------------------

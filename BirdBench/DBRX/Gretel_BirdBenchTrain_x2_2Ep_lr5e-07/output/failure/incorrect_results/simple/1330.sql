@@ -119,12 +119,12 @@ SELECT college FROM major WHERE major_name = (SELECT link_to_major FROM member W
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('College of Engineering',)]
 ----------------------------

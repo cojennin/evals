@@ -52,6 +52,6 @@ SELECT atom.element FROM atom WHERE atom.atom_id IN (SELECT connected.atom_id FR
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('n',), ('h',)]
 ----------------------------

@@ -155,12 +155,12 @@ SELECT COUNT(*) FROM posts WHERE OwnerUserId = (SELECT Id FROM users WHERE Displ
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4,)]
 ----------------------------

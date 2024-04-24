@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM cards WHERE toughness = '99';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

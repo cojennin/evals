@@ -174,12 +174,12 @@ SELECT s.name FROM cards c JOIN sets s ON c.setCode = s.code JOIN set_translatio
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Betrayers of Kamigawa',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Traîtres de Kamigawa',)]
 ----------------------------

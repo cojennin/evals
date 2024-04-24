@@ -178,8 +178,4 @@ no such column: isNonFoilOnly
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

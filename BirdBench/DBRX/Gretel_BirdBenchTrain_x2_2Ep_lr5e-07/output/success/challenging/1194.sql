@@ -102,6 +102,6 @@ SELECT Patient.SEX FROM Patient INNER JOIN Examination ON Patient.ID = Examinati
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('F',)]
 ----------------------------

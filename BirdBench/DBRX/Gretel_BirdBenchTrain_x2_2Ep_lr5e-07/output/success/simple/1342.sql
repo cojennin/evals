@@ -121,6 +121,6 @@ SELECT expense.cost FROM expense WHERE expense.expense_description = 'Posters' A
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(67.81,)]
 ----------------------------

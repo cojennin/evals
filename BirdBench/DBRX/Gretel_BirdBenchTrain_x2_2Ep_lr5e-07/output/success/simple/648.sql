@@ -157,6 +157,6 @@ SELECT u.DisplayName, u.WebsiteUrl FROM users u JOIN posts p ON u.Id = p.OwnerUs
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Fabian Fagerholm', 'http://www.cs.helsinki.fi/fabian.fagerholm/'), ('claws', None)]
 ----------------------------

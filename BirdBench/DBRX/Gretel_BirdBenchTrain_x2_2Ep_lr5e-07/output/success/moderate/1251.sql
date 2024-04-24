@@ -102,6 +102,6 @@ SELECT COUNT(*) FROM Patient p JOIN Examination e ON p.ID = e.ID WHERE e.`aCL Ig
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

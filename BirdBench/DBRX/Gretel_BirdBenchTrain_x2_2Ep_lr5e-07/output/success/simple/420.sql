@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM cards WHERE isOversized = 1 AND isReprint = 1 AND isPromo =
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(17,)]
 ----------------------------

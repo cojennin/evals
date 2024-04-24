@@ -123,6 +123,6 @@ SELECT account.date FROM account WHERE account.account_id = (SELECT trans.accoun
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('1993-02-26',)]
 ----------------------------

@@ -52,6 +52,6 @@ SELECT b.bond_type FROM bond b WHERE b.molecule_id = 'TR000'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('-',)]
 ----------------------------

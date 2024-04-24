@@ -176,6 +176,6 @@ SELECT keywords FROM cards WHERE name = 'Angel of Mercy';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Flying',)]
 ----------------------------

@@ -121,12 +121,12 @@ SELECT A3 FROM district WHERE district_id = (SELECT district_id FROM client WHER
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('east Bohemia',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(51, 'east Bohemia')]
 ----------------------------

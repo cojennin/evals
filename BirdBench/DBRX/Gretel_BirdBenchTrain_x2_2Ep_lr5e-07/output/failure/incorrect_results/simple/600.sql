@@ -155,12 +155,12 @@ SELECT p.Id, p.ViewCount FROM posts p WHERE p.Id = 61217;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(61217, 4949)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4949,), (4949,), (4949,), (4949,), (4949,), (4949,), (4949,), (4949,), (4949,), (4949,)]
 ----------------------------

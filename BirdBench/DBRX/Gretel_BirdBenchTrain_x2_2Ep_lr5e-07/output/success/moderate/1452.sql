@@ -121,6 +121,6 @@ SELECT AVG(cost) FROM expense WHERE link_to_member IN (SELECT member_id FROM mem
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(65.1890625,)]
 ----------------------------

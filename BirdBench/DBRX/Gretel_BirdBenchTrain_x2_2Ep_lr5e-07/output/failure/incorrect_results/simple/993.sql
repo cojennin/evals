@@ -203,12 +203,12 @@ SELECT c.name, c.location, c.country, c.lat, c.lng FROM circuits c WHERE c.circu
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Hungaroring', 'Budapest', 'Hungary', 47.5789, 19.2486)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Hungary', 47.5789, 19.2486)]
 ----------------------------

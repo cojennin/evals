@@ -274,12 +274,12 @@ SELECT COUNT(*) FROM Player WHERE strftime('%Y', birthday) = '1990';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(696,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3028,)]
 ----------------------------

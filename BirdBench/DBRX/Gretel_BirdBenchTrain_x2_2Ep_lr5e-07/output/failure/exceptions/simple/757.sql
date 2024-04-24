@@ -112,8 +112,4 @@ no such column: race
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

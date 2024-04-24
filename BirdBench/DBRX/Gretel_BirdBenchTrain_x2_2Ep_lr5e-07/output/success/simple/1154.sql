@@ -102,6 +102,6 @@ SELECT Patient.SEX, Patient.Birthday, Examination.`Examination Date`, Examinatio
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('F', '1950-10-16', '1997-07-01', 'CNS lupus')]
 ----------------------------

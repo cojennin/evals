@@ -203,12 +203,12 @@ SELECT COUNT(*) FROM races WHERE year = 2005;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(19,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('United States Grand Prix',), ('Turkish Grand Prix',), ('Spanish Grand Prix',), ('San Marino Grand Prix',), ('Monaco Grand Prix',), ('Malaysian Grand Prix',), ('Japanese Grand Prix',), ('Italian Grand Prix',), ('Hungarian Grand Prix',), ('German Grand Prix',), ('French Grand Prix',), ('European Grand Prix',), ('Chinese Grand Prix',), ('Canadian Grand Prix',), ('British Grand Prix',), ('Brazilian Grand Prix',), ('Belgian Grand Prix',), ('Bahrain Grand Prix',), ('Australian Grand Prix',)]
 ----------------------------

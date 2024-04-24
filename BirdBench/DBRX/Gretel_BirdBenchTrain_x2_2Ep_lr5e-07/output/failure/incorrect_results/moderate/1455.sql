@@ -119,12 +119,12 @@ SELECT b.budget_id, b.category, b.spent, b.remaining, b.amount, b.event_status, 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('rec1bG6HSft7XIvTP', 'Food', 121.14, 28.86, 150, 'Closed', 'recggMW2eyCYceNcy', 'recTUt9QxJ0Sp3H3m', 'Water, chips, cookies', '2019-10-08', 69.33, 'true', 'recD078PnS3x2doBe', 'rec1bG6HSft7XIvTP')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('rec1bG6HSft7XIvTP',)]
 ----------------------------

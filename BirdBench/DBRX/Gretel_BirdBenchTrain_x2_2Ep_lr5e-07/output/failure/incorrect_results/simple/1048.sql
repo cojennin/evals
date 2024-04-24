@@ -274,12 +274,12 @@ SELECT Player_Attributes.overall_rating FROM Player_Attributes WHERE Player_Attr
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(75,)]
 ----------------------------

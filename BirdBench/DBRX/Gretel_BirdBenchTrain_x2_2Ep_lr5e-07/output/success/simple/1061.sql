@@ -276,6 +276,6 @@ SELECT COUNT(*) FROM Player WHERE Player.player_name LIKE 'Adam%' AND Player.wei
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(24,)]
 ----------------------------

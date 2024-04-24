@@ -69,12 +69,12 @@ SELECT c.CustomerID, SUM(t.Amount) as TotalConsumption FROM customers c INNER JO
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(47273,)]
 ----------------------------

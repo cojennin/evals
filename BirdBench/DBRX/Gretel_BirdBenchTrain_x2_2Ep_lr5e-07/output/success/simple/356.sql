@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM cards WHERE power = '*';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(429,)]
 ----------------------------

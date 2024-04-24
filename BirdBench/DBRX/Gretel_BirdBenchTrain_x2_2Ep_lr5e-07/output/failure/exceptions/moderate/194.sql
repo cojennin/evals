@@ -125,8 +125,4 @@ ambiguous column name: client_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

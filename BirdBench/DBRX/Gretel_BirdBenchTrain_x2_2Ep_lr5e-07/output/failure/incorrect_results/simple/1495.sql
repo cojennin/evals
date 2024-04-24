@@ -69,12 +69,12 @@ SELECT CustomerID, SUM(Consumption) as TotalConsumption FROM yearmonth WHERE Dat
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(12459, 1830161.05)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(12459,)]
 ----------------------------

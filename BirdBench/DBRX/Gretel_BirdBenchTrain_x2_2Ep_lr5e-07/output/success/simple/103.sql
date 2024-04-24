@@ -123,6 +123,6 @@ SELECT client_id FROM client WHERE client_id IN (SELECT client_id FROM disp WHER
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2429,)]
 ----------------------------

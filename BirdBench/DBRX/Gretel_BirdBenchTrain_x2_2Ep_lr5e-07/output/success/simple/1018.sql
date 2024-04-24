@@ -205,6 +205,6 @@ SELECT AVG(milliseconds) FROM pitStops WHERE driverId = (SELECT driverId FROM dr
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(51023.22887323944,)]
 ----------------------------

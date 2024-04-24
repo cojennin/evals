@@ -50,12 +50,12 @@ SELECT 1 FROM molecule WHERE molecule_id = 'TR000' AND label = '+'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('+',)]
 ----------------------------

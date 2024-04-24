@@ -207,8 +207,4 @@ no such column: country
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -121,12 +121,12 @@ SELECT district_id FROM client WHERE birth_date = '1976-01-29' AND gender = 'F'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(31,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Tachov',)]
 ----------------------------

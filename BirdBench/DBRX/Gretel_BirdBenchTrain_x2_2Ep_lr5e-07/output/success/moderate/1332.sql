@@ -121,6 +121,6 @@ SELECT SUM(budget.spent) FROM budget WHERE budget.category = 'Food' AND budget.l
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(101.94,)]
 ----------------------------

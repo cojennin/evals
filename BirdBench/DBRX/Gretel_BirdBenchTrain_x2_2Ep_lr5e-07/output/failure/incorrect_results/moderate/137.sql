@@ -121,12 +121,12 @@ SELECT COUNT(*) FROM account WHERE account_id IN (SELECT account_id FROM loan WH
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(47,)]
 ----------------------------

@@ -205,6 +205,6 @@ SELECT name, date FROM races WHERE year = 1999 AND round = (SELECT MAX(round) FR
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Japanese Grand Prix', '1999-10-31')]
 ----------------------------

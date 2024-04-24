@@ -207,8 +207,4 @@ no such column: r.round
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

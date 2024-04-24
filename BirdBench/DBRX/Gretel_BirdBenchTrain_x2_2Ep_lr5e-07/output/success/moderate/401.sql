@@ -177,6 +177,6 @@ SELECT 100.0 * COUNT(DISTINCT cards.id) / (SELECT COUNT(DISTINCT cards.id) FROM 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

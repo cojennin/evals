@@ -174,12 +174,12 @@ SELECT s.id, s.baseSetSize FROM sets s ORDER BY s.baseSetSize DESC LIMIT 1;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(212, 1694)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(212,)]
 ----------------------------

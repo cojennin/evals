@@ -174,12 +174,12 @@ SELECT COUNT(*) FROM cards WHERE power IS NULL AND hasFoil = 0 AND duelDeck = 'a
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(409,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(417,)]
 ----------------------------

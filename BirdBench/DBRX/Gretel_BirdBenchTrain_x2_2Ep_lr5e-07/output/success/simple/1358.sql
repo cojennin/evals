@@ -121,6 +121,6 @@ SELECT m.first_name, m.last_name FROM member m JOIN income i ON m.member_id = i.
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Edwardo', 'Ing')]
 ----------------------------

@@ -276,6 +276,6 @@ SELECT League.name FROM League INNER JOIN Match ON League.id = Match.league_id W
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Belgium Jupiler League',), ('England Premier League',), ('France Ligue 1',), ('Germany 1. Bundesliga',), ('Italy Serie A',), ('Netherlands Eredivisie',), ('Poland Ekstraklasa',), ('Portugal Liga ZON Sagres',), ('Scotland Premier League',), ('Spain LIGA BBVA',), ('Switzerland Super League',)]
 ----------------------------

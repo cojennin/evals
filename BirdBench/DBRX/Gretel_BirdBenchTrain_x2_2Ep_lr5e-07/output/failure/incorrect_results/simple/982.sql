@@ -203,12 +203,12 @@ SELECT COUNT(*) FROM results r JOIN drivers d ON r.driverId = d.driverId JOIN st
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(5,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(0,)]
 ----------------------------

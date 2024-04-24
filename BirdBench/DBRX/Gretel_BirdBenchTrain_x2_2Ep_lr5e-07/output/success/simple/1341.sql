@@ -121,6 +121,6 @@ SELECT location FROM event WHERE event_name = 'Spring Budget Review';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Conference Room BA 452',)]
 ----------------------------

@@ -274,12 +274,12 @@ SELECT Player.player_name FROM Player INNER JOIN Player_Attributes ON Player.pla
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Raphael Schaefer',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Oka Nikolov',)]
 ----------------------------

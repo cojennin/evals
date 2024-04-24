@@ -119,12 +119,12 @@ SELECT MAX(amount) FROM budget WHERE category = 'Food';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(350,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('recca5tkvdQgoLKZz',)]
 ----------------------------

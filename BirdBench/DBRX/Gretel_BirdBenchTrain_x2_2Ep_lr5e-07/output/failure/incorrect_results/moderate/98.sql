@@ -121,12 +121,12 @@ SELECT account_id FROM account WHERE account_id IN (SELECT account_id FROM loan 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(176,)]
 ----------------------------

@@ -278,8 +278,4 @@ near "players": syntax error
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -274,12 +274,12 @@ SELECT Player_Attributes.player_api_id, Player_Attributes.potential FROM Player_
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(30981, 97), (30981, 97), (30981, 97), (30981, 97), (30981, 97), (30981, 97)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Lionel Messi',)]
 ----------------------------

@@ -157,6 +157,6 @@ SELECT Users.Reputation FROM Users WHERE Users.Id = (SELECT Posts.OwnerUserId FR
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(126,)]
 ----------------------------

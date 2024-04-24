@@ -114,6 +114,6 @@ WHERE sp.power_name = 'Super Strength'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(358,)]
 ----------------------------

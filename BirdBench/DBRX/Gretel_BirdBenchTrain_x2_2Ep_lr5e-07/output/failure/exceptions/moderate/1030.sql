@@ -278,8 +278,4 @@ misuse of aggregate function SUM()
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

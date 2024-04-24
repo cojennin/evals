@@ -123,8 +123,4 @@ no such column: link_to_member
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

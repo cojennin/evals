@@ -205,6 +205,6 @@ SELECT COUNT(*) FROM drivers WHERE code IS NULL;
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(757,)]
 ----------------------------

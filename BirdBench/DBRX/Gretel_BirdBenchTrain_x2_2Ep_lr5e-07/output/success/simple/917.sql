@@ -205,6 +205,6 @@ SELECT drivers.url FROM drivers WHERE drivers.surname = 'Davidson' AND drivers.f
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('http://en.wikipedia.org/wiki/Anthony_Davidson',)]
 ----------------------------

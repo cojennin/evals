@@ -110,6 +110,6 @@ SELECT COUNT(*) FROM superhero WHERE publisher_id = (SELECT id FROM publisher WH
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(126,)]
 ----------------------------

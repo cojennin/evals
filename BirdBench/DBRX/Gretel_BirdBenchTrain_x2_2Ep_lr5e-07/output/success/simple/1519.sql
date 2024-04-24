@@ -71,6 +71,6 @@ SELECT transactions_1k.ProductID FROM transactions_1k WHERE transactions_1k.Date
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2,)]
 ----------------------------

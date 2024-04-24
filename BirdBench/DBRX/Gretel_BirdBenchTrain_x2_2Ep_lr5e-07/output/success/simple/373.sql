@@ -176,6 +176,6 @@ SELECT name FROM cards WHERE artist = 'Aaron Boyd'
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Cloudchaser Eagle',), ('Repulse',), ('Scarred Puma',), ('Stormwatch Eagle',), ('Kavu Recluse',)]
 ----------------------------

@@ -205,6 +205,6 @@ SELECT COUNT(DISTINCT year) FROM races WHERE name = 'British Grand Prix' AND cir
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(51,)]
 ----------------------------

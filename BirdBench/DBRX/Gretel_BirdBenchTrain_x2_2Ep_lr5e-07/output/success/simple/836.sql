@@ -110,6 +110,6 @@ SELECT COUNT(*) FROM superhero WHERE full_name LIKE 'John%';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(9,)]
 ----------------------------

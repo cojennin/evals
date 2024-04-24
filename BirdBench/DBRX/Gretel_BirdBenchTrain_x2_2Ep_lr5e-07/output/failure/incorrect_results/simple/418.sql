@@ -174,12 +174,12 @@ SELECT c.name, c.availability FROM cards c WHERE c.artist = 'Daren Bader' AND c.
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('mtgo,paper',), ('paper',), ('arena',), ('arena,paper',), ('mtgo',), ('dreamcast',)]
 ----------------------------

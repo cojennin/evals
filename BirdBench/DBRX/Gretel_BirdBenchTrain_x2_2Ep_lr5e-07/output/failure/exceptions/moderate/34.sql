@@ -129,8 +129,4 @@ no such column: Free Meal Count (Ages 5-17)
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

@@ -108,12 +108,12 @@ SELECT power_name, COUNT(*) as count FROM hero_power JOIN superpower ON hero_pow
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Super Strength', 358)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Super Strength',)]
 ----------------------------

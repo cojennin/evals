@@ -52,6 +52,6 @@ SELECT COUNT(DISTINCT m.molecule_id) FROM molecule m WHERE m.label = '-' AND m.m
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(71,)]
 ----------------------------

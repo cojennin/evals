@@ -108,12 +108,12 @@ SELECT attribute_value FROM hero_attribute WHERE hero_id = (SELECT id FROM super
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(85,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(85,), (80,), (55,), (55,), (55,), (55,)]
 ----------------------------

@@ -54,8 +54,4 @@ no such column: c.molecule_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

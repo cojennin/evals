@@ -178,8 +178,4 @@ ambiguous column name: type
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

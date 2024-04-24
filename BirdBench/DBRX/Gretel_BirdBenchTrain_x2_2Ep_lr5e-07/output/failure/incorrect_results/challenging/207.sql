@@ -50,12 +50,12 @@ SELECT DISTINCT a.element FROM atom a JOIN connected c ON a.atom_id = c.atom_id 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('c',), ('o',), ('cl',), ('h',), ('s',), ('n',), ('p',), ('f',), ('sn',), ('pb',), ('te',), ('ca',), ('br',), ('cu',)]
 ----------------------------

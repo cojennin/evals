@@ -110,6 +110,6 @@ SELECT AVG(hero_attribute.attribute_value) as avg_attribute_value FROM superhero
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(60.60897435897436,)]
 ----------------------------

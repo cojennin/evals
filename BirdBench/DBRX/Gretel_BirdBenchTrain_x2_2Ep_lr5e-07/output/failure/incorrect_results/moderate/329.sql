@@ -50,12 +50,12 @@ SELECT molecule.label, COUNT(atom.molecule_id) as atom_count FROM molecule LEFT 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('+', 109)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR496',)]
 ----------------------------

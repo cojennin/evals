@@ -174,12 +174,12 @@ SELECT c.name, l.format FROM cards c JOIN legalities l ON c.uuid = l.uuid WHERE 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Sol Ring', 'duel'), ('Sol Ring', 'legacy')]
 ----------------------------

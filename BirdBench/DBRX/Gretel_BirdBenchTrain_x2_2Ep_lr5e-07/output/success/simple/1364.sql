@@ -121,6 +121,6 @@ SELECT zip_code.city, zip_code.county, zip_code.state FROM member INNER JOIN zip
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Ellicott City', 'Howard County', 'Maryland')]
 ----------------------------

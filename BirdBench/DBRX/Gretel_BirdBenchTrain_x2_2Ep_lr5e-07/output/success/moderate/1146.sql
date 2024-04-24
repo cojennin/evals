@@ -276,6 +276,6 @@ SELECT Team.team_long_name FROM Team WHERE Team.team_api_id = (SELECT Match.away
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Paris Saint-Germain',)]
 ----------------------------

@@ -69,12 +69,12 @@ SELECT p.Description, SUM(t.Amount) as TotalAmount FROM products p JOIN transact
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Nafta', 15230), ('Diesel +', 1120), ('Natural', 1045), ('Diesel', 817), ('Nat.Super', 539)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Nafta',), ('Diesel +',), ('Nafta',), ('Nafta',), ('Nafta',)]
 ----------------------------

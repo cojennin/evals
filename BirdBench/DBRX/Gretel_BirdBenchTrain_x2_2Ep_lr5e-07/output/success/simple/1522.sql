@@ -71,6 +71,6 @@ SELECT c.Currency FROM customers c JOIN yearmonth y ON c.CustomerID = y.Customer
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('CZK',)]
 ----------------------------

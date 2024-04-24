@@ -108,12 +108,12 @@ SELECT 100.0 * COUNT(*) / (SELECT COUNT(*) FROM superhero WHERE gender_id = (SEL
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0.0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(2.4630541871921183,)]
 ----------------------------

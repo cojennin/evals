@@ -125,12 +125,12 @@ SELECT Zip FROM schools WHERE CDSCode IN (SELECT CDSCode FROM frpm WHERE `Charte
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('93726-5309',), ('93628-9602',), ('93706-2611',), ('93726-5208',), ('93706-2819',)]
 ----------------------------

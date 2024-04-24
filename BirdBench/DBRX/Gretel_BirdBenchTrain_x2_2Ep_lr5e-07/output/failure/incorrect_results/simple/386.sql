@@ -174,12 +174,12 @@ SELECT COUNT(*), l.status FROM cards c JOIN legalities l ON c.uuid = l.uuid WHER
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(1, 'Banned'), (582, 'Legal')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(583,)]
 ----------------------------

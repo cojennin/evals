@@ -50,12 +50,12 @@ SELECT molecule_id FROM molecule WHERE label = '-' AND molecule_id IN (SELECT mo
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('TR002',), ('TR004',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR377',)]
 ----------------------------

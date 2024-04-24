@@ -205,6 +205,6 @@ SELECT time FROM results WHERE driverId = (SELECT driverId FROM drivers WHERE su
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('+2:41.4',)]
 ----------------------------

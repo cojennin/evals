@@ -205,6 +205,6 @@ SELECT positionOrder FROM results WHERE driverId = (SELECT driverId FROM drivers
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1,)]
 ----------------------------

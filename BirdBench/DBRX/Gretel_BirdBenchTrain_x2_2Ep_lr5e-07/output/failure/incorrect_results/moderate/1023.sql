@@ -274,12 +274,12 @@ SELECT COUNT(*) FROM Player_Attributes WHERE overall_rating >= 60 AND overall_ra
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2708,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3594,)]
 ----------------------------

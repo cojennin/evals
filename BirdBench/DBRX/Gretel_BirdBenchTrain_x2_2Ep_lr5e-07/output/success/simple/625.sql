@@ -157,6 +157,6 @@ SELECT COUNT(*) FROM users WHERE Location = 'New York';
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(15,)]
 ----------------------------

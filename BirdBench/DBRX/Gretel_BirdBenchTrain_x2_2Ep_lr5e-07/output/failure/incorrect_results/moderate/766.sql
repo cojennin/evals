@@ -108,12 +108,12 @@ SELECT full_name FROM superhero WHERE id = (SELECT hero_id FROM hero_attribute W
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 []
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Richard Milhouse Jones',)]
 ----------------------------

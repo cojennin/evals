@@ -121,6 +121,6 @@ SELECT member.last_name, member.phone FROM member WHERE member.link_to_major = (
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Mckee', '954-555-6240'), ('Allen', '724-555-5721')]
 ----------------------------

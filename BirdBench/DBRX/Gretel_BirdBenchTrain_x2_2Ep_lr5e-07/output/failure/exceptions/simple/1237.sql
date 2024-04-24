@@ -104,8 +104,4 @@ no such column: HGB
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

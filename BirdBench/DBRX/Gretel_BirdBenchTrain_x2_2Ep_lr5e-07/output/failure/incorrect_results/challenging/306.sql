@@ -50,12 +50,12 @@ SELECT molecule_id, GROUP_CONCAT(DISTINCT element) as elements FROM atom WHERE a
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('TR041', 'n,c'), ('TR377', 'c,n'), ('TR447', 'c,n'), ('TR499', 'y,p')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('TR041', 'c'), ('TR041', 'cl'), ('TR041', 'n'), ('TR377', 'c'), ('TR377', 'cl'), ('TR377', 'h'), ('TR377', 'n'), ('TR447', 'c'), ('TR447', 'h'), ('TR447', 'n'), ('TR499', 'h'), ('TR499', 'p'), ('TR499', 'y')]
 ----------------------------

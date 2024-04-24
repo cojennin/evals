@@ -174,12 +174,12 @@ SELECT types FROM cards WHERE name = 'Molimo, Maro-Sorcerer';
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Creature',), ('Creature',), ('Creature',), ('Creature',), ('Creature',), ('Creature',), ('Creature',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Elemental', 'Legendary')]
 ----------------------------

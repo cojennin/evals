@@ -278,8 +278,4 @@ no such column: T1.player_name
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

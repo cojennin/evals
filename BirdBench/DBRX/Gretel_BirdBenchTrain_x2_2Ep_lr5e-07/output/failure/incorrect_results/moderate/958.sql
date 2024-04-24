@@ -203,12 +203,12 @@ SELECT drivers.forename, drivers.surname, MIN(lapTimes.time) as fastest_lap_time
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Anthony', 'Davidson', '10:32.179')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Lewis', 'Hamilton', '1:07.411')]
 ----------------------------

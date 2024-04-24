@@ -125,8 +125,4 @@ no such column: duration
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

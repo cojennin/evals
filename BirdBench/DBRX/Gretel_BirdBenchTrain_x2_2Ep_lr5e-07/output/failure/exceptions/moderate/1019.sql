@@ -207,8 +207,4 @@ no such column: races.country
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

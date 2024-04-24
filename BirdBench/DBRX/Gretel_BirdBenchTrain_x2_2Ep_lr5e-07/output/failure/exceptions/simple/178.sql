@@ -125,8 +125,4 @@ no such column: c.client_id
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

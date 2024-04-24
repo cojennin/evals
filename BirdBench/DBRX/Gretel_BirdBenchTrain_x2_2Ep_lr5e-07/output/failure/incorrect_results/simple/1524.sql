@@ -69,12 +69,12 @@ SELECT c.Segment FROM customers c JOIN transactions_1k t ON c.CustomerID = t.Cus
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('KAM',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('CZE',)]
 ----------------------------

@@ -174,12 +174,12 @@ SELECT c.name, c.artist, c.isPromo FROM cards c JOIN (SELECT uuid, COUNT(*) as r
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [("Teferi's Protection", 'Chase Stone', 1)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Demonic Tutor', 'Daarken', 1)]
 ----------------------------

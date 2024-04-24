@@ -119,12 +119,12 @@ SELECT zip_code.county FROM zip_code WHERE zip_code.zip_code = 12345;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('Schenectady County',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Middlesex County',)]
 ----------------------------

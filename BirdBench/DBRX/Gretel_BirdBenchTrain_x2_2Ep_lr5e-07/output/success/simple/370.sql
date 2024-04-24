@@ -176,6 +176,6 @@ SELECT COUNT(*) FROM cards WHERE borderColor = 'borderless' AND uuid IN (SELECT 
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(29,)]
 ----------------------------

@@ -121,6 +121,6 @@ SELECT member.email FROM member JOIN expense ON member.member_id = expense.link_
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('elijah.allen@lpu.edu',), ('phillip.cullen@lpu.edu',), ('sacha.harrison@lpu.edu',)]
 ----------------------------

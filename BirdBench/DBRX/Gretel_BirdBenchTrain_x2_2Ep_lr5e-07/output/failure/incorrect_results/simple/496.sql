@@ -174,12 +174,12 @@ SELECT COUNT(*) FROM cards WHERE setCode = (SELECT code FROM sets WHERE name = '
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(0,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(145,)]
 ----------------------------

@@ -155,12 +155,12 @@ SELECT Title FROM posts WHERE LastEditorUserId = (SELECT Id FROM users WHERE Dis
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [('How does gentle boosting differ from AdaBoost?',), ('What is the right name for the variant of the Kolmogorov-Smirnov statistic that retains the sign of the difference?',)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Estimating beta-binomial distribution',), ('How does gentle boosting differ from AdaBoost?',), ('Should an SVM grid search show a high-accuracy region with low accuracies around?',), ('What is the right name for the variant of the Kolmogorov-Smirnov statistic that retains the sign of the difference?',)]
 ----------------------------

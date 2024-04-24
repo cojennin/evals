@@ -104,8 +104,4 @@ no such column: ALP
 
 
 
--- RESULTS FROM PREDICTION
-[]
-----------------------------
-
 

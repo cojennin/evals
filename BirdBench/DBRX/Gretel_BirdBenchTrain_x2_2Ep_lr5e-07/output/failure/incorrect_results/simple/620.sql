@@ -155,12 +155,12 @@ SELECT COUNT(Users.Views) FROM Users INNER JOIN Badges ON Users.Id = Badges.User
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(13,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(178,), (8,), (52,), (48,), (82,), (102,), (174,), (44,), (178,), (52,), (114,), (8,), (16,)]
 ----------------------------

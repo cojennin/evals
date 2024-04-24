@@ -155,12 +155,12 @@ SELECT Id, MAX(Reputation) FROM users;
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(919, 87393)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(919,)]
 ----------------------------

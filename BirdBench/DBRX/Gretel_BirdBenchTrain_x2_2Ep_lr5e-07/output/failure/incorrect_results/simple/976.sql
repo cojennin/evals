@@ -203,12 +203,12 @@ SELECT driverId, MIN(time) as fastest_time FROM lapTimes WHERE lap = 1 GROUP BY 
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(824, '14:01.218'), (810, '17:06.445'), (59, '19:34.484'), (155, '1:01:38.698'), (815, '1:01:42.636')]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(824,), (810,), (59,), (155,), (815,)]
 ----------------------------

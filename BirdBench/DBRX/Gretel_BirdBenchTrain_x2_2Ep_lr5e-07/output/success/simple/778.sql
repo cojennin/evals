@@ -110,6 +110,6 @@ SELECT s.superhero_name FROM superhero s JOIN hero_power hp ON s.id = hp.hero_id
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('Alex Mercer',), ('Doomsday',), ('Legion',), ('Man of Miracles',), ('Vegeta',)]
 ----------------------------

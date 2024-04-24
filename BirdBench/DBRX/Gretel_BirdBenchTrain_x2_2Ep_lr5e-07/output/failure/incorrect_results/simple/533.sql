@@ -155,12 +155,12 @@ SELECT COUNT(*) FROM users WHERE LastAccessDate > '2014-09-01 00:00:00'
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(5146,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4941,)]
 ----------------------------

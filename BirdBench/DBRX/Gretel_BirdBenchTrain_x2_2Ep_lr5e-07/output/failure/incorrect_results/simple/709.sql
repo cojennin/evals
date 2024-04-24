@@ -155,12 +155,12 @@ SELECT COUNT(*) FROM comments c WHERE c.Score = 0 AND c.PostId IN (SELECT p.Id F
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(4,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(3,)]
 ----------------------------

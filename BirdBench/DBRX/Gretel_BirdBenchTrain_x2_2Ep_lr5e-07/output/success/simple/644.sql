@@ -157,6 +157,6 @@ SELECT LastEditDate, LastEditorUserId FROM posts WHERE Title = 'Detecting a give
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('2011-02-15 15:22:25.0', 88)]
 ----------------------------

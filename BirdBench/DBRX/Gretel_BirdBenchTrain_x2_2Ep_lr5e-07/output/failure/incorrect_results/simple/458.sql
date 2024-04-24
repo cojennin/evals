@@ -174,12 +174,12 @@ SELECT COUNT(DISTINCT artist) FROM cards WHERE borderColor = 'black' AND availab
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(338,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(4623,)]
 ----------------------------

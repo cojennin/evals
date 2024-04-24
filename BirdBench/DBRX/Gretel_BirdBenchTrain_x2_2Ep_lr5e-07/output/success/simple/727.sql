@@ -110,6 +110,6 @@ SELECT publisher_name FROM  publisher WHERE  id = (SELECT  publisher_id FROM  su
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('J. R. R. Tolkien',)]
 ----------------------------

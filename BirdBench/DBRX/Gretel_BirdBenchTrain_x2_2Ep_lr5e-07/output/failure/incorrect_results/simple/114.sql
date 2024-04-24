@@ -121,12 +121,12 @@ SELECT account_id FROM account WHERE district_id = (SELECT district_id FROM dist
 
 
 
--- RESULTS FROM PREDICTION
+-- RESULTS FROM GENERATED SQL
 [(2,)]
 ----------------------------
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(1539,)]
 ----------------------------

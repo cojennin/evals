@@ -157,6 +157,6 @@ SELECT Text FROM comments WHERE PostId = (SELECT Id FROM posts WHERE Title = 'Ho
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [('What other variants?  It might be helpful to tighten up this question a little (more specificity).',), ('Right; it is just one variant among others.',), ("OK, I'll ask for comparison to adaboost since that is perhaps the best known.",), ('@kwak: Could you please delete your comment and post it as an answer so it can be accepted?',)]
 ----------------------------

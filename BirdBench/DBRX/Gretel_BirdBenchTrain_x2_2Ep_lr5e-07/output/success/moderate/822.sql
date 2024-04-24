@@ -110,6 +110,6 @@ SELECT COUNT(*) FROM superhero WHERE alignment_id = (SELECT id FROM alignment WH
 
 
 
--- ACTUAL RESULTS
+-- RESULTS FROM BIRD BENCH GROUND TRUTH SQL
 [(6,)]
 ----------------------------
